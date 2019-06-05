@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "nodemon --watch mod -e php,js,css --exec \"php -f ./scripts/reset.php && php -f ./scripts/cache.php\""
+    }
+}

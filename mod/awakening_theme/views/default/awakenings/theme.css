@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap');
+
+.elgg-nav-logo h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.elgg-page-topbar .elgg-menu:not(.elgg-child-menu) > li > a {
+	line-height: normal;
+	border-radius: $(border-radius);
+}
+
+.elgg-page-topbar .elgg-menu-size > li {
+	margin-left: 1px;
+}
+
+.elgg-page-topbar .elgg-menu li .elgg-child-menu {
+	top: 3rem;
+}
+
+.elgg-button {
+	line-height: 2rem;
+	font-size: 90%;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.elgg-page-topbar {
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02) 90%);
+}
+
+.elgg-module {
+	border-radius: $(border-radius);
+}
+
+.elgg-module > *:first-child {
+	border-radius: $(border-radius) $(border-radius) 0 0;
+}
+
+.elgg-module > *:last-child {
+	border-radius: 0 0 $(border-radius) $(border-radius);
+}
+
+.elgg-module-aside > .elgg-body,
+.elgg-module-info > .elgg-body {
+	background: #ffffff;
+}
+
+.groups-profile-fields {
+	border-radius: $(border-radius);
+}
+
+.elgg-menu-hover {
+	box-shadow: $(shadow-s);
+}
+
+li.elgg-menu-item-filter.elgg-menu-item-has-dropdown {
+	background: $(body-background-color);
+}
+
+.elgg-owner-block {
+	margin-bottom: 1rem;
+}
+
+.elgg-page-menu {
+	border-radius: $(border-radius);
+	margin-bottom: 1rem;
+	overflow: hidden;
+}
+
+.elgg-menu-owner-block, .elgg-menu-page {
+	border: none;
+	background: none;
+	margin: 0;
+}
+
+.elgg-module-info,
+.elgg-module-aside,
+.elgg-module-group,
+.elgg-module-widget {
+	border: 1px solid $(border-color-soft);
+
+	> .elgg-head {
+		background: $(background-color-soft);
+		border-bottom: 1px solid $(border-color-soft);
+	}
+}

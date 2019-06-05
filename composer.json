@@ -1,0 +1,96 @@
+{
+    "type": "project",
+    "name": "hypejunction/hypejunction",
+    "description": "This is a quickstart skeleton for building a site based on Elgg 3.x with hypeJunction Pro plugins",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "elgg/elgg": "~3.0",
+        "hypejunction/hypeactivity": "~1.0",
+        "hypejunction/hypeajax": "~1.0",
+        "hypejunction/hypeattachments": "~3.0",
+        "hypejunction/hypeautocomplete": "~1.0",
+        "hypejunction/hypeblog": "~1.0",
+        "hypejunction/hypebraintreepayments": "~1.0",
+        "hypejunction/hypebraintreesubscriptions": "~1.0",
+        "hypejunction/hypecapabilities": "~1.0",
+        "hypejunction/hypecaptcha": "~1.0",
+        "hypejunction/hypecli": "~1.0",
+        "hypejunction/hypecountries": "~2.0",
+        "hypejunction/hypediscussions": "~3.0",
+        "hypejunction/hypedownloads": "~1.0",
+        "hypejunction/hypedraft": "~1.0",
+        "hypejunction/hypedropzone": "~6.0",
+        "hypejunction/hypeembed": "~3.0",
+        "hypejunction/hypegroups": "~3.0",
+        "hypejunction/hypehero": "~2.0",
+        "hypejunction/hypeillustration": "~2.0",
+        "hypejunction/hypeinteractions": "~6.0",
+        "hypejunction/hypeinvite": "~2.0",
+        "hypejunction/hypelists": "~5.0",
+        "hypejunction/hypemapsopen": "~2.0",
+        "hypejunction/hypemedia": "~1.0",
+        "hypejunction/hypementions": "~1.0",
+        "hypejunction/hypemenus": "~1.0",
+        "hypejunction/hypemoderator": "~1.0",
+        "hypejunction/hypenotifications": "~2.0",
+        "hypejunction/hypepayments": "~3.0",
+        "hypejunction/hypepaypalpayments": "~1.0",
+        "hypejunction/hypepaypalsubscriptions": "~1.0",
+        "hypejunction/hypepaywall": "~1.0",
+        "hypejunction/hypepost": "~1.0",
+        "hypejunction/hypeprofile": "~1.0",
+        "hypejunction/hypescraper": "~6.0",
+        "hypejunction/hypeshortcode": "~1.0",
+        "hypejunction/hypeshutdown": "~1.0",
+        "hypejunction/hypesatis": "~1.0",
+        "hypejunction/hypeslider": "~1.0",
+        "hypejunction/hypeslug": "~1.0",
+        "hypejunction/hypestash": "~1.0",
+        "hypejunction/hypestaticpages": "~1.0",
+        "hypejunction/hypestripepayments": "~1.0",
+        "hypejunction/hypestripesubscriptions": "~1.0",
+        "hypejunction/hypesubscriptions": "~1.0",
+        "hypejunction/hypetheme": "~1.0",
+        "hypejunction/hypetime": "~1.0",
+        "hypejunction/hypetrees": "~1.0",
+        "hypejunction/hypetwig": "~1.0",
+        "hypejunction/hypevue": "~1.0",
+        "hypejunction/hypewall": "~6.0",
+
+        "symfony/options-resolver": "^3.3",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "php-http/client-common": "^1.7",
+        "hypejunction/ambercal_settings_transfer": "^2.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4"
+    },
+    "scripts": {
+        "post-install-cmd": "\\Elgg\\Composer\\PostInstall::execute",
+        "post-package-update": "\\Elgg\\Composer\\PostUpdate::execute",
+        "test": "phpunit"
+    },
+    "config": {
+        "process-timeout": 0,
+        "platform": {
+            "php": "7.0"
+        },
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://hypejunction.com/satis"
+        }
+    ]
+}
