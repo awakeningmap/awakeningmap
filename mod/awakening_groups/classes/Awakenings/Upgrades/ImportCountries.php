@@ -30,7 +30,13 @@ class ImportCountries implements AsynchronousUpgrade {
 	 * @see \Elgg\Upgrade\Batch::shouldBeSkipped()
 	 */
 	public function shouldBeSkipped() {
-		return false;
+		$count = elgg_get_entities([
+			'count' => true,
+			'types' => 'group',
+			'subtypes' => 'country',
+		]);
+
+		return $this->countItems() === $count;
 	}
 
 	/**
