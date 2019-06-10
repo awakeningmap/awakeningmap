@@ -53,6 +53,10 @@ class ImportCountries implements AsynchronousUpgrade {
 		$ia = elgg_set_ignore_access(true);
 
 		foreach ($countries as $country) {
+			if ($this->exists($country)) {
+				continue;
+			}
+
 			$group = new Country();
 			$group->container_guid = $site->guid;
 			$group->owner_guid = $site->guid;
@@ -73,5 +77,15 @@ class ImportCountries implements AsynchronousUpgrade {
 		}
 
 		elgg_set_ignore_access($ia);
+	}
+
+	public function exists($country) {
+		return elgg_get_entities([
+			'count' => true,
+			'types' => 'group',
+			'metadata_name_value_pairs' => [
+				'country_code' => $country->iso3,
+			]
+		]);
 	}
 }
