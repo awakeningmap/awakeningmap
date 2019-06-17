@@ -61,7 +61,8 @@
         "hypejunction/hypetwig": "~1.0",
         "hypejunction/hypevue": "~1.0",
         "hypejunction/hypewall": "~6.0",
-        "hypejunction/ambercal_settings_transfer": "^2.0"
+        "hypejunction/ambercal_settings_transfer": "^2.0",
+        "coldtrick/event_manager": "^10.1"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.4"

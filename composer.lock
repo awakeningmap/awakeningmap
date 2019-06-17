@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d469b0c1c1b4356f20d10fbcd9a5b5cf",
+    "content-hash": "166ef39afe15a5065d1214df9650bb8d",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -65,6 +65,28 @@
                 "reference": "ba907eaec40fab01d410c3023a5572b2cb46cea6"
             },
             "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/fullcalendar",
+            "version": "v2.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fullcalendar/fullcalendar.git",
+                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/07a680b2349cfa7c7f2b05c979295447f04ef426",
+                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.1",
+                "bower-asset/moment": ">=2.5.0"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "bower-asset/hammerjs",
@@ -263,12 +285,12 @@
             "version": "4.0.7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:ivaynberg/select2.git",
+                "url": "https://github.com/select2/select2.git",
                 "reference": "04fce559673684af8ec2912457a9d6380ea90314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ivaynberg/select2/zipball/04fce559673684af8ec2912457a9d6380ea90314",
+                "url": "https://api.github.com/repos/select2/select2/zipball/04fce559673684af8ec2912457a9d6380ea90314",
                 "reference": "04fce559673684af8ec2912457a9d6380ea90314"
             },
             "type": "bower-asset",
@@ -487,6 +509,46 @@
                 "stream_filter_register"
             ],
             "time": "2019-04-09T12:31:48+00:00"
+        },
+        {
+            "name": "coldtrick/event_manager",
+            "version": "v10.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/event_manager.git",
+                "reference": "cb858955767f1ede3f34be17640ee0bcbf1e28d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/cb858955767f1ede3f34be17640ee0bcbf1e28d4",
+                "reference": "cb858955767f1ede3f34be17640ee0bcbf1e28d4",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fullcalendar": "~2.9.0",
+                "composer/installers": "^1.0.8",
+                "dompdf/dompdf": "~0.6.0",
+                "ext-json": "*"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Manage events, from a simple appointment to a multi day event with day programs and subscriptions",
+            "keywords": [
+                "elgg",
+                "events",
+                "plugin"
+            ],
+            "time": "2019-06-12T09:29:07+00:00"
         },
         {
             "name": "composer/installers",
@@ -1169,6 +1231,47 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "dompdf/dompdf",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dompdf/dompdf.git",
+                "reference": "cc06008f75262510ee135b8cbb14e333a309f651"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/cc06008f75262510ee135b8cbb14e333a309f651",
+                "reference": "cc06008f75262510ee135b8cbb14e333a309f651",
+                "shasum": ""
+            },
+            "require": {
+                "phenx/php-font-lib": "0.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "include/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                },
+                {
+                    "name": "Brian Sweeney",
+                    "email": "eclecticgeek@gmail.com"
+                }
+            ],
+            "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
+            "homepage": "https://github.com/dompdf/dompdf",
+            "time": "2015-12-07T04:07:13+00:00"
         },
         {
             "name": "elgg/elgg",
@@ -5270,6 +5373,40 @@
                 "scheduler"
             ],
             "time": "2018-10-25T21:33:38+00:00"
+        },
+        {
+            "name": "phenx/php-font-lib",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PhenX/php-font-lib.git",
+                "reference": "c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PhenX/php-font-lib/zipball/c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82",
+                "reference": "c30c7fc00a6b0d863e9bb4c5d5dd015298b2dc82",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Ménager",
+                    "email": "fabien.menager@gmail.com"
+                }
+            ],
+            "description": "A library to read, parse, export and make subsets of different types of font files.",
+            "homepage": "https://github.com/PhenX/php-font-lib",
+            "time": "2014-02-01T15:22:28+00:00"
         },
         {
             "name": "php-di/invoker",
