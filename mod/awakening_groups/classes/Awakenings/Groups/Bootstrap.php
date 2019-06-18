@@ -3,6 +3,7 @@
 namespace Awakenings\Groups;
 
 use Elgg\PluginBootstrap;
+use hypeJunction\Capabilities\Context;
 use hypeJunction\Capabilities\Role;
 use hypeJunction\Capabilities\Roles;
 use hypeJunction\Groups\GroupsService;
@@ -85,16 +86,59 @@ class Bootstrap extends PluginBootstrap {
 			'site_menu' => false,
 		]);
 
+		GroupsService::instance()->registerSubtype('private', [
+			'labels' => [
+				'en' => [
+					'item' => 'Private Group',
+					'collection' => 'Private Groups',
+				],
+			],
+			'root' => true,
+			'identifier' => 'private_groups',
+			'class' => PrivateGroup::class,
+			'site_menu' => true,
+		]);
+
 		Roles::instance()->admin->onCreate('group', 'group', Role::DENY);
 		Roles::instance()->admin->onUpdate('group', 'group', Role::DENY);
 
 		Roles::instance()->user->onCreate('group', 'group', Role::DENY);
 		Roles::instance()->user->onCreate('group', 'country', Role::DENY);
-		Roles::instance()->user->onCreate('group', 'region', Role::ALLOW);
+
+		Roles::instance()->user->onCreate('group', 'region', Role::DENY, function(Context $context) {
+			$user = $context->getActor();
+			if (!$user) {
+				return Role::DENY;
+			}
+
+			return 0 === elgg_get_entities([
+				'count' => true,
+				'types' => 'group',
+				'subtypes' => 'region',
+				'owner_guids' => $user->guid,
+			]);
+		});
+
 		Roles::instance()->user->onCreate('group', 'topic', Role::ALLOW);
+
+		Roles::instance()->user->onCreate('group', 'private', Role::DENY, function(Context $context) {
+			$user = $context->getActor();
+			if (!$user) {
+				return Role::DENY;
+			}
+
+			return 0 === elgg_get_entities([
+				'count' => true,
+				'types' => 'group',
+				'subtypes' => 'private',
+				'owner_guids' => $user->guid,
+			]);
+		});
 
 		elgg_register_event_handler('join', 'group', JoinHandler::class);
 		elgg_register_event_handler('leave', 'group', LeaveHandler::class);
+
+		elgg_register_event_handler('create', 'user', UserRegisteredHandler::class);
 
 		elgg_extend_view('elgg.css', 'awakenings/groups.css');
 	}
