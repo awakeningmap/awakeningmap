@@ -12,12 +12,16 @@
 	border-radius: $(border-radius);
 }
 
-.elgg-page-topbar .elgg-menu-size > li {
+.elgg-page-topbar .elgg-menu-site > li {
 	margin-left: 1px;
 }
 
 .elgg-page-topbar .elgg-menu li .elgg-child-menu {
-	top: 3rem;
+	top: auto;
+}
+
+.elgg-page-topbar .elgg-menu li:hover > .elgg-child-menu:before {
+	content: none;
 }
 
 .elgg-button {
