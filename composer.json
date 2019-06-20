@@ -62,7 +62,11 @@
         "hypejunction/hypevue": "~1.0",
         "hypejunction/hypewall": "~6.0",
         "hypejunction/ambercal_settings_transfer": "^2.0",
-        "coldtrick/event_manager": "^10.1"
+        "coldtrick/event_manager": "^10.1",
+        "hypejunction/hypelanding": "^1.0",
+        "coldtrick/profile_manager": "^14.0",
+        "coldtrick/group_tools": "^10.2",
+        "coldtrick/widget_manager": "^9.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.4"

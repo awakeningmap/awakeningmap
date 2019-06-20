@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "166ef39afe15a5065d1214df9650bb8d",
+    "content-hash": "923b8972f68889de647137826ceb6935",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -190,6 +190,21 @@
             },
             "require": {
                 "bower-asset/jquery": ">=1.6"
+            },
+            "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/jquery-ui-multiselect-widget",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ehynds/jquery-ui-multiselect-widget.git",
+                "reference": "c7fbab3530ff3a441ec22dd5b732e1b2c08a66be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ehynds/jquery-ui-multiselect-widget/zipball/c7fbab3530ff3a441ec22dd5b732e1b2c08a66be",
+                "reference": "c7fbab3530ff3a441ec22dd5b732e1b2c08a66be"
             },
             "type": "bower-asset"
         },
@@ -549,6 +564,119 @@
                 "plugin"
             ],
             "time": "2019-06-12T09:29:07+00:00"
+        },
+        {
+            "name": "coldtrick/group_tools",
+            "version": "v10.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/group_tools.git",
+                "reference": "209f2c9b1d4840b9e9aabce559b56c24d31a086a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/209f2c9b1d4840b9e9aabce559b56c24d31a086a",
+                "reference": "209f2c9b1d4840b9e9aabce559b56c24d31a086a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Combines different group additions into one plugin",
+            "keywords": [
+                "elgg",
+                "groups",
+                "plugin"
+            ],
+            "time": "2019-06-12T09:30:04+00:00"
+        },
+        {
+            "name": "coldtrick/profile_manager",
+            "version": "v14.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/profile_manager.git",
+                "reference": "38d3a19cbae93c17849e87fcc168490924c691fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/profile_manager/zipball/38d3a19cbae93c17849e87fcc168490924c691fc",
+                "reference": "38d3a19cbae93c17849e87fcc168490924c691fc",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery-ui-multiselect-widget": "~2.0.1",
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Improved management of user and group profile fields",
+            "keywords": [
+                "elgg",
+                "groups",
+                "plugin",
+                "profile"
+            ],
+            "time": "2019-04-17T12:20:41+00:00"
+        },
+        {
+            "name": "coldtrick/widget_manager",
+            "version": "v9.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/widget_manager.git",
+                "reference": "d0069beb0f766552f99a7a1fdb3a99e26464e419"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/d0069beb0f766552f99a7a1fdb3a99e26464e419",
+                "reference": "d0069beb0f766552f99a7a1fdb3a99e26464e419",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Manage your widgets",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "widgets"
+            ],
+            "time": "2019-05-02T12:52:30+00:00"
         },
         {
             "name": "composer/installers",
@@ -1819,17 +1947,17 @@
         },
         {
             "name": "hypejunction/hypeactivity",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeActivity.git",
-                "reference": "c745ea56190b8b8757d63525e52f6b49fd3b4dfc"
+                "reference": "92cbbab185004df64ae9cff0dd3d41d2e35fb499"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeactivity/hypejunction-hypeactivity-c745ea56190b8b8757d63525e52f6b49fd3b4dfc-zip-2f3f98.zip",
-                "reference": "c745ea56190b8b8757d63525e52f6b49fd3b4dfc",
-                "shasum": "c6684e3e966514e29dd782bd2566f6b02cecb0e8"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeactivity/hypejunction-hypeactivity-92cbbab185004df64ae9cff0dd3d41d2e35fb499-zip-c60ea1.zip",
+                "reference": "92cbbab185004df64ae9cff0dd3d41d2e35fb499",
+                "shasum": "10514833394dd9017607ecfb12923c3dfaf3d768"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1861,10 +1989,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeActivity/tree/1.1.1",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeActivity/tree/1.2.0",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeActivity/issues"
             },
-            "time": "2019-06-04T11:54:38+00:00"
+            "time": "2019-06-20T08:30:59+00:00"
         },
         {
             "name": "hypejunction/hypeajax",
@@ -2865,6 +2993,55 @@
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeInvite/issues"
             },
             "time": "2018-07-13T08:46:32+00:00"
+        },
+        {
+            "name": "hypejunction/hypelanding",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:hypeJunction/Elgg3-hypeLanding.git",
+                "reference": "8f9db246a36cd6526eeb9b9716e156b32b9a3f66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypelanding/hypejunction-hypelanding-8f9db246a36cd6526eeb9b9716e156b32b9a3f66-zip-f9d28b.zip",
+                "reference": "8f9db246a36cd6526eeb9b9716e156b32b9a3f66",
+                "shasum": "654759e22cd56087327a1fc50b6d2d9898957f36"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.0"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeLanding"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Landing page editor",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "plugin",
+                "theme"
+            ],
+            "support": {
+                "source": "https://github.com/hypeJunction/Elgg3-hypeLanding/tree/1.0.0",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeLanding/issues"
+            },
+            "time": "2019-06-20T09:13:56+00:00"
         },
         {
             "name": "hypejunction/hypelists",
@@ -4032,17 +4209,17 @@
         },
         {
             "name": "hypejunction/hypetheme",
-            "version": "1.0.3",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeTheme.git",
-                "reference": "f1879dc8385c70b9a7dc0106a4326239c54dbc5e"
+                "reference": "0b99a284783975e271bcda16a81672ee322e34b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetheme/hypejunction-hypetheme-f1879dc8385c70b9a7dc0106a4326239c54dbc5e-zip-6e460a.zip",
-                "reference": "f1879dc8385c70b9a7dc0106a4326239c54dbc5e",
-                "shasum": "2a1728f5c8afb28f39a34533f05f15a3c325cbac"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetheme/hypejunction-hypetheme-0b99a284783975e271bcda16a81672ee322e34b4-zip-60c717.zip",
+                "reference": "0b99a284783975e271bcda16a81672ee322e34b4",
+                "shasum": "f8faea815b0317bb2c8535b8f443e1b169569941"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4073,10 +4250,10 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeTheme/tree/1.0.3",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeTheme/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeTheme/tree/1.1.1",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeTheme/issues"
             },
-            "time": "2018-07-09T10:28:52+00:00"
+            "time": "2019-06-20T09:11:43+00:00"
         },
         {
             "name": "hypejunction/hypetime",
@@ -4427,16 +4604,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.52",
+            "version": "1.0.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "c5a5097156387970e6f0ccfcdf03f752856f3391"
+                "reference": "08e12b7628f035600634a5e76d95b5eb66cea674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c5a5097156387970e6f0ccfcdf03f752856f3391",
-                "reference": "c5a5097156387970e6f0ccfcdf03f752856f3391",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/08e12b7628f035600634a5e76d95b5eb66cea674",
+                "reference": "08e12b7628f035600634a5e76d95b5eb66cea674",
                 "shasum": ""
             },
             "require": {
@@ -4507,7 +4684,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-05-20T20:21:14+00:00"
+            "time": "2019-06-18T20:09:29+00:00"
         },
         {
             "name": "league/flysystem-memory",
@@ -7886,16 +8063,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.11.2",
+            "version": "v2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "84a463403da1c81afbcedda8f0e788c78bd25a79"
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/84a463403da1c81afbcedda8f0e788c78bd25a79",
-                "reference": "84a463403da1c81afbcedda8f0e788c78bd25a79",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/699ed2342557c88789a15402de5eb834dedd6792",
+                "reference": "699ed2342557c88789a15402de5eb834dedd6792",
                 "shasum": ""
             },
             "require": {
@@ -7949,7 +8126,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-06-05T11:17:07+00:00"
+            "time": "2019-06-18T15:37:11+00:00"
         },
         {
             "name": "unsplash/unsplash",
