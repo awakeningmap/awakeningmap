@@ -2694,17 +2694,17 @@
         },
         {
             "name": "hypejunction/hypeembed",
-            "version": "3.1.0",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeEmbed.git",
-                "reference": "9faa5d7e3bc1d4f4d9c740432b52eb9e58e4a6ca"
+                "reference": "59a33f604a54aded9d601837459a0f312f1711e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeembed/hypejunction-hypeembed-9faa5d7e3bc1d4f4d9c740432b52eb9e58e4a6ca-zip-4682ce.zip",
-                "reference": "9faa5d7e3bc1d4f4d9c740432b52eb9e58e4a6ca",
-                "shasum": "5b577d06e26234b49a9a53698c6c999191a81b9a"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeembed/hypejunction-hypeembed-59a33f604a54aded9d601837459a0f312f1711e4-zip-1de9b1.zip",
+                "reference": "59a33f604a54aded9d601837459a0f312f1711e4",
+                "shasum": "37b59255b9d0e824e815f61c43704b51e50fe6bd"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2739,10 +2739,10 @@
                 "shortcode"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeEmbed/tree/3.1.0",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeEmbed/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeEmbed/tree/3.1.2",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeEmbed/issues"
             },
-            "time": "2018-06-29T19:02:54+00:00"
+            "time": "2019-06-20T10:22:42+00:00"
         },
         {
             "name": "hypejunction/hypegroups",
@@ -3257,17 +3257,17 @@
         },
         {
             "name": "hypejunction/hypemenus",
-            "version": "1.1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeMenus.git",
-                "reference": "5fd5955fae048e87ab729732e3137d24c869aea4"
+                "reference": "c458121abe7df82c64d826bf2cf80179d6812165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypemenus/hypejunction-hypemenus-5fd5955fae048e87ab729732e3137d24c869aea4-zip-9e9ae0.zip",
-                "reference": "5fd5955fae048e87ab729732e3137d24c869aea4",
-                "shasum": "82b754c7a7723ab64ddebda49a8a8adf1b280a03"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypemenus/hypejunction-hypemenus-c458121abe7df82c64d826bf2cf80179d6812165-zip-7fc46b.zip",
+                "reference": "c458121abe7df82c64d826bf2cf80179d6812165",
+                "shasum": "5b90273bcbd79fe8f408a89b4d158d8d9ac4a3a1"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -3298,10 +3298,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeMenus/tree/1.1.1",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeMenus/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeMenus/tree/1.1.3",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeMenus/issues"
             },
-            "time": "2018-07-13T08:57:40+00:00"
+            "time": "2019-06-20T10:05:35+00:00"
         },
         {
             "name": "hypejunction/hypemoderator",
