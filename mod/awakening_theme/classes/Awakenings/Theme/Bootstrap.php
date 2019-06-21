@@ -29,7 +29,7 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function boot() {
-		// TODO: Implement boot() method.
+		elgg_unregister_event_handler('init', 'system', '_profile_fields_setup');
 	}
 
 	/**
@@ -53,7 +53,7 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function ready() {
-		// TODO: Implement ready() method.
+
 	}
 
 	/**

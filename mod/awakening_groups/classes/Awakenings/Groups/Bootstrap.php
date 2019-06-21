@@ -105,34 +105,34 @@ class Bootstrap extends PluginBootstrap {
 		Roles::instance()->user->onCreate('group', 'group', Role::DENY);
 		Roles::instance()->user->onCreate('group', 'country', Role::DENY);
 
-		Roles::instance()->user->onCreate('group', 'region', Role::DENY, function(Context $context) {
+		Roles::instance()->user->onCreate('group', 'region', Role::DENY, function (Context $context) {
 			$user = $context->getActor();
 			if (!$user) {
 				return Role::DENY;
 			}
 
 			return 0 === elgg_get_entities([
-				'count' => true,
-				'types' => 'group',
-				'subtypes' => 'region',
-				'owner_guids' => $user->guid,
-			]);
+					'count' => true,
+					'types' => 'group',
+					'subtypes' => 'region',
+					'owner_guids' => $user->guid,
+				]);
 		});
 
 		Roles::instance()->user->onCreate('group', 'topic', Role::ALLOW);
 
-		Roles::instance()->user->onCreate('group', 'private', Role::DENY, function(Context $context) {
+		Roles::instance()->user->onCreate('group', 'private', Role::DENY, function (Context $context) {
 			$user = $context->getActor();
 			if (!$user) {
 				return Role::DENY;
 			}
 
 			return 0 === elgg_get_entities([
-				'count' => true,
-				'types' => 'group',
-				'subtypes' => 'private',
-				'owner_guids' => $user->guid,
-			]);
+					'count' => true,
+					'types' => 'group',
+					'subtypes' => 'private',
+					'owner_guids' => $user->guid,
+				]);
 		});
 
 		elgg_register_event_handler('join', 'group', JoinHandler::class);
@@ -141,6 +141,14 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_event_handler('create', 'user', UserRegisteredHandler::class);
 
 		elgg_extend_view('elgg.css', 'awakenings/groups.css');
+
+		$subtypes = ['topic', 'country', 'region', 'private'];
+
+		foreach ($subtypes as $subtype) {
+			// Register fields for form field editor
+			elgg_register_plugin_hook_handler('fields', "group:$subtype", function () {
+			});
+		}
 	}
 
 	/**

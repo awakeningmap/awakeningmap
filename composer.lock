@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "923b8972f68889de647137826ceb6935",
+    "content-hash": "f964d595c58f20b8d6451c0c7e21fdaa",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -2148,17 +2148,17 @@
         },
         {
             "name": "hypejunction/hypeblog",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeBlog.git",
-                "reference": "934aa9e0df319366aa92300c64c10dd63eb6a40c"
+                "reference": "cdffd57b47a199295c303b2e217e6934a997d25e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeblog/hypejunction-hypeblog-934aa9e0df319366aa92300c64c10dd63eb6a40c-zip-a924c8.zip",
-                "reference": "934aa9e0df319366aa92300c64c10dd63eb6a40c",
-                "shasum": "bc8cf0a8a2d695abfda6bc842454d2edad746cf9"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeblog/hypejunction-hypeblog-cdffd57b47a199295c303b2e217e6934a997d25e-zip-a00d67.zip",
+                "reference": "cdffd57b47a199295c303b2e217e6934a997d25e",
+                "shasum": "19fbe5bcf3f9f1d184708118919d1ea7a638b99a"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2191,10 +2191,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeBlog/tree/1.1.0",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeBlog/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeBlog/tree/master",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeBlog/issues"
             },
-            "time": "2018-06-29T18:26:12+00:00"
+            "time": "2019-06-20T14:15:56+00:00"
         },
         {
             "name": "hypejunction/hypebraintreepayments",
@@ -2545,17 +2545,17 @@
         },
         {
             "name": "hypejunction/hypedownloads",
-            "version": "1.1.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeDownloads.git",
-                "reference": "39dbea63cb6d8fa76a2f84f6a79ce5d039df1579"
+                "reference": "6e1f88014bf2e62a1850c7c03f9e9eb2e8c9faa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedownloads/hypejunction-hypedownloads-39dbea63cb6d8fa76a2f84f6a79ce5d039df1579-zip-d4e214.zip",
-                "reference": "39dbea63cb6d8fa76a2f84f6a79ce5d039df1579",
-                "shasum": "a267849e44e630c95c1b167abc7ac4516563d95f"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedownloads/hypejunction-hypedownloads-6e1f88014bf2e62a1850c7c03f9e9eb2e8c9faa4-zip-adde1a.zip",
+                "reference": "6e1f88014bf2e62a1850c7c03f9e9eb2e8c9faa4",
+                "shasum": "9bde7fa38ac1c0bf4ac2bbe667be3a83029d4b73"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2586,10 +2586,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeDownloads/tree/1.1.0",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeDownloads/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeDownloads/tree/1.2.2",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeDownloads/issues"
             },
-            "time": "2018-11-12T10:21:03+00:00"
+            "time": "2019-06-21T17:20:27+00:00"
         },
         {
             "name": "hypejunction/hypedraft",
@@ -3565,17 +3565,17 @@
         },
         {
             "name": "hypejunction/hypepaywall",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypePaywall.git",
-                "reference": "a80562deebd349691f7ab0b754076196dd4a6fc3"
+                "reference": "bd0b98b505a337b49c56f9768fe6e1e1fde86edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepaywall/hypejunction-hypepaywall-a80562deebd349691f7ab0b754076196dd4a6fc3-zip-43dfea.zip",
-                "reference": "a80562deebd349691f7ab0b754076196dd4a6fc3",
-                "shasum": "b4e072b7eadf6004794951b0d71650c096736d79"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepaywall/hypejunction-hypepaywall-bd0b98b505a337b49c56f9768fe6e1e1fde86edc-zip-74e665.zip",
+                "reference": "bd0b98b505a337b49c56f9768fe6e1e1fde86edc",
+                "shasum": "e3dfc1abe9dd4f573f48e3e2341c575d564d8982"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3608,24 +3608,24 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypePaywall/tree/1.2.2",
+                "source": "https://github.com/hypeJunction/Elgg3-hypePaywall/tree/1.2.3",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePaywall/issues"
             },
-            "time": "2019-06-14T16:23:32+00:00"
+            "time": "2019-06-21T17:32:58+00:00"
         },
         {
             "name": "hypejunction/hypepost",
-            "version": "1.8.0",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypePost.git",
-                "reference": "37c0db38dd5fe88abef2432407abd42e8a1bd028"
+                "reference": "224a161e59fca8ac4e9c5982892a21864a680f92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepost/hypejunction-hypepost-37c0db38dd5fe88abef2432407abd42e8a1bd028-zip-c453ff.zip",
-                "reference": "37c0db38dd5fe88abef2432407abd42e8a1bd028",
-                "shasum": "040a38c795199a595698d65e4a643190a5cf7919"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepost/hypejunction-hypepost-224a161e59fca8ac4e9c5982892a21864a680f92-zip-12e5aa.zip",
+                "reference": "224a161e59fca8ac4e9c5982892a21864a680f92",
+                "shasum": "2140d7191655c6805bb9d701fa17071cbfcce64b"
             },
             "require": {
                 "bower-asset/parsleyjs": "~2.8",
@@ -3658,24 +3658,75 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypePost/tree/1.8.0",
+                "source": "https://github.com/hypeJunction/Elgg3-hypePost/tree/1.8.5",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePost/issues"
             },
-            "time": "2019-06-14T14:52:48+00:00"
+            "time": "2019-06-21T15:35:05+00:00"
         },
         {
-            "name": "hypejunction/hypeprofile",
-            "version": "1.4.14",
+            "name": "hypejunction/hypepostadmin",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeProfile.git",
-                "reference": "51ec808e29fdb1892f033dc56899c6e223adbf4f"
+                "url": "git@github.com:hypeJunction/Elgg3-hypePostAdmin.git",
+                "reference": "efd79c380215d5b5796810b6f480d915349bb846"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeprofile/hypejunction-hypeprofile-51ec808e29fdb1892f033dc56899c6e223adbf4f-zip-bb298c.zip",
-                "reference": "51ec808e29fdb1892f033dc56899c6e223adbf4f",
-                "shasum": "228b18728f2b4b86e5c69313c52252c9517fc9e1"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepostadmin/hypejunction-hypepostadmin-efd79c380215d5b5796810b6f480d915349bb846-zip-db0b8e.zip",
+                "reference": "efd79c380215d5b5796810b6f480d915349bb846",
+                "shasum": "5790fd0df8bd12ff1e5d4d5f6d216d50fa30b312"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.0"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypePostAdmin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Admin interface for managing post schema",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "admin",
+                "elgg",
+                "plugin",
+                "post",
+                "schema"
+            ],
+            "support": {
+                "source": "https://github.com/hypeJunction/Elgg3-hypePostAdmin/tree/1.0.4",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypePostAdmin/issues"
+            },
+            "time": "2019-06-21T17:42:28+00:00"
+        },
+        {
+            "name": "hypejunction/hypeprofile",
+            "version": "1.4.15",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:hypeJunction/Elgg3-hypeProfile.git",
+                "reference": "a2b00d9aaaea543009f54fd36c674d230a5794d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeprofile/hypejunction-hypeprofile-a2b00d9aaaea543009f54fd36c674d230a5794d9-zip-edffb5.zip",
+                "reference": "a2b00d9aaaea543009f54fd36c674d230a5794d9",
+                "shasum": "139983fb71a9b07ad7274e4b19cccfd13bd05ed3"
             },
             "require": {
                 "bjeavons/zxcvbn-php": "~0.3",
@@ -3705,10 +3756,10 @@
                 "users"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeProfile/tree/1.4.14",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeProfile/tree/1.4.15",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeProfile/issues"
             },
-            "time": "2019-06-04T13:03:14+00:00"
+            "time": "2019-06-21T15:22:26+00:00"
         },
         {
             "name": "hypejunction/hypescraper",
