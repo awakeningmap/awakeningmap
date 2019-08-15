@@ -53,16 +53,16 @@
         },
         {
             "name": "bower-asset/fontawesome",
-            "version": "5.9.0",
+            "version": "5.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "ba907eaec40fab01d410c3023a5572b2cb46cea6"
+                "reference": "538a5bc4cf7989821d052e3ff919e2bead07021c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/ba907eaec40fab01d410c3023a5572b2cb46cea6",
-                "reference": "ba907eaec40fab01d410c3023a5572b2cb46cea6"
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/538a5bc4cf7989821d052e3ff919e2bead07021c",
+                "reference": "538a5bc4cf7989821d052e3ff919e2bead07021c"
             },
             "type": "bower-asset"
         },
@@ -297,16 +297,16 @@
         },
         {
             "name": "bower-asset/select2",
-            "version": "4.0.7",
+            "version": "4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/select2/select2.git",
-                "reference": "04fce559673684af8ec2912457a9d6380ea90314"
+                "reference": "a389a6da47f613ea9de3efc7a6dcf5cbda167608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/select2/select2/zipball/04fce559673684af8ec2912457a9d6380ea90314",
-                "reference": "04fce559673684af8ec2912457a9d6380ea90314"
+                "url": "https://api.github.com/repos/select2/select2/zipball/a389a6da47f613ea9de3efc7a6dcf5cbda167608",
+                "reference": "a389a6da47f613ea9de3efc7a6dcf5cbda167608"
             },
             "type": "bower-asset",
             "license": [
@@ -527,16 +527,16 @@
         },
         {
             "name": "coldtrick/event_manager",
-            "version": "v10.1.1",
+            "version": "v10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/event_manager.git",
-                "reference": "cb858955767f1ede3f34be17640ee0bcbf1e28d4"
+                "reference": "21e81e9ef67a0c68104f0667245eddd662ca4d9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/cb858955767f1ede3f34be17640ee0bcbf1e28d4",
-                "reference": "cb858955767f1ede3f34be17640ee0bcbf1e28d4",
+                "url": "https://api.github.com/repos/ColdTrick/event_manager/zipball/21e81e9ef67a0c68104f0667245eddd662ca4d9d",
+                "reference": "21e81e9ef67a0c68104f0667245eddd662ca4d9d",
                 "shasum": ""
             },
             "require": {
@@ -563,20 +563,20 @@
                 "events",
                 "plugin"
             ],
-            "time": "2019-06-12T09:29:07+00:00"
+            "time": "2019-07-24T14:33:00+00:00"
         },
         {
             "name": "coldtrick/group_tools",
-            "version": "v10.2",
+            "version": "v10.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "209f2c9b1d4840b9e9aabce559b56c24d31a086a"
+                "reference": "c336547b64b762a5e6b61d76edcc2be4e0cdb04a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/209f2c9b1d4840b9e9aabce559b56c24d31a086a",
-                "reference": "209f2c9b1d4840b9e9aabce559b56c24d31a086a",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/c336547b64b762a5e6b61d76edcc2be4e0cdb04a",
+                "reference": "c336547b64b762a5e6b61d76edcc2be4e0cdb04a",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2019-06-12T09:30:04+00:00"
+            "time": "2019-07-11T07:23:11+00:00"
         },
         {
             "name": "coldtrick/profile_manager",
@@ -643,16 +643,16 @@
         },
         {
             "name": "coldtrick/widget_manager",
-            "version": "v9.0.2",
+            "version": "v9.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/widget_manager.git",
-                "reference": "d0069beb0f766552f99a7a1fdb3a99e26464e419"
+                "reference": "e0eb95422c598ceb7281b78c6159b7cbaa1bbdc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/d0069beb0f766552f99a7a1fdb3a99e26464e419",
-                "reference": "d0069beb0f766552f99a7a1fdb3a99e26464e419",
+                "url": "https://api.github.com/repos/ColdTrick/widget_manager/zipball/e0eb95422c598ceb7281b78c6159b7cbaa1bbdc2",
+                "reference": "e0eb95422c598ceb7281b78c6159b7cbaa1bbdc2",
                 "shasum": ""
             },
             "require": {
@@ -676,20 +676,20 @@
                 "plugin",
                 "widgets"
             ],
-            "time": "2019-05-02T12:52:30+00:00"
+            "time": "2019-08-07T09:41:57+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.6.0",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b"
+                "reference": "141b272484481432cda342727a427dc1e206bfa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/cfcca6b1b60bc4974324efb5783c13dca6932b5b",
-                "reference": "cfcca6b1b60bc4974324efb5783c13dca6932b5b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
+                "reference": "141b272484481432cda342727a427dc1e206bfa0",
                 "shasum": ""
             },
             "require": {
@@ -745,6 +745,7 @@
                 "RadPHP",
                 "SMF",
                 "Thelia",
+                "Whmcs",
                 "WolfCMS",
                 "agl",
                 "aimeos",
@@ -767,6 +768,7 @@
                 "installer",
                 "itop",
                 "joomla",
+                "known",
                 "kohana",
                 "laravel",
                 "lavalite",
@@ -796,7 +798,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-08-27T06:10:37+00:00"
+            "time": "2019-08-12T15:00:31+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -1409,16 +1411,16 @@
         },
         {
             "name": "elgg/elgg",
-            "version": "3.0.4",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Elgg/Elgg.git",
-                "reference": "b46f78a6198b58fe7740c1cd0926798f7a6d0946"
+                "reference": "f182dafd95369259fdc54247856344690624289f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/b46f78a6198b58fe7740c1cd0926798f7a6d0946",
-                "reference": "b46f78a6198b58fe7740c1cd0926798f7a6d0946",
+                "url": "https://api.github.com/repos/Elgg/Elgg/zipball/f182dafd95369259fdc54247856344690624289f",
+                "reference": "f182dafd95369259fdc54247856344690624289f",
                 "shasum": ""
             },
             "require": {
@@ -1492,7 +1494,7 @@
                 "GPL-2.0-only"
             ],
             "description": "Elgg is an award-winning social networking engine, delivering the building blocks that enable businesses, schools, universities and associations to create their own fully-featured social networks and applications.",
-            "time": "2019-06-12T14:42:26+00:00"
+            "time": "2019-08-02T08:28:28+00:00"
         },
         {
             "name": "elgg/login_as",
@@ -1700,33 +1702,37 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.5.2",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
-                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
-                "ralouphie/getallheaders": "^2.0.5"
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
+                "ext-zlib": "*",
                 "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "suggest": {
+                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.6-dev"
                 }
             },
             "autoload": {
@@ -1763,7 +1769,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-04T20:46:45+00:00"
+            "time": "2019-07-01T23:21:34+00:00"
         },
         {
             "name": "hughbertd/oauth2-unsplash",
@@ -1896,44 +1902,6 @@
             "time": "2019-06-05T14:25:09+00:00"
         },
         {
-            "name": "hypejunction/elgg_tokeninput",
-            "version": "3.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hypeJunction/elgg_tokeninput.git",
-                "reference": "ee279f5d06a193bdf80572e0d4800d2103c122a3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/elgg_tokeninput/zipball/ee279f5d06a193bdf80572e0d4800d2103c122a3",
-                "reference": "ee279f5d06a193bdf80572e0d4800d2103c122a3",
-                "shasum": ""
-            },
-            "require-dev": {
-                "composer/installers": "~1.0"
-            },
-            "type": "elgg-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ismayil Khayredinov",
-                    "email": "info@hypejunction.com"
-                }
-            ],
-            "description": "Tokenizing autocomplete for Elgg",
-            "homepage": "http://hypejunction.com",
-            "keywords": [
-                "autocomplete",
-                "elgg",
-                "plugin",
-                "search"
-            ],
-            "time": "2016-01-24T09:46:50+00:00"
-        },
-        {
             "name": "hypejunction/http-parser",
             "version": "dev-master",
             "source": {
@@ -1985,17 +1953,17 @@
         },
         {
             "name": "hypejunction/hypeactivity",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeActivity.git",
-                "reference": "92cbbab185004df64ae9cff0dd3d41d2e35fb499"
+                "reference": "bfd45bece1326dc1c20d44d2690afd4546ec6d6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeactivity/hypejunction-hypeactivity-92cbbab185004df64ae9cff0dd3d41d2e35fb499-zip-c60ea1.zip",
-                "reference": "92cbbab185004df64ae9cff0dd3d41d2e35fb499",
-                "shasum": "10514833394dd9017607ecfb12923c3dfaf3d768"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeactivity/hypejunction-hypeactivity-bfd45bece1326dc1c20d44d2690afd4546ec6d6d-zip-e4c5e2.zip",
+                "reference": "bfd45bece1326dc1c20d44d2690afd4546ec6d6d",
+                "shasum": "2de38b5ee1d9acd0991ef25e2a6d34079c43666a"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2027,10 +1995,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeActivity/tree/1.2.0",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeActivity/tree/1.3.0",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeActivity/issues"
             },
-            "time": "2019-06-20T08:30:59+00:00"
+            "time": "2019-06-25T13:40:11+00:00"
         },
         {
             "name": "hypejunction/hypeajax",
@@ -2084,17 +2052,17 @@
         },
         {
             "name": "hypejunction/hypeattachments",
-            "version": "3.1.0",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeAttachments.git",
-                "reference": "de3b069d1d43ec4017e8587fbee9af9cd0709c79"
+                "reference": "14e3d0787f2a25a8713d0592567a1a709f6961a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeattachments/hypejunction-hypeattachments-de3b069d1d43ec4017e8587fbee9af9cd0709c79-zip-5bf6a9.zip",
-                "reference": "de3b069d1d43ec4017e8587fbee9af9cd0709c79",
-                "shasum": "ee0c9a34c6ce36ab66902a8682dad0960c5128fb"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeattachments/hypejunction-hypeattachments-14e3d0787f2a25a8713d0592567a1a709f6961a6-zip-f461a4.zip",
+                "reference": "14e3d0787f2a25a8713d0592567a1a709f6961a6",
+                "shasum": "d997d76dbfc4460e9334db99a007e15344e31c12"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2128,10 +2096,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeAttachments/tree/3.1.0",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeAttachments/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeAttachments/tree/3.1.2",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeAttachments/issues"
             },
-            "time": "2018-06-29T18:18:38+00:00"
+            "time": "2019-06-25T13:54:22+00:00"
         },
         {
             "name": "hypejunction/hypeautocomplete",
@@ -2583,17 +2551,17 @@
         },
         {
             "name": "hypejunction/hypedownloads",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeDownloads.git",
-                "reference": "6e1f88014bf2e62a1850c7c03f9e9eb2e8c9faa4"
+                "reference": "cd0091f78b450e0c71b667bd7e78270700866fcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedownloads/hypejunction-hypedownloads-6e1f88014bf2e62a1850c7c03f9e9eb2e8c9faa4-zip-adde1a.zip",
-                "reference": "6e1f88014bf2e62a1850c7c03f9e9eb2e8c9faa4",
-                "shasum": "9bde7fa38ac1c0bf4ac2bbe667be3a83029d4b73"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedownloads/hypejunction-hypedownloads-cd0091f78b450e0c71b667bd7e78270700866fcf-zip-225e5f.zip",
+                "reference": "cd0091f78b450e0c71b667bd7e78270700866fcf",
+                "shasum": "96bffcea75e2e2eb796039d0bf976b72d5dcf544"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2624,10 +2592,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeDownloads/tree/1.2.2",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeDownloads/tree/1.2.3",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeDownloads/issues"
             },
-            "time": "2019-06-21T17:20:27+00:00"
+            "time": "2019-08-14T14:44:11+00:00"
         },
         {
             "name": "hypejunction/hypedraft",
@@ -2784,17 +2752,17 @@
         },
         {
             "name": "hypejunction/hypegroups",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeGroups.git",
-                "reference": "16e5243a084ad29a249642b412057feff22dc5b3"
+                "reference": "fdf8ac13b289b07bd7d1d957b1de516397d46d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypegroups/hypejunction-hypegroups-16e5243a084ad29a249642b412057feff22dc5b3-zip-458fa1.zip",
-                "reference": "16e5243a084ad29a249642b412057feff22dc5b3",
-                "shasum": "459468d6d38e639cf568a90c6248f46e990afd38"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypegroups/hypejunction-hypegroups-fdf8ac13b289b07bd7d1d957b1de516397d46d7a-zip-114f89.zip",
+                "reference": "fdf8ac13b289b07bd7d1d957b1de516397d46d7a",
+                "shasum": "50fb41562283e8738745b9de81bad4d5070c0f97"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2822,10 +2790,10 @@
                 "subtypes"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeGroups/tree/3.0.3",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeGroups/tree/3.0.4",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeGroups/issues"
             },
-            "time": "2019-06-04T13:05:13+00:00"
+            "time": "2019-06-25T13:45:18+00:00"
         },
         {
             "name": "hypejunction/hypehero",
@@ -2931,23 +2899,21 @@
         },
         {
             "name": "hypejunction/hypeinbox",
-            "version": "8.0.0",
+            "version": "8.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeInbox.git",
-                "reference": "6d0ca142485926ca042a104052407edfa0c52133"
+                "reference": "d734b7700e2425d982c6871908549731903d94cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeinbox/hypejunction-hypeinbox-6d0ca142485926ca042a104052407edfa0c52133-zip-5b205e.zip",
-                "reference": "6d0ca142485926ca042a104052407edfa0c52133",
-                "shasum": "c134fe7f7a7ea9eaeb3c85e10e3bb4c734e51411"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeinbox/hypejunction-hypeinbox-d734b7700e2425d982c6871908549731903d94cc-zip-663f66.zip",
+                "reference": "d734b7700e2425d982c6871908549731903d94cc",
+                "shasum": "58dc9f973c946f851cfeab121975b35a7cd4fe74"
             },
             "require": {
                 "composer/installers": "~1.0",
-                "hypejunction/acl_builder_api": "*",
-                "hypejunction/elgg_tokeninput": "*",
-                "hypejunction/hypelists": "*"
+                "hypejunction/acl_builder_api": "*"
             },
             "type": "elgg-plugin",
             "extra": {
@@ -2976,10 +2942,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeInbox/tree/8.0.0",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeInbox/tree/8.0.1",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeInbox/issues"
             },
-            "time": "2019-07-08T16:57:49+00:00"
+            "time": "2019-08-15T13:01:39+00:00"
         },
         {
             "name": "hypejunction/hypeinteractions",
@@ -3655,17 +3621,17 @@
         },
         {
             "name": "hypejunction/hypepaywall",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypePaywall.git",
-                "reference": "bd0b98b505a337b49c56f9768fe6e1e1fde86edc"
+                "reference": "a75bef4eefece59032fbfd881e89a3352879c2f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepaywall/hypejunction-hypepaywall-bd0b98b505a337b49c56f9768fe6e1e1fde86edc-zip-74e665.zip",
-                "reference": "bd0b98b505a337b49c56f9768fe6e1e1fde86edc",
-                "shasum": "e3dfc1abe9dd4f573f48e3e2341c575d564d8982"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepaywall/hypejunction-hypepaywall-a75bef4eefece59032fbfd881e89a3352879c2f4-zip-31b310.zip",
+                "reference": "a75bef4eefece59032fbfd881e89a3352879c2f4",
+                "shasum": "21cb38e7d32c14106c321779c5c88f3bad98cda3"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3698,24 +3664,24 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypePaywall/tree/1.2.3",
+                "source": "https://github.com/hypeJunction/Elgg3-hypePaywall/tree/1.2.4",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePaywall/issues"
             },
-            "time": "2019-06-21T17:32:58+00:00"
+            "time": "2019-08-14T14:45:06+00:00"
         },
         {
             "name": "hypejunction/hypepost",
-            "version": "1.8.5",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypePost.git",
-                "reference": "224a161e59fca8ac4e9c5982892a21864a680f92"
+                "reference": "9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepost/hypejunction-hypepost-224a161e59fca8ac4e9c5982892a21864a680f92-zip-12e5aa.zip",
-                "reference": "224a161e59fca8ac4e9c5982892a21864a680f92",
-                "shasum": "2140d7191655c6805bb9d701fa17071cbfcce64b"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepost/hypejunction-hypepost-9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29-zip-913286.zip",
+                "reference": "9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29",
+                "shasum": "0a3f82542a470bbcef19f0da18001cdfc470195f"
             },
             "require": {
                 "bower-asset/parsleyjs": "~2.8",
@@ -3748,10 +3714,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypePost/tree/1.8.5",
+                "source": "https://github.com/hypeJunction/Elgg3-hypePost/tree/1.9.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePost/issues"
             },
-            "time": "2019-06-21T15:35:05+00:00"
+            "time": "2019-06-25T13:26:14+00:00"
         },
         {
             "name": "hypejunction/hypepostadmin",
@@ -4052,17 +4018,17 @@
         },
         {
             "name": "hypejunction/hypeslug",
-            "version": "1.1.5",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeSlug.git",
-                "reference": "12b2bc54fd3e4684f4c896fac46ac3dd76efcfb9"
+                "reference": "fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeslug/hypejunction-hypeslug-12b2bc54fd3e4684f4c896fac46ac3dd76efcfb9-zip-5a0b80.zip",
-                "reference": "12b2bc54fd3e4684f4c896fac46ac3dd76efcfb9",
-                "shasum": "77f2cddd58221aad0806ed7bddb9bd8c20dbc55b"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeslug/hypejunction-hypeslug-fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28-zip-f29f9b.zip",
+                "reference": "fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28",
+                "shasum": "822d403cc5e7cc223af1e4fe20bd3b85411b47ca"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -4094,10 +4060,10 @@
                 "slug"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeSlug/tree/1.1.5",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeSlug/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeSlug/tree/master",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeSlug/issues"
             },
-            "time": "2018-10-16T09:58:41+00:00"
+            "time": "2019-07-08T17:15:25+00:00"
         },
         {
             "name": "hypejunction/hypestash",
@@ -4350,17 +4316,17 @@
         },
         {
             "name": "hypejunction/hypetheme",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeTheme.git",
-                "reference": "0b99a284783975e271bcda16a81672ee322e34b4"
+                "reference": "64fdffe023df801625bd1b1d7cece72eb6732eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetheme/hypejunction-hypetheme-0b99a284783975e271bcda16a81672ee322e34b4-zip-60c717.zip",
-                "reference": "0b99a284783975e271bcda16a81672ee322e34b4",
-                "shasum": "f8faea815b0317bb2c8535b8f443e1b169569941"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetheme/hypejunction-hypetheme-64fdffe023df801625bd1b1d7cece72eb6732eb9-zip-0c6ae1.zip",
+                "reference": "64fdffe023df801625bd1b1d7cece72eb6732eb9",
+                "shasum": "66b75d72fb71859cb756f3038536b3e839122970"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4391,10 +4357,10 @@
                 "theme"
             ],
             "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeTheme/tree/1.1.1",
+                "source": "https://github.com/hypeJunction/Elgg3-hypeTheme/tree/1.1.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeTheme/issues"
             },
-            "time": "2019-06-20T09:11:43+00:00"
+            "time": "2019-07-08T16:42:12+00:00"
         },
         {
             "name": "hypejunction/hypetime",
@@ -4593,17 +4559,17 @@
         },
         {
             "name": "hypejunction/hypewall",
-            "version": "6.2.0",
+            "version": "6.2.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:hypeJunction/Elgg3-hypeWall.git",
-                "reference": "58f23f1da9a2b3926defc63338f24348087cb3b4"
+                "reference": "023c15699f8719a532929c7521eb47bee60fa61e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypewall/hypejunction-hypewall-58f23f1da9a2b3926defc63338f24348087cb3b4-zip-a7fe02.zip",
-                "reference": "58f23f1da9a2b3926defc63338f24348087cb3b4",
-                "shasum": "030b08e3fb88e4fbed5115a16d903d46068e154a"
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypewall/hypejunction-hypewall-023c15699f8719a532929c7521eb47bee60fa61e-zip-7454ca.zip",
+                "reference": "023c15699f8719a532929c7521eb47bee60fa61e",
+                "shasum": "e24099fb33bcd6066f9e9a27f252e9e9b73e4be8"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4638,10 +4604,10 @@
                 "wall"
             ],
             "support": {
-                "source": "https://github.com/hypejunctionpro/Elgg3-hypeWall/tree/6.2.0",
-                "issues": "https://github.com/hypejunctionpro/Elgg3-hypeWall/issues"
+                "source": "https://github.com/hypeJunction/Elgg3-hypeWall/tree/6.2.4",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeWall/issues"
             },
-            "time": "2018-06-29T20:20:51+00:00"
+            "time": "2019-08-15T16:00:40+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -6641,24 +6607,24 @@
         },
         {
             "name": "ralouphie/getallheaders",
-            "version": "2.0.5",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
-                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3"
+                "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7.0",
-                "satooshi/php-coveralls": ">=1.0"
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
             },
             "type": "library",
             "autoload": {
@@ -6677,7 +6643,7 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "time": "2016-02-11T07:05:27+00:00"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "react/promise",
@@ -6731,12 +6697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "baeb6f512b5ec8f0fd58bf890082b179f985c5a4"
+                "reference": "ea693fa060702164985511acc3ceb5389c9ac761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/baeb6f512b5ec8f0fd58bf890082b179f985c5a4",
-                "reference": "baeb6f512b5ec8f0fd58bf890082b179f985c5a4",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ea693fa060702164985511acc3ceb5389c9ac761",
+                "reference": "ea693fa060702164985511acc3ceb5389c9ac761",
                 "shasum": ""
             },
             "conflict": {
@@ -6771,9 +6737,10 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1",
-                "drupal/drupal": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1",
+                "drupal/core": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1|>8.7.3,<8.7.5",
+                "drupal/drupal": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1|>8.7.3,<8.7.5",
                 "erusev/parsedown": "<1.7.2",
+                "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.4",
                 "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.13.1|>=6,<6.7.9.1|>=6.8,<6.13.5.1|>=7,<7.2.4.1|>=7.3,<7.3.2.1",
                 "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.12.3|>=2011,<2017.12.4.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
@@ -6838,7 +6805,7 @@
                 "silverstripe/userforms": "<3",
                 "simple-updates/phpwhois": "<=1",
                 "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4",
-                "simplesamlphp/simplesamlphp": "<1.15.2|>=1.16,<1.16.3",
+                "simplesamlphp/simplesamlphp": "<1.17.3",
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "slim/slim": "<2.6",
                 "smarty/smarty": "<3.1.33",
@@ -6882,8 +6849,8 @@
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
                 "twig/twig": "<1.38|>=2,<2.7",
-                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.25|>=9,<9.5.6",
-                "typo3/cms-core": ">=8,<8.7.25|>=9,<9.5.6",
+                "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.27|>=9,<9.5.8",
+                "typo3/cms-core": ">=8,<8.7.27|>=9,<9.5.8",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
                 "typo3/phar-stream-wrapper": ">=1,<2.1.1|>=3,<3.1.1",
@@ -6937,7 +6904,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-06-14T17:56:32+00:00"
+            "time": "2019-07-18T15:17:58+00:00"
         },
         {
             "name": "robmorgan/phinx",
@@ -7155,16 +7122,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.38.0",
+            "version": "v6.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "8588b74aecd46ed5df3d97a132c922b020ca80bc"
+                "reference": "c06eb0da0e73750cab75948dd9ca4a15cf829e68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/8588b74aecd46ed5df3d97a132c922b020ca80bc",
-                "reference": "8588b74aecd46ed5df3d97a132c922b020ca80bc",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/c06eb0da0e73750cab75948dd9ca4a15cf829e68",
+                "reference": "c06eb0da0e73750cab75948dd9ca4a15cf829e68",
                 "shasum": ""
             },
             "require": {
@@ -7207,7 +7174,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-06-18T06:29:48+00:00"
+            "time": "2019-08-09T20:54:08+00:00"
         },
         {
             "name": "symfony/config",
@@ -7556,16 +7523,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "82ebae02209c21113908c229e9883c419720738a"
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
-                "reference": "82ebae02209c21113908c229e9883c419720738a",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
                 "shasum": ""
             },
             "require": {
@@ -7577,7 +7544,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -7594,12 +7561,12 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                },
-                {
                     "name": "Gert de Pagter",
                     "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -7610,20 +7577,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
                 "shasum": ""
             },
             "require": {
@@ -7635,7 +7602,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -7669,20 +7636,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "2964b17ddc32dba7bcba009d5501c84d3fba1452"
+                "reference": "a043bcced870214922fbb4bf22679d431ec0296a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/2964b17ddc32dba7bcba009d5501c84d3fba1452",
-                "reference": "2964b17ddc32dba7bcba009d5501c84d3fba1452",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/a043bcced870214922fbb4bf22679d431ec0296a",
+                "reference": "a043bcced870214922fbb4bf22679d431ec0296a",
                 "shasum": ""
             },
             "require": {
@@ -7691,7 +7658,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -7727,20 +7694,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
-                "reference": "96fa25cef405ea452919559a0025d5dc16e30e4c"
+                "reference": "548bb39407e78e54f785b4e18c7e0d5d9e493265"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/96fa25cef405ea452919559a0025d5dc16e30e4c",
-                "reference": "96fa25cef405ea452919559a0025d5dc16e30e4c",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/548bb39407e78e54f785b4e18c7e0d5d9e493265",
+                "reference": "548bb39407e78e54f785b4e18c7e0d5d9e493265",
                 "shasum": ""
             },
             "require": {
@@ -7750,7 +7717,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -7783,20 +7750,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php71",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php71.git",
-                "reference": "8fc094a6b4f646b3ecd2400069420ef82f23a93e"
+                "reference": "834c714efee3a035533690e3dbc7caa771125d72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php71/zipball/8fc094a6b4f646b3ecd2400069420ef82f23a93e",
-                "reference": "8fc094a6b4f646b3ecd2400069420ef82f23a93e",
+                "url": "https://api.github.com/repos/symfony/polyfill-php71/zipball/834c714efee3a035533690e3dbc7caa771125d72",
+                "reference": "834c714efee3a035533690e3dbc7caa771125d72",
                 "shasum": ""
             },
             "require": {
@@ -7805,7 +7772,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -7838,20 +7805,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
+                "reference": "04ce3335667451138df4307d6a9b61565560199e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
-                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/04ce3335667451138df4307d6a9b61565560199e",
+                "reference": "04ce3335667451138df4307d6a9b61565560199e",
                 "shasum": ""
             },
             "require": {
@@ -7860,7 +7827,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -7893,7 +7860,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "symfony/routing",
@@ -9771,16 +9738,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "234199f4528de6d12aaa58b612e98f7d36adb937"
+                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/234199f4528de6d12aaa58b612e98f7d36adb937",
-                "reference": "234199f4528de6d12aaa58b612e98f7d36adb937",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/06a9a5947f47b3029d76118eb5c22802e5869687",
+                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687",
                 "shasum": ""
             },
             "require": {
@@ -9808,6 +9775,10 @@
             ],
             "authors": [
                 {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                },
+                {
                     "name": "Jeff Welch",
                     "email": "whatthejeff@gmail.com"
                 },
@@ -9816,16 +9787,12 @@
                     "email": "github@wallbash.com"
                 },
                 {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@2bepublished.at"
-                },
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de"
-                },
-                {
                     "name": "Adam Harvey",
                     "email": "aharvey@php.net"
+                },
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
                 }
             ],
             "description": "Provides the functionality to export PHP variables for visualization",
@@ -9834,7 +9801,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2017-04-03T13:19:02+00:00"
+            "time": "2019-08-11T12:43:14+00:00"
         },
         {
             "name": "sebastian/global-state",
