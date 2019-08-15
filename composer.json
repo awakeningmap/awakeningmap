@@ -67,7 +67,8 @@
         "coldtrick/profile_manager": "^14.0",
         "coldtrick/group_tools": "^10.2",
         "coldtrick/widget_manager": "^9.0",
-        "hypejunction/hypepostadmin": "^1.0"
+        "hypejunction/hypepostadmin": "^1.0",
+        "hypejunction/hypeinbox": "^8.0",
     },
     "require-dev": {
         "phpunit/phpunit": "~6.4"

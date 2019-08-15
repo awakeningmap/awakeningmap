@@ -1,0 +1,31 @@
+.awakening-story-list {
+	border: none;
+	
+	li {
+		border: none;
+	}
+}
+
+.awakening-story-date {
+	background: $(background-color-highlight);
+	color: white;
+	padding: 0.5rem;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.awakening-story-date__season {
+	font-size: 90%;
+}
+
+.awakening-story-date__year {
+	font-weight: bold;
+}
+
+.awakening-story-block {
+	margin-bottom: 0.5rem;
+	padding: 1rem;
+	background: #fff;
+	border: 1px solid $(border-color-mild);
+	border-radius: 3px;
+}

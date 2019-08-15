@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f964d595c58f20b8d6451c0c7e21fdaa",
+    "content-hash": "8624d875f6afb77fbdbd474b5802c31a",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -144,7 +144,7 @@
             "version": "3.51",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery-form/form.git",
+                "url": "git@github.com:jquery-form/form.git",
                 "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
             },
             "dist": {
@@ -198,7 +198,7 @@
             "version": "v2.0.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:ehynds/jquery-ui-multiselect-widget.git",
+                "url": "https://github.com/ehynds/jquery-ui-multiselect-widget.git",
                 "reference": "c7fbab3530ff3a441ec22dd5b732e1b2c08a66be"
             },
             "dist": {
@@ -213,7 +213,7 @@
             "version": "v0.9.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wong2/imgareaselect.git",
+                "url": "git@github.com:wong2/imgareaselect.git",
                 "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4"
             },
             "dist": {
@@ -228,7 +228,7 @@
             "version": "2.24.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/moment/moment.git",
+                "url": "git@github.com:moment/moment.git",
                 "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
             },
             "dist": {
@@ -318,7 +318,7 @@
             "version": "v1.8.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:kenwheeler/slick.git",
+                "url": "https://github.com/kenwheeler/slick.git",
                 "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "dist": {
@@ -1896,6 +1896,44 @@
             "time": "2019-06-05T14:25:09+00:00"
         },
         {
+            "name": "hypejunction/elgg_tokeninput",
+            "version": "3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hypeJunction/elgg_tokeninput.git",
+                "reference": "ee279f5d06a193bdf80572e0d4800d2103c122a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hypeJunction/elgg_tokeninput/zipball/ee279f5d06a193bdf80572e0d4800d2103c122a3",
+                "reference": "ee279f5d06a193bdf80572e0d4800d2103c122a3",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/installers": "~1.0"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Tokenizing autocomplete for Elgg",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "autocomplete",
+                "elgg",
+                "plugin",
+                "search"
+            ],
+            "time": "2016-01-24T09:46:50+00:00"
+        },
+        {
             "name": "hypejunction/http-parser",
             "version": "dev-master",
             "source": {
@@ -2890,6 +2928,58 @@
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeIllustration/issues"
             },
             "time": "2018-10-16T10:07:28+00:00"
+        },
+        {
+            "name": "hypejunction/hypeinbox",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:hypeJunction/Elgg3-hypeInbox.git",
+                "reference": "6d0ca142485926ca042a104052407edfa0c52133"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeinbox/hypejunction-hypeinbox-6d0ca142485926ca042a104052407edfa0c52133-zip-5b205e.zip",
+                "reference": "6d0ca142485926ca042a104052407edfa0c52133",
+                "shasum": "c134fe7f7a7ea9eaeb3c85e10e3bb4c734e51411"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "hypejunction/acl_builder_api": "*",
+                "hypejunction/elgg_tokeninput": "*",
+                "hypejunction/hypelists": "*"
+            },
+            "type": "elgg-plugin",
+            "extra": {
+                "installer-name": "hypeInbox"
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ismayil Khayredinov",
+                    "email": "info@hypejunction.com"
+                }
+            ],
+            "description": "Enhanced messaging capabilities",
+            "homepage": "http://hypejunction.com",
+            "keywords": [
+                "elgg",
+                "inbox",
+                "messages",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://github.com/hypeJunction/Elgg3-hypeInbox/tree/8.0.0",
+                "issues": "https://github.com/hypeJunction/Elgg3-hypeInbox/issues"
+            },
+            "time": "2019-07-08T16:57:49+00:00"
         },
         {
             "name": "hypejunction/hypeinteractions",
