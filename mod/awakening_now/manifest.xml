@@ -6,7 +6,7 @@
     <description>Awakening now</description>
     <version type="dist">1.0.0</version>
 
-    <category>groups</category>
+    <category>events</category>
 
     <author>Ismayil Khayredinov (info@hypejunction.com)</author>
     <website>http://hypeJunction.com</website>
@@ -18,4 +18,13 @@
         <version>3.0</version>
     </requires>
 
+    <requires>
+        <type>plugin</type>
+        <name>hypeWall</name>
+    </requires>
+
+    <requires>
+        <type>plugin</type>
+        <name>hypeMapsOpen</name>
+    </requires>
 </plugin_manifest>
