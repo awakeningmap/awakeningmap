@@ -42,6 +42,7 @@ class Bootstrap extends PluginBootstrap {
 	public function init() {
 		elgg_extend_view('elgg.css', 'awakenings/theme.css');
 
+		elgg_register_plugin_hook_handler('view_vars', 'input/date', ConfigureDatepicker::class, 1000);
 		elgg_register_plugin_hook_handler('vars:compiler', 'css', SetThemeVars::class, 800);
 	}
 
