@@ -142,13 +142,14 @@ class Bootstrap extends PluginBootstrap {
 
 		elgg_extend_view('elgg.css', 'awakenings/groups.css');
 
-		$subtypes = ['topic', 'country', 'region', 'private'];
+		$subtypes = ['country', 'region', 'private'];
 
 		foreach ($subtypes as $subtype) {
 			// Register fields for form field editor
-			elgg_register_plugin_hook_handler('fields', "group:$subtype", function () {
-			});
+			elgg_register_plugin_hook_handler('fields', "group:$subtype", function () {});
 		}
+
+		elgg_register_plugin_hook_handler('fields', "group:topic", SetupTopicFields::class);
 	}
 
 	/**

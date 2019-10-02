@@ -601,5 +601,10 @@ relative to the entity\'s filestore directory. This upgrade aligns will align pr
 
 	'collection:group:region:no_results' => 'No regional groups have been created yet',
 
+	'field:group:topic:category' => 'Topic Category',
+	'field:group:topic:category:request' => 'request',
+	'field:group:topic:category:help' => 'If you don\'t find the desired category, please %s it to be added by the admin',
 
+	'awakening_groups:topic_categories' => 'Topic Categories',
+	'awakening_groups:topic_categories:help' => 'List categories of topics, one per line',
 ];

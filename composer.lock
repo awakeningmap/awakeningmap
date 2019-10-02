@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8624d875f6afb77fbdbd474b5802c31a",
+    "content-hash": "943589271a7d13a70764bf77c6f61528",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -53,16 +53,16 @@
         },
         {
             "name": "bower-asset/fontawesome",
-            "version": "5.10.1",
+            "version": "5.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "538a5bc4cf7989821d052e3ff919e2bead07021c"
+                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/538a5bc4cf7989821d052e3ff919e2bead07021c",
-                "reference": "538a5bc4cf7989821d052e3ff919e2bead07021c"
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
+                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0"
             },
             "type": "bower-asset"
         },
@@ -297,16 +297,16 @@
         },
         {
             "name": "bower-asset/select2",
-            "version": "4.0.8",
+            "version": "4.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/select2/select2.git",
-                "reference": "a389a6da47f613ea9de3efc7a6dcf5cbda167608"
+                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/select2/select2/zipball/a389a6da47f613ea9de3efc7a6dcf5cbda167608",
-                "reference": "a389a6da47f613ea9de3efc7a6dcf5cbda167608"
+                "url": "https://api.github.com/repos/select2/select2/zipball/c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
+                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657"
             },
             "type": "bower-asset",
             "license": [
@@ -567,16 +567,16 @@
         },
         {
             "name": "coldtrick/group_tools",
-            "version": "v10.2.1",
+            "version": "v10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ColdTrick/group_tools.git",
-                "reference": "c336547b64b762a5e6b61d76edcc2be4e0cdb04a"
+                "reference": "b45280a4228d0159c11d576accab15a275520368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/c336547b64b762a5e6b61d76edcc2be4e0cdb04a",
-                "reference": "c336547b64b762a5e6b61d76edcc2be4e0cdb04a",
+                "url": "https://api.github.com/repos/ColdTrick/group_tools/zipball/b45280a4228d0159c11d576accab15a275520368",
+                "reference": "b45280a4228d0159c11d576accab15a275520368",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "groups",
                 "plugin"
             ],
-            "time": "2019-07-11T07:23:11+00:00"
+            "time": "2019-09-18T11:59:32+00:00"
         },
         {
             "name": "coldtrick/profile_manager",
@@ -1956,12 +1956,12 @@
             "version": "1.3.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeActivity.git",
+                "url": "https://github.com/hypeJunction/hypeActivity.git",
                 "reference": "bfd45bece1326dc1c20d44d2690afd4546ec6d6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeactivity/hypejunction-hypeactivity-bfd45bece1326dc1c20d44d2690afd4546ec6d6d-zip-e4c5e2.zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeActivity/zipball/bfd45bece1326dc1c20d44d2690afd4546ec6d6d",
                 "reference": "bfd45bece1326dc1c20d44d2690afd4546ec6d6d",
                 "shasum": "2de38b5ee1d9acd0991ef25e2a6d34079c43666a"
             },
@@ -2005,12 +2005,12 @@
             "version": "1.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeAjax.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeAjax.git",
                 "reference": "4fcc33bfce4c0b4d47d5f9170d26722a7af94154"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeajax/hypejunction-hypeajax-4fcc33bfce4c0b4d47d5f9170d26722a7af94154-zip-91966d.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeAjax/zipball/4fcc33bfce4c0b4d47d5f9170d26722a7af94154",
                 "reference": "4fcc33bfce4c0b4d47d5f9170d26722a7af94154",
                 "shasum": "24dbc125634621de3e0163c17c173880771b21f1"
             },
@@ -2055,12 +2055,12 @@
             "version": "3.1.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeAttachments.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeAttachments.git",
                 "reference": "14e3d0787f2a25a8713d0592567a1a709f6961a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeattachments/hypejunction-hypeattachments-14e3d0787f2a25a8713d0592567a1a709f6961a6-zip-f461a4.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeAttachments/zipball/14e3d0787f2a25a8713d0592567a1a709f6961a6",
                 "reference": "14e3d0787f2a25a8713d0592567a1a709f6961a6",
                 "shasum": "d997d76dbfc4460e9334db99a007e15344e31c12"
             },
@@ -2106,12 +2106,12 @@
             "version": "1.1.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeAutocomplete.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeAutocomplete.git",
                 "reference": "1e6758f0e071d576f1214df990fd150ef51e3319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeautocomplete/hypejunction-hypeautocomplete-1e6758f0e071d576f1214df990fd150ef51e3319-zip-5e930b.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeAutocomplete/zipball/1e6758f0e071d576f1214df990fd150ef51e3319",
                 "reference": "1e6758f0e071d576f1214df990fd150ef51e3319",
                 "shasum": "9c72fc476460d6fa28df2cc9041d23627ffe0121"
             },
@@ -2157,12 +2157,12 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeBlog.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeBlog.git",
                 "reference": "cdffd57b47a199295c303b2e217e6934a997d25e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeblog/hypejunction-hypeblog-cdffd57b47a199295c303b2e217e6934a997d25e-zip-a00d67.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeBlog/zipball/cdffd57b47a199295c303b2e217e6934a997d25e",
                 "reference": "cdffd57b47a199295c303b2e217e6934a997d25e",
                 "shasum": "19fbe5bcf3f9f1d184708118919d1ea7a638b99a"
             },
@@ -2207,12 +2207,12 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeBraintreePayments.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeBraintreePayments.git",
                 "reference": "49af002b9f35e1f0ac9cc401274389a1a8e49af6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypebraintreepayments/hypejunction-hypebraintreepayments-49af002b9f35e1f0ac9cc401274389a1a8e49af6-zip-958cc9.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeBraintreePayments/zipball/49af002b9f35e1f0ac9cc401274389a1a8e49af6",
                 "reference": "49af002b9f35e1f0ac9cc401274389a1a8e49af6",
                 "shasum": "d15a7b8335509c8caae4e5b0c2f958770132e4e9"
             },
@@ -2305,12 +2305,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeCapabilities.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeCapabilities.git",
                 "reference": "f28e3af6e7e3bc44abcb40a90c916a13c479ec45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypecapabilities/hypejunction-hypecapabilities-f28e3af6e7e3bc44abcb40a90c916a13c479ec45-zip-0e5368.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeCapabilities/zipball/f28e3af6e7e3bc44abcb40a90c916a13c479ec45",
                 "reference": "f28e3af6e7e3bc44abcb40a90c916a13c479ec45",
                 "shasum": "288984c207f842daccc64e2f14883194ee90e9a8"
             },
@@ -2355,12 +2355,12 @@
             "version": "1.0.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeCaptcha.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeCaptcha.git",
                 "reference": "4da1ccf26007cf8ab28dacdd5f48c46e8160851e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypecaptcha/hypejunction-hypecaptcha-4da1ccf26007cf8ab28dacdd5f48c46e8160851e-zip-c66ca1.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeCaptcha/zipball/4da1ccf26007cf8ab28dacdd5f48c46e8160851e",
                 "reference": "4da1ccf26007cf8ab28dacdd5f48c46e8160851e",
                 "shasum": "ba25f2d4d5e0286cd03bcb09f4f37583c95c47ec"
             },
@@ -2406,12 +2406,12 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeCli.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeCli.git",
                 "reference": "01b1264b11f17e9877883072e8a10cb4f0eaa5e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypecli/hypejunction-hypecli-01b1264b11f17e9877883072e8a10cb4f0eaa5e6-zip-befa33.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeCli/zipball/01b1264b11f17e9877883072e8a10cb4f0eaa5e6",
                 "reference": "01b1264b11f17e9877883072e8a10cb4f0eaa5e6",
                 "shasum": "7eb1db91022f208a54fada7c714ffe02becb812e"
             },
@@ -2456,12 +2456,12 @@
             "version": "2.1.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeCountries.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeCountries.git",
                 "reference": "ffee06d9413711f2749f1d8f3c587b89470bc192"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypecountries/hypejunction-hypecountries-ffee06d9413711f2749f1d8f3c587b89470bc192-zip-a0797b.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeCountries/zipball/ffee06d9413711f2749f1d8f3c587b89470bc192",
                 "reference": "ffee06d9413711f2749f1d8f3c587b89470bc192",
                 "shasum": "90140eb0a4d075a3883ecc53e3eedd7ffd2c7896"
             },
@@ -2504,12 +2504,12 @@
             "version": "3.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeDiscussions.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeDiscussions.git",
                 "reference": "2b29e0ded6f11de6ac33712fe7c9b3512844c6a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypediscussions/hypejunction-hypediscussions-2b29e0ded6f11de6ac33712fe7c9b3512844c6a3-zip-2b203c.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeDiscussions/zipball/2b29e0ded6f11de6ac33712fe7c9b3512844c6a3",
                 "reference": "2b29e0ded6f11de6ac33712fe7c9b3512844c6a3",
                 "shasum": "dc5a1228d7909ccb8b653d40c07f7300ab5f5cbb"
             },
@@ -2554,12 +2554,12 @@
             "version": "1.2.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeDownloads.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeDownloads.git",
                 "reference": "cd0091f78b450e0c71b667bd7e78270700866fcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedownloads/hypejunction-hypedownloads-cd0091f78b450e0c71b667bd7e78270700866fcf-zip-225e5f.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeDownloads/zipball/cd0091f78b450e0c71b667bd7e78270700866fcf",
                 "reference": "cd0091f78b450e0c71b667bd7e78270700866fcf",
                 "shasum": "96bffcea75e2e2eb796039d0bf976b72d5dcf544"
             },
@@ -2602,12 +2602,12 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeDraft.git",
+                "url": "https://github.com/hypeJunction/hypeDraft.git",
                 "reference": "a4f235f952d670c387cd7b3fa71165fa415d772d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedraft/hypejunction-hypedraft-a4f235f952d670c387cd7b3fa71165fa415d772d-zip-62338d.zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeDraft/zipball/a4f235f952d670c387cd7b3fa71165fa415d772d",
                 "reference": "a4f235f952d670c387cd7b3fa71165fa415d772d",
                 "shasum": "2c92e3edaa6c2956a53a32e9db9b513ae67f5567"
             },
@@ -2651,12 +2651,12 @@
             "version": "6.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeDropzone.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeDropzone.git",
                 "reference": "e23ddaff16087820c0602dde257bbfaffd4c1a2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypedropzone/hypejunction-hypedropzone-e23ddaff16087820c0602dde257bbfaffd4c1a2d-zip-22fb5d.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeDropzone/zipball/e23ddaff16087820c0602dde257bbfaffd4c1a2d",
                 "reference": "e23ddaff16087820c0602dde257bbfaffd4c1a2d",
                 "shasum": "ff0d777f468a52a09f08b6cd19b53912edafbc06"
             },
@@ -2703,12 +2703,12 @@
             "version": "3.1.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeEmbed.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeEmbed.git",
                 "reference": "59a33f604a54aded9d601837459a0f312f1711e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeembed/hypejunction-hypeembed-59a33f604a54aded9d601837459a0f312f1711e4-zip-1de9b1.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeEmbed/zipball/59a33f604a54aded9d601837459a0f312f1711e4",
                 "reference": "59a33f604a54aded9d601837459a0f312f1711e4",
                 "shasum": "37b59255b9d0e824e815f61c43704b51e50fe6bd"
             },
@@ -2755,12 +2755,12 @@
             "version": "3.0.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeGroups.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeGroups.git",
                 "reference": "fdf8ac13b289b07bd7d1d957b1de516397d46d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypegroups/hypejunction-hypegroups-fdf8ac13b289b07bd7d1d957b1de516397d46d7a-zip-114f89.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeGroups/zipball/fdf8ac13b289b07bd7d1d957b1de516397d46d7a",
                 "reference": "fdf8ac13b289b07bd7d1d957b1de516397d46d7a",
                 "shasum": "50fb41562283e8738745b9de81bad4d5070c0f97"
             },
@@ -2800,12 +2800,12 @@
             "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeHero.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeHero.git",
                 "reference": "b1021512fc8982a14c3164411736f6235f96f33f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypehero/hypejunction-hypehero-b1021512fc8982a14c3164411736f6235f96f33f-zip-f8e150.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeHero/zipball/b1021512fc8982a14c3164411736f6235f96f33f",
                 "reference": "b1021512fc8982a14c3164411736f6235f96f33f",
                 "shasum": "29d784a4a184de6ebac7351ab7766b9c943efa47"
             },
@@ -2850,12 +2850,12 @@
             "version": "2.0.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeIllustration.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeIllustration.git",
                 "reference": "7a68386f6afef45841d24a1209ac1d889e822f2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeillustration/hypejunction-hypeillustration-7a68386f6afef45841d24a1209ac1d889e822f2b-zip-fc5af1.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeIllustration/zipball/7a68386f6afef45841d24a1209ac1d889e822f2b",
                 "reference": "7a68386f6afef45841d24a1209ac1d889e822f2b",
                 "shasum": "9c70240da904b8328697983fa03f2c94b97dbb51"
             },
@@ -2902,12 +2902,12 @@
             "version": "8.0.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeInbox.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeInbox.git",
                 "reference": "d734b7700e2425d982c6871908549731903d94cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeinbox/hypejunction-hypeinbox-d734b7700e2425d982c6871908549731903d94cc-zip-663f66.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInbox/zipball/d734b7700e2425d982c6871908549731903d94cc",
                 "reference": "d734b7700e2425d982c6871908549731903d94cc",
                 "shasum": "58dc9f973c946f851cfeab121975b35a7cd4fe74"
             },
@@ -2952,12 +2952,12 @@
             "version": "6.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeInteractions.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeInteractions.git",
                 "reference": "f175f8a40fe7636723011c56b5718b8e48b531da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeinteractions/hypejunction-hypeinteractions-f175f8a40fe7636723011c56b5718b8e48b531da-zip-f543bd.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInteractions/zipball/f175f8a40fe7636723011c56b5718b8e48b531da",
                 "reference": "f175f8a40fe7636723011c56b5718b8e48b531da",
                 "shasum": "4efa48d7393f89ff0d38eb940b3be8f749bdc84a"
             },
@@ -3004,12 +3004,12 @@
             "version": "2.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeInvite.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeInvite.git",
                 "reference": "16caf9f5c65df645ee4d95533d6bf72fbb321440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeinvite/hypejunction-hypeinvite-16caf9f5c65df645ee4d95533d6bf72fbb321440-zip-6efe30.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInvite/zipball/16caf9f5c65df645ee4d95533d6bf72fbb321440",
                 "reference": "16caf9f5c65df645ee4d95533d6bf72fbb321440",
                 "shasum": "09b5b50f3cd3788935f20f646da467922058646e"
             },
@@ -3055,12 +3055,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeLanding.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeLanding.git",
                 "reference": "8f9db246a36cd6526eeb9b9716e156b32b9a3f66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypelanding/hypejunction-hypelanding-8f9db246a36cd6526eeb9b9716e156b32b9a3f66-zip-f9d28b.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeLanding/zipball/8f9db246a36cd6526eeb9b9716e156b32b9a3f66",
                 "reference": "8f9db246a36cd6526eeb9b9716e156b32b9a3f66",
                 "shasum": "654759e22cd56087327a1fc50b6d2d9898957f36"
             },
@@ -3104,12 +3104,12 @@
             "version": "5.1.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeLists.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeLists.git",
                 "reference": "621ad26979335b732a25bf199cbca41d99d10b22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypelists/hypejunction-hypelists-621ad26979335b732a25bf199cbca41d99d10b22-zip-962ac6.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeLists/zipball/621ad26979335b732a25bf199cbca41d99d10b22",
                 "reference": "621ad26979335b732a25bf199cbca41d99d10b22",
                 "shasum": "81658ae2383bd96ff2bd881a1e4fd902e72da2d5"
             },
@@ -3156,12 +3156,12 @@
             "version": "2.1.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeMapsOpen.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeMapsOpen.git",
                 "reference": "eb0724edad9fb13ca1b1f73912f46cc86797b101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypemapsopen/hypejunction-hypemapsopen-eb0724edad9fb13ca1b1f73912f46cc86797b101-zip-05d831.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMapsOpen/zipball/eb0724edad9fb13ca1b1f73912f46cc86797b101",
                 "reference": "eb0724edad9fb13ca1b1f73912f46cc86797b101",
                 "shasum": "4b60d6b1acce07b3e3974659088ab0dda7118aa2"
             },
@@ -3213,12 +3213,12 @@
             "version": "1.3.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeMedia.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeMedia.git",
                 "reference": "a8922a708226a32b6f821ba6bdf25c43abac3b87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypemedia/hypejunction-hypemedia-a8922a708226a32b6f821ba6bdf25c43abac3b87-zip-dc1b43.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMedia/zipball/a8922a708226a32b6f821ba6bdf25c43abac3b87",
                 "reference": "a8922a708226a32b6f821ba6bdf25c43abac3b87",
                 "shasum": "9b753cad73d2f05f6f0aab92147524bac868c472"
             },
@@ -3266,12 +3266,12 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeMentions.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeMentions.git",
                 "reference": "8a3c772018cb5fdf78ce8260f77139c3ec2721a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypementions/hypejunction-hypementions-8a3c772018cb5fdf78ce8260f77139c3ec2721a5-zip-31e174.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMentions/zipball/8a3c772018cb5fdf78ce8260f77139c3ec2721a5",
                 "reference": "8a3c772018cb5fdf78ce8260f77139c3ec2721a5",
                 "shasum": "d87bce5872ac3728a44803ea3d6afc4ddf6389dd"
             },
@@ -3316,12 +3316,12 @@
             "version": "1.1.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeMenus.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeMenus.git",
                 "reference": "c458121abe7df82c64d826bf2cf80179d6812165"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypemenus/hypejunction-hypemenus-c458121abe7df82c64d826bf2cf80179d6812165-zip-7fc46b.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMenus/zipball/c458121abe7df82c64d826bf2cf80179d6812165",
                 "reference": "c458121abe7df82c64d826bf2cf80179d6812165",
                 "shasum": "5b90273bcbd79fe8f408a89b4d158d8d9ac4a3a1"
             },
@@ -3364,12 +3364,12 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeModerator.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeModerator.git",
                 "reference": "a5825a8eac81477f6242dad963f25a55537d0a4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypemoderator/hypejunction-hypemoderator-a5825a8eac81477f6242dad963f25a55537d0a4f-zip-b6c6d3.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeModerator/zipball/a5825a8eac81477f6242dad963f25a55537d0a4f",
                 "reference": "a5825a8eac81477f6242dad963f25a55537d0a4f",
                 "shasum": "1a885584210e7a6b9358fd45c6e6bc8a5777cadc"
             },
@@ -3415,12 +3415,12 @@
             "version": "2.1.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeNotifications.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeNotifications.git",
                 "reference": "815cb5feca5edfc3abc95a73aedce1d5d2cd5c38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypenotifications/hypejunction-hypenotifications-815cb5feca5edfc3abc95a73aedce1d5d2cd5c38-zip-b4edbc.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeNotifications/zipball/815cb5feca5edfc3abc95a73aedce1d5d2cd5c38",
                 "reference": "815cb5feca5edfc3abc95a73aedce1d5d2cd5c38",
                 "shasum": "910a0a0655c23ebbafc73835190f093945d7be98"
             },
@@ -3472,12 +3472,12 @@
             "version": "3.2.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypePayments.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypePayments.git",
                 "reference": "8fa500615559f3a58f7a961d7ff61f8ba2a5859d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepayments/hypejunction-hypepayments-8fa500615559f3a58f7a961d7ff61f8ba2a5859d-zip-d50679.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePayments/zipball/8fa500615559f3a58f7a961d7ff61f8ba2a5859d",
                 "reference": "8fa500615559f3a58f7a961d7ff61f8ba2a5859d",
                 "shasum": "a03891869e192bbd967da145ce5a008360254382"
             },
@@ -3575,12 +3575,12 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypePaypalSubscriptions.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypePaypalSubscriptions.git",
                 "reference": "1f36dec9e689973e7e24b6d4cc8119952d303dfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepaypalsubscriptions/hypejunction-hypepaypalsubscriptions-1f36dec9e689973e7e24b6d4cc8119952d303dfe-zip-be02f1.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePaypalSubscriptions/zipball/1f36dec9e689973e7e24b6d4cc8119952d303dfe",
                 "reference": "1f36dec9e689973e7e24b6d4cc8119952d303dfe",
                 "shasum": "349ad7625c42d6ce95896efaf0d57d61c75196f0"
             },
@@ -3624,12 +3624,12 @@
             "version": "1.2.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypePaywall.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypePaywall.git",
                 "reference": "a75bef4eefece59032fbfd881e89a3352879c2f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepaywall/hypejunction-hypepaywall-a75bef4eefece59032fbfd881e89a3352879c2f4-zip-31b310.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePaywall/zipball/a75bef4eefece59032fbfd881e89a3352879c2f4",
                 "reference": "a75bef4eefece59032fbfd881e89a3352879c2f4",
                 "shasum": "21cb38e7d32c14106c321779c5c88f3bad98cda3"
             },
@@ -3674,12 +3674,12 @@
             "version": "1.9.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypePost.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypePost.git",
                 "reference": "9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepost/hypejunction-hypepost-9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29-zip-913286.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePost/zipball/9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29",
                 "reference": "9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29",
                 "shasum": "0a3f82542a470bbcef19f0da18001cdfc470195f"
             },
@@ -3724,12 +3724,12 @@
             "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypePostAdmin.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypePostAdmin.git",
                 "reference": "efd79c380215d5b5796810b6f480d915349bb846"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypepostadmin/hypejunction-hypepostadmin-efd79c380215d5b5796810b6f480d915349bb846-zip-db0b8e.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePostAdmin/zipball/efd79c380215d5b5796810b6f480d915349bb846",
                 "reference": "efd79c380215d5b5796810b6f480d915349bb846",
                 "shasum": "5790fd0df8bd12ff1e5d4d5f6d216d50fa30b312"
             },
@@ -3775,12 +3775,12 @@
             "version": "1.4.15",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeProfile.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeProfile.git",
                 "reference": "a2b00d9aaaea543009f54fd36c674d230a5794d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeprofile/hypejunction-hypeprofile-a2b00d9aaaea543009f54fd36c674d230a5794d9-zip-edffb5.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeProfile/zipball/a2b00d9aaaea543009f54fd36c674d230a5794d9",
                 "reference": "a2b00d9aaaea543009f54fd36c674d230a5794d9",
                 "shasum": "139983fb71a9b07ad7274e4b19cccfd13bd05ed3"
             },
@@ -3822,12 +3822,12 @@
             "version": "6.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeScraper.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeScraper.git",
                 "reference": "4e00d46eff44d9201c74fd1a776cb621f540a139"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypescraper/hypejunction-hypescraper-4e00d46eff44d9201c74fd1a776cb621f540a139-zip-43e991.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeScraper/zipball/4e00d46eff44d9201c74fd1a776cb621f540a139",
                 "reference": "4e00d46eff44d9201c74fd1a776cb621f540a139",
                 "shasum": "e611e09d2e1834b9b5387a94e225706523879120"
             },
@@ -3873,12 +3873,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeShortcode.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeShortcode.git",
                 "reference": "62c8ff970ec1c2ecfd37d00cf9ea297c619f2e4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeshortcode/hypejunction-hypeshortcode-62c8ff970ec1c2ecfd37d00cf9ea297c619f2e4c-zip-72cfb2.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeShortcode/zipball/62c8ff970ec1c2ecfd37d00cf9ea297c619f2e4c",
                 "reference": "62c8ff970ec1c2ecfd37d00cf9ea297c619f2e4c",
                 "shasum": "d310dd8db7d0042d0d22e5fd553675c0cf1e8178"
             },
@@ -3923,12 +3923,12 @@
             "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeShutdown.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeShutdown.git",
                 "reference": "7ecade5cec4031d94491c47afb26d475d9ac16d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeshutdown/hypejunction-hypeshutdown-7ecade5cec4031d94491c47afb26d475d9ac16d8-zip-d3b9de.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeShutdown/zipball/7ecade5cec4031d94491c47afb26d475d9ac16d8",
                 "reference": "7ecade5cec4031d94491c47afb26d475d9ac16d8",
                 "shasum": "60b467160225274c4136eb17a493a25d64d154c9"
             },
@@ -3972,12 +3972,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeSlider.git",
+                "url": "https://github.com/hypeJunction/hypeSlider.git",
                 "reference": "d55677fb58fa81e8397f5b85e2cdf4fc5630015d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeslider/hypejunction-hypeslider-d55677fb58fa81e8397f5b85e2cdf4fc5630015d-zip-24cb3e.zip",
+                "url": "https://api.github.com/repos/hypeJunction/hypeSlider/zipball/d55677fb58fa81e8397f5b85e2cdf4fc5630015d",
                 "reference": "d55677fb58fa81e8397f5b85e2cdf4fc5630015d",
                 "shasum": "7ca27b88e4e1f61184c884c32f71b9136128e2a1"
             },
@@ -4021,12 +4021,12 @@
             "version": "1.1.7",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeSlug.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeSlug.git",
                 "reference": "fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypeslug/hypejunction-hypeslug-fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28-zip-f29f9b.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeSlug/zipball/fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28",
                 "reference": "fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28",
                 "shasum": "822d403cc5e7cc223af1e4fe20bd3b85411b47ca"
             },
@@ -4070,12 +4070,12 @@
             "version": "1.0.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeStash.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeStash.git",
                 "reference": "8a4667dbceb987b3d698997ea8162cd765dff57f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypestash/hypejunction-hypestash-8a4667dbceb987b3d698997ea8162cd765dff57f-zip-034807.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeStash/zipball/8a4667dbceb987b3d698997ea8162cd765dff57f",
                 "reference": "8a4667dbceb987b3d698997ea8162cd765dff57f",
                 "shasum": "f488fef819aa768df316c06e3b503e3377873562"
             },
@@ -4118,12 +4118,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeStaticPages.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeStaticPages.git",
                 "reference": "5191392911d1d473e9634001d381d02d7a29c6dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypestaticpages/hypejunction-hypestaticpages-5191392911d1d473e9634001d381d02d7a29c6dc-zip-7897f2.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeStaticPages/zipball/5191392911d1d473e9634001d381d02d7a29c6dc",
                 "reference": "5191392911d1d473e9634001d381d02d7a29c6dc",
                 "shasum": "93144643e893a3627d8fcbff1292d7c66e488bc0"
             },
@@ -4171,12 +4171,12 @@
             "version": "1.3.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeStripePayments.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeStripePayments.git",
                 "reference": "d2e00ce3f0ff162250672ec3d92ddc5ab8e4b55f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypestripepayments/hypejunction-hypestripepayments-d2e00ce3f0ff162250672ec3d92ddc5ab8e4b55f-zip-b0ccf7.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeStripePayments/zipball/d2e00ce3f0ff162250672ec3d92ddc5ab8e4b55f",
                 "reference": "d2e00ce3f0ff162250672ec3d92ddc5ab8e4b55f",
                 "shasum": "4e4360fe986ebc5ef8516e310f37eac5c4b9248f"
             },
@@ -4222,12 +4222,12 @@
             "version": "1.1.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeStripeSubscriptions.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeStripeSubscriptions.git",
                 "reference": "519d9fe4899f45e39f795dd749933826b2f328ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypestripesubscriptions/hypejunction-hypestripesubscriptions-519d9fe4899f45e39f795dd749933826b2f328ff-zip-a07611.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeStripeSubscriptions/zipball/519d9fe4899f45e39f795dd749933826b2f328ff",
                 "reference": "519d9fe4899f45e39f795dd749933826b2f328ff",
                 "shasum": "9fc5640fbf0887a233363f6e3bb97d889c260217"
             },
@@ -4271,12 +4271,12 @@
             "version": "1.2.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeSubscriptions.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeSubscriptions.git",
                 "reference": "7de79eabff568f44c83455bf8c1936296dc727d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypesubscriptions/hypejunction-hypesubscriptions-7de79eabff568f44c83455bf8c1936296dc727d0-zip-ca049e.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeSubscriptions/zipball/7de79eabff568f44c83455bf8c1936296dc727d0",
                 "reference": "7de79eabff568f44c83455bf8c1936296dc727d0",
                 "shasum": "808405584e983fa9786059dd51dd19180022d26f"
             },
@@ -4319,12 +4319,12 @@
             "version": "1.1.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeTheme.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeTheme.git",
                 "reference": "64fdffe023df801625bd1b1d7cece72eb6732eb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetheme/hypejunction-hypetheme-64fdffe023df801625bd1b1d7cece72eb6732eb9-zip-0c6ae1.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTheme/zipball/64fdffe023df801625bd1b1d7cece72eb6732eb9",
                 "reference": "64fdffe023df801625bd1b1d7cece72eb6732eb9",
                 "shasum": "66b75d72fb71859cb756f3038536b3e839122970"
             },
@@ -4367,12 +4367,12 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeTime.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeTime.git",
                 "reference": "e2e3db9848b4211929552e56b4472e77b5719839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetime/hypejunction-hypetime-e2e3db9848b4211929552e56b4472e77b5719839-zip-9f781a.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTime/zipball/e2e3db9848b4211929552e56b4472e77b5719839",
                 "reference": "e2e3db9848b4211929552e56b4472e77b5719839",
                 "shasum": "7ea665f04500312ce1bfbb69d727a960dec511fe"
             },
@@ -4417,12 +4417,12 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeTrees.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeTrees.git",
                 "reference": "537773a367fa96c8314028c0712935eda3f965df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetrees/hypejunction-hypetrees-537773a367fa96c8314028c0712935eda3f965df-zip-c638a4.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTrees/zipball/537773a367fa96c8314028c0712935eda3f965df",
                 "reference": "537773a367fa96c8314028c0712935eda3f965df",
                 "shasum": "194262e9612173b718a7ea1a160f9ec41db67326"
             },
@@ -4462,12 +4462,12 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeTwig.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeTwig.git",
                 "reference": "6f8ed65d2feff6e6f7e959af2b3aa806a665b677"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypetwig/hypejunction-hypetwig-6f8ed65d2feff6e6f7e959af2b3aa806a665b677-zip-870d7f.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTwig/zipball/6f8ed65d2feff6e6f7e959af2b3aa806a665b677",
                 "reference": "6f8ed65d2feff6e6f7e959af2b3aa806a665b677",
                 "shasum": "8ab2c90b46b9be7b34ece7b36fdfb675b0660b72"
             },
@@ -4513,12 +4513,12 @@
             "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeVue.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeVue.git",
                 "reference": "9606d69db510f571a22b4d447d5d51ba435fae7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypevue/hypejunction-hypevue-9606d69db510f571a22b4d447d5d51ba435fae7e-zip-7cb146.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeVue/zipball/9606d69db510f571a22b4d447d5d51ba435fae7e",
                 "reference": "9606d69db510f571a22b4d447d5d51ba435fae7e",
                 "shasum": "50ad0668b2ce422adde4f7ef425d3f6868e0fa85"
             },
@@ -4562,12 +4562,12 @@
             "version": "6.2.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:hypeJunction/Elgg3-hypeWall.git",
+                "url": "https://github.com/hypeJunction/Elgg3-hypeWall.git",
                 "reference": "023c15699f8719a532929c7521eb47bee60fa61e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://hypejunction.com/satis/packages/hypejunction/hypewall/hypejunction-hypewall-023c15699f8719a532929c7521eb47bee60fa61e-zip-7454ca.zip",
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeWall/zipball/023c15699f8719a532929c7521eb47bee60fa61e",
                 "reference": "023c15699f8719a532929c7521eb47bee60fa61e",
                 "shasum": "e24099fb33bcd6066f9e9a27f252e9e9b73e4be8"
             },
@@ -4711,16 +4711,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.53",
+            "version": "1.0.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "08e12b7628f035600634a5e76d95b5eb66cea674"
+                "reference": "33c91155537c6dc899eacdc54a13ac6303f156e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/08e12b7628f035600634a5e76d95b5eb66cea674",
-                "reference": "08e12b7628f035600634a5e76d95b5eb66cea674",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/33c91155537c6dc899eacdc54a13ac6303f156e6",
+                "reference": "33c91155537c6dc899eacdc54a13ac6303f156e6",
                 "shasum": ""
             },
             "require": {
@@ -4791,7 +4791,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-06-18T20:09:29+00:00"
+            "time": "2019-08-24T11:17:19+00:00"
         },
         {
             "name": "league/flysystem-memory",
@@ -5138,16 +5138,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.24.0",
+            "version": "1.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266"
+                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
-                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
                 "shasum": ""
             },
             "require": {
@@ -5212,7 +5212,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2018-11-05T09:00:11+00:00"
+            "time": "2019-09-06T13:49:17+00:00"
         },
         {
             "name": "mrclay/minify",
@@ -5806,16 +5806,16 @@
         },
         {
             "name": "php-di/phpdoc-reader",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PhpDocReader.git",
-                "reference": "7d0de60b9341933c8afd172a6255cd7557601e0e"
+                "reference": "15678f7451c020226807f520efb867ad26fbbfcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/PhpDocReader/zipball/7d0de60b9341933c8afd172a6255cd7557601e0e",
-                "reference": "7d0de60b9341933c8afd172a6255cd7557601e0e",
+                "url": "https://api.github.com/repos/PHP-DI/PhpDocReader/zipball/15678f7451c020226807f520efb867ad26fbbfcf",
+                "reference": "15678f7451c020226807f520efb867ad26fbbfcf",
                 "shasum": ""
             },
             "require": {
@@ -5839,7 +5839,7 @@
                 "phpdoc",
                 "reflection"
             ],
-            "time": "2018-02-18T17:39:01+00:00"
+            "time": "2019-09-26T11:24:58+00:00"
         },
         {
             "name": "php-extended/php-emoji-cheat-sheet",
@@ -6697,12 +6697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ea693fa060702164985511acc3ceb5389c9ac761"
+                "reference": "3a9ab646603efdccb4f7c4acbb3b36974ef257d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ea693fa060702164985511acc3ceb5389c9ac761",
-                "reference": "ea693fa060702164985511acc3ceb5389c9ac761",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3a9ab646603efdccb4f7c4acbb3b36974ef257d8",
+                "reference": "3a9ab646603efdccb4f7c4acbb3b36974ef257d8",
                 "shasum": ""
             },
             "conflict": {
@@ -6726,6 +6726,7 @@
                 "contao/core-bundle": ">=4,<4.4.39|>=4.5,<4.7.5",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "contao/newsletter-bundle": ">=4,<4.1",
+                "datadog/dd-trace": ">=0.30,<0.30.2",
                 "david-garcia/phpwhois": "<=4.3.1",
                 "doctrine/annotations": ">=1,<1.2.7",
                 "doctrine/cache": ">=1,<1.3.2|>=1.4,<1.4.2",
@@ -6813,6 +6814,7 @@
                 "spoonity/tcpdf": "<6.2.22",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1|>=3,<3.0.1",
                 "stormpath/sdk": ">=0,<9.9.99",
+                "studio-42/elfinder": "<2.1.48",
                 "swiftmailer/swiftmailer": ">=4,<5.4.5",
                 "sylius/admin-bundle": ">=1,<1.0.17|>=1.1,<1.1.9|>=1.2,<1.2.2",
                 "sylius/grid": ">=1,<1.1.19|>=1.2,<1.2.18|>=1.3,<1.3.13|>=1.4,<1.4.5|>=1.5,<1.5.1",
@@ -6904,7 +6906,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-07-18T15:17:58+00:00"
+            "time": "2019-09-26T17:56:56+00:00"
         },
         {
             "name": "robmorgan/phinx",
@@ -7122,16 +7124,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.43.0",
+            "version": "v6.43.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "c06eb0da0e73750cab75948dd9ca4a15cf829e68"
+                "reference": "42fcdaf99c44bb26937223f8eae1f263491d5ab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/c06eb0da0e73750cab75948dd9ca4a15cf829e68",
-                "reference": "c06eb0da0e73750cab75948dd9ca4a15cf829e68",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/42fcdaf99c44bb26937223f8eae1f263491d5ab8",
+                "reference": "42fcdaf99c44bb26937223f8eae1f263491d5ab8",
                 "shasum": ""
             },
             "require": {
@@ -7174,7 +7176,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-08-09T20:54:08+00:00"
+            "time": "2019-08-29T16:56:12+00:00"
         },
         {
             "name": "symfony/config",
@@ -8238,16 +8240,16 @@
         },
         {
             "name": "unsplash/unsplash",
-            "version": "2.4.4",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/unsplash/unsplash-php.git",
-                "reference": "af907f6192bfd4be9e9814a1242942442604c4de"
+                "reference": "edcef04f1803448e65c7111e89f6ad65c8cecb99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unsplash/unsplash-php/zipball/af907f6192bfd4be9e9814a1242942442604c4de",
-                "reference": "af907f6192bfd4be9e9814a1242942442604c4de",
+                "url": "https://api.github.com/repos/unsplash/unsplash-php/zipball/edcef04f1803448e65c7111e89f6ad65c8cecb99",
+                "reference": "edcef04f1803448e65c7111e89f6ad65c8cecb99",
                 "shasum": ""
             },
             "require": {
@@ -8276,24 +8278,24 @@
             ],
             "authors": [
                 {
-                    "name": "Charles Lalonde",
-                    "email": "charles@pickcrew.com"
-                },
-                {
-                    "name": "Hugh Downer",
-                    "email": "hugh.downer@gmail.com"
-                },
-                {
                     "name": "Aaron Klaassen",
                     "email": "aaron@unsplash.com"
                 },
                 {
                     "name": "Luke Chesser",
                     "email": "luke@unsplash.com"
+                },
+                {
+                    "name": "Charles Lalonde",
+                    "email": "charles@pickcrew.com"
+                },
+                {
+                    "name": "Hugh Downer",
+                    "email": "hugh.downer@gmail.com"
                 }
             ],
             "description": "Wrapper to access the Unsplash API and photo library",
-            "time": "2019-02-05T18:27:04+00:00"
+            "time": "2019-08-14T20:44:07+00:00"
         },
         {
             "name": "vanilla/htmlawed",
@@ -8336,16 +8338,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
-                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
                 "shasum": ""
             },
             "require": {
@@ -8353,8 +8355,7 @@
                 "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.6",
-                "sebastian/version": "^1.0.1"
+                "phpunit/phpunit": "^4.8.36 || ^7.5.13"
             },
             "type": "library",
             "extra": {
@@ -8383,20 +8384,20 @@
                 "check",
                 "validate"
             ],
-            "time": "2018-12-25T11:19:39+00:00"
+            "time": "2019-08-24T08:43:50+00:00"
         },
         {
             "name": "zendframework/zend-loader",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-loader.git",
-                "reference": "78f11749ea340f6ca316bca5958eef80b38f9b6c"
+                "reference": "91da574d29b58547385b2298c020b257310898c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/78f11749ea340f6ca316bca5958eef80b38f9b6c",
-                "reference": "78f11749ea340f6ca316bca5958eef80b38f9b6c",
+                "url": "https://api.github.com/repos/zendframework/zend-loader/zipball/91da574d29b58547385b2298c020b257310898c6",
+                "reference": "91da574d29b58547385b2298c020b257310898c6",
                 "shasum": ""
             },
             "require": {
@@ -8428,7 +8429,7 @@
                 "loader",
                 "zf"
             ],
-            "time": "2018-04-30T15:20:54+00:00"
+            "time": "2019-09-04T19:38:14+00:00"
         },
         {
             "name": "zendframework/zend-mail",
@@ -8973,26 +8974,26 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c"
+                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c",
-                "reference": "bdd9f737ebc2a01c06ea7ff4308ec6697db9b53c",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
+                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
-                "phpdocumentor/reflection-common": "^1.0.0",
-                "phpdocumentor/type-resolver": "^0.4.0",
+                "phpdocumentor/reflection-common": "^1.0.0 || ^2.0.0",
+                "phpdocumentor/type-resolver": "~0.4 || ^1.0.0",
                 "webmozart/assert": "^1.0"
             },
             "require-dev": {
-                "doctrine/instantiator": "~1.0.5",
+                "doctrine/instantiator": "^1.0.5",
                 "mockery/mockery": "^1.0",
                 "phpunit/phpunit": "^6.4"
             },
@@ -9020,29 +9021,29 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2019-04-30T17:48:53+00:00"
+            "time": "2019-09-12T14:27:41+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "0.4.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7"
+                "reference": "cf842904952e64e703800d094cdf34e715a8a3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
-                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/cf842904952e64e703800d094cdf34e715a8a3ae",
+                "reference": "cf842904952e64e703800d094cdf34e715a8a3ae",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
+                "php": "^7.0",
                 "phpdocumentor/reflection-common": "^1.0"
             },
             "require-dev": {
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^5.2||^4.8.24"
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.4"
             },
             "type": "library",
             "extra": {
@@ -9052,9 +9053,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "phpDocumentor\\Reflection\\": [
-                        "src/"
-                    ]
+                    "phpDocumentor\\Reflection\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9067,7 +9066,7 @@
                     "email": "me@mikevanriel.com"
                 }
             ],
-            "time": "2017-07-14T14:27:02+00:00"
+            "time": "2017-12-30T13:23:38+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -9738,16 +9737,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687"
+                "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/06a9a5947f47b3029d76118eb5c22802e5869687",
-                "reference": "06a9a5947f47b3029d76118eb5c22802e5869687",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/68609e1261d215ea5b21b7987539cbfbe156ec3e",
+                "reference": "68609e1261d215ea5b21b7987539cbfbe156ec3e",
                 "shasum": ""
             },
             "require": {
@@ -9801,7 +9800,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2019-08-11T12:43:14+00:00"
+            "time": "2019-09-14T09:02:43+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -10130,7 +10129,9 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.0"
