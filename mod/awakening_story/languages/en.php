@@ -11,4 +11,6 @@ return [
 	'awakening:season:fall' => 'Fall',
 
 	'field:awakening_story' => 'Awakening Story',
+
+	'awakening:story:no_results' => 'No stories were added yet',
 ];

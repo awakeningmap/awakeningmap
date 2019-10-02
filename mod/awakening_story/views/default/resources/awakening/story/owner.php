@@ -13,7 +13,7 @@ elgg_push_breadcrumb($title);
 $layout = elgg_view_layout('default', [
 	'title' => $title,
 	'content' => elgg_view('awakening/story', [
-		'entity' => $entity,
+		'entity' => $user,
 	]),
 ]);
 
