@@ -22,6 +22,10 @@ class SaveNowEvent {
 			$is_new = true;
 
 			$container_guid = $request->getParam('container_guid');
+			if (!$container_guid) {
+				$container_guid = elgg_get_logged_in_user_guid();
+			}
+
 			$container = get_entity($container_guid);
 
 			if (!$container || !$container->canWriteToContainer(0, 'object', NowEvent::SUBTYPE)) {

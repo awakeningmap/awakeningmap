@@ -24,6 +24,10 @@ return [
 			'access' => 'logged_in',
 			'controller' => \Awakenings\Now\LeaveNowEvent::class,
 		],
+		'now/set_energy' => [
+			'access' => 'logged_in',
+			'controller' => \Awakenings\Now\SetNowEnergy::class,
+		],
 	],
 
 	'routes' => [

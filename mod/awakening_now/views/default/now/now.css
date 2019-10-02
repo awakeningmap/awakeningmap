@@ -1,0 +1,28 @@
+.now-energy-item img {
+	height: 24px;
+	display: inline-block;
+	margin: 1px;
+}
+
+.now-energy-item {
+	border: 2px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.now-energy-item.elgg-state-selected {
+	border-color: #1f5885;
+}
+
+.now-energy-item:hover {
+	border-color: #1f588578;
+}
+
+.now-energy {
+	display: inline-flex;
+	align-items: center;
+}
+
+.elgg-menu-item-energy img {
+	max-height: 24px;
+}

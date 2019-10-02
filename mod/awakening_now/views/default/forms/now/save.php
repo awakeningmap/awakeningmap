@@ -3,7 +3,7 @@
 echo elgg_view_field([
 	'#type' => 'text',
 	'#label' => elgg_echo('now:title'),
-	'#help' => elgg_echo('now:help'),
+	'#help' => elgg_echo('now:title:help'),
 	'name' => 'title',
 	'value' => $entity->title,
 	'required' => true,
@@ -43,7 +43,7 @@ echo elgg_view_field([
 echo elgg_view_field([
 	'#type' => 'hidden',
 	'name' => 'container_guid',
-	'value' => $entity->container_guid,
+	'value' => $entity->container_guid ? : elgg_get_logged_in_user_guid(),
 ]);
 
 $footer = elgg_view_field([

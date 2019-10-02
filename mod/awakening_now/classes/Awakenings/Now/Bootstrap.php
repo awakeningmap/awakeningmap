@@ -53,10 +53,15 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_plugin_hook_handler('get', 'subscriptions', NowEventSubscribers::class);
 
 		elgg_register_plugin_hook_handler('register', 'menu:entity', NowEventMenu::class);
+		elgg_register_plugin_hook_handler('register', 'menu:social', NowEventSocialMenu::class);
 		elgg_register_plugin_hook_handler('register', 'menu:river', NowRiverEventMenu::class);
 		elgg_register_plugin_hook_handler('register', 'menu:title', NowTitleEventMenu::class);
 
 		elgg_register_plugin_hook_handler('cron', 'halfhour', DisableExpiredEvents::class, 300);
+
+		elgg_extend_view('elgg.css', 'now/now.css');
+
+		elgg_register_ajax_view('now/now');
 	}
 
 	/**

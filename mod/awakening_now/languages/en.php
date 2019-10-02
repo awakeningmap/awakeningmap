@@ -10,6 +10,8 @@ return [
 	'now:duration' => 'Duration',
 	'now:duration:help' => 'Please provide a duration of this activity in hours',
 
+	'now:add' => 'Add Activity',
+
 	'now:save:success' => 'Activity has been saved',
 	'now:save:error' => 'Activity could not be saved',
 
@@ -53,4 +55,6 @@ return [
 	'now:map' => 'Location',
 	'now:participants' => 'People who have joined',
 	'now:participants:no_results' => 'Noone else has joined this activity yet',
+
+	'now:no_results' => 'There are currently no ongoing activities',
 ];
