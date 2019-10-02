@@ -2752,17 +2752,17 @@
         },
         {
             "name": "hypejunction/hypegroups",
-            "version": "3.0.4",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg3-hypeGroups.git",
-                "reference": "fdf8ac13b289b07bd7d1d957b1de516397d46d7a"
+                "reference": "504ea544740d27ccf7afdd5d930fc6375bd93152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeGroups/zipball/fdf8ac13b289b07bd7d1d957b1de516397d46d7a",
-                "reference": "fdf8ac13b289b07bd7d1d957b1de516397d46d7a",
-                "shasum": "50fb41562283e8738745b9de81bad4d5070c0f97"
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeGroups/zipball/504ea544740d27ccf7afdd5d930fc6375bd93152",
+                "reference": "504ea544740d27ccf7afdd5d930fc6375bd93152",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2772,6 +2772,7 @@
             "extra": {
                 "installer-name": "hypeGroups"
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -2789,11 +2790,7 @@
                 "plugin",
                 "subtypes"
             ],
-            "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeGroups/tree/3.0.4",
-                "issues": "https://github.com/hypeJunction/Elgg3-hypeGroups/issues"
-            },
-            "time": "2019-06-25T13:45:18+00:00"
+            "time": "2019-10-02T14:32:07+00:00"
         },
         {
             "name": "hypejunction/hypehero",
@@ -2899,17 +2896,17 @@
         },
         {
             "name": "hypejunction/hypeinbox",
-            "version": "8.0.1",
+            "version": "8.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hypeJunction/Elgg3-hypeInbox.git",
-                "reference": "d734b7700e2425d982c6871908549731903d94cc"
+                "reference": "9c6bac47261df79f60a7fe9d9a784251b0fc5bb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInbox/zipball/d734b7700e2425d982c6871908549731903d94cc",
-                "reference": "d734b7700e2425d982c6871908549731903d94cc",
-                "shasum": "58dc9f973c946f851cfeab121975b35a7cd4fe74"
+                "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInbox/zipball/9c6bac47261df79f60a7fe9d9a784251b0fc5bb6",
+                "reference": "9c6bac47261df79f60a7fe9d9a784251b0fc5bb6",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2924,6 +2921,7 @@
                     "": "classes/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -2941,11 +2939,7 @@
                 "messages",
                 "plugin"
             ],
-            "support": {
-                "source": "https://github.com/hypeJunction/Elgg3-hypeInbox/tree/8.0.1",
-                "issues": "https://github.com/hypeJunction/Elgg3-hypeInbox/issues"
-            },
-            "time": "2019-08-15T13:01:39+00:00"
+            "time": "2019-10-02T13:54:35+00:00"
         },
         {
             "name": "hypejunction/hypeinteractions",
