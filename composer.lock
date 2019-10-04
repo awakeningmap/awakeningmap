@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "943589271a7d13a70764bf77c6f61528",
+    "content-hash": "31663b3da624f55e259cbf49636038a3",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
@@ -62,7 +62,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
-                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0"
+                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -77,7 +78,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/07a680b2349cfa7c7f2b05c979295447f04ef426",
-                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
+                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.1",
@@ -99,7 +101,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -114,7 +117,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/c0185ab7c75aab88762c5aae780b9d83b80eda72",
-                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
+                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -132,7 +136,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jackmoore/colorbox/zipball/bac78120c6ca9e63370cc317ab6f400129cd6608",
-                "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
+                "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.3.2"
@@ -150,7 +155,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery-form/form/zipball/6bf24a5f6d8be65f4e5491863180c09356d9dadd",
-                "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
+                "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.5"
@@ -168,7 +174,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jzaefferer/jquery-treeview/zipball/ea4fd39fe7bf25db75cdb6edeb73e502d9804924",
-                "reference": "ea4fd39fe7bf25db75cdb6edeb73e502d9804924"
+                "reference": "ea4fd39fe7bf25db75cdb6edeb73e502d9804924",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -186,7 +193,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.6"
@@ -204,7 +212,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ehynds/jquery-ui-multiselect-widget/zipball/c7fbab3530ff3a441ec22dd5b732e1b2c08a66be",
-                "reference": "c7fbab3530ff3a441ec22dd5b732e1b2c08a66be"
+                "reference": "c7fbab3530ff3a441ec22dd5b732e1b2c08a66be",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -219,7 +228,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/wong2/imgareaselect/zipball/446c7ff9efd10bfee2e673c19ca4d8759087dab4",
-                "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4"
+                "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -234,7 +244,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/moment/moment/zipball/96d0d6791ab495859d09a868803d31a55c917de1",
-                "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
+                "reference": "96d0d6791ab495859d09a868803d31a55c917de1",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -252,7 +263,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/necolas/normalize.css/zipball/fc091cce1534909334c1911709a39c22d406977b",
-                "reference": "fc091cce1534909334c1911709a39c22d406977b"
+                "reference": "fc091cce1534909334c1911709a39c22d406977b",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -267,7 +279,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/guillaumepotier/Parsley.js/zipball/fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5",
-                "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5"
+                "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">1.8"
@@ -288,7 +301,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jrburke/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
-                "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
+                "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -306,7 +320,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/select2/select2/zipball/c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
-                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657"
+                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -324,7 +339,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -345,7 +361,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/alexei/sprintf.js/zipball/747b806c2dab5b64d5c9958c42884946a187c3b1",
-                "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1"
+                "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -363,7 +380,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/requirejs/text/zipball/3f9d4c19b3a1a3c6f35650c5788cbea1db93197a",
-                "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a"
+                "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a",
+                "shasum": null
             },
             "type": "bower-asset",
             "license": [
@@ -381,7 +399,8 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/dropbox/zxcvbn/zipball/f0735425180b130d6c57efbc044a47c0c8f1fd65",
-                "reference": "f0735425180b130d6c57efbc044a47c0c8f1fd65"
+                "reference": "f0735425180b130d6c57efbc044a47c0c8f1fd65",
+                "shasum": null
             },
             "type": "bower-asset"
         },
@@ -524,6 +543,44 @@
                 "stream_filter_register"
             ],
             "time": "2019-04-09T12:31:48+00:00"
+        },
+        {
+            "name": "coldtrick/ckeditor_extended",
+            "version": "v4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/ckeditor_extended.git",
+                "reference": "bd84502a5018d35d6eafa4846a912d6f091d8a33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/ckeditor_extended/zipball/bd84502a5018d35d6eafa4846a912d6f091d8a33",
+                "reference": "bd84502a5018d35d6eafa4846a912d6f091d8a33",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "offers you the ability to change the configuration of the editor",
+            "keywords": [
+                "CKEditor",
+                "elgg",
+                "plugin",
+                "wysiwyg"
+            ],
+            "time": "2019-09-18T11:58:30+00:00"
         },
         {
             "name": "coldtrick/event_manager",
@@ -5302,7 +5359,9 @@
             "version": "1.5.4",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/at.js/-/at.js-1.5.4.tgz"
+                "url": "https://registry.npmjs.org/at.js/-/at.js-1.5.4.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5314,7 +5373,9 @@
             "version": "5.5.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.5.1.tgz"
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.5.1.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5326,7 +5387,9 @@
             "version": "3.0.15",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-3.0.15.tgz"
+                "url": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-3.0.15.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5338,7 +5401,9 @@
             "version": "0.3.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery.caret/-/jquery.caret-0.3.1.tgz"
+                "url": "https://registry.npmjs.org/jquery.caret/-/jquery.caret-0.3.1.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5350,7 +5415,9 @@
             "version": "1.5.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.5.1.tgz"
+                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.5.1.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5362,7 +5429,9 @@
             "version": "2.0.5",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet.awesome-markers/-/leaflet.awesome-markers-2.0.5.tgz"
+                "url": "https://registry.npmjs.org/leaflet.awesome-markers/-/leaflet.awesome-markers-2.0.5.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5374,7 +5443,9 @@
             "version": "1.4.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet.markercluster/-/leaflet.markercluster-1.4.1.tgz"
+                "url": "https://registry.npmjs.org/leaflet.markercluster/-/leaflet.markercluster-1.4.1.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5386,7 +5457,9 @@
             "version": "1.2.6",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.6.tgz"
+                "url": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.6.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [
@@ -5398,7 +5471,9 @@
             "version": "2.0.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz"
+                "url": "https://registry.npmjs.org/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz",
+                "reference": null,
+                "shasum": null
             },
             "type": "npm-asset",
             "license": [

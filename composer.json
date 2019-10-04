@@ -69,7 +69,8 @@
         "coldtrick/widget_manager": "^9.0",
         "hypejunction/hypepostadmin": "^1.0",
         "hypejunction/hypeinbox": "^8.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "coldtrick/ckeditor_extended": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.4"
