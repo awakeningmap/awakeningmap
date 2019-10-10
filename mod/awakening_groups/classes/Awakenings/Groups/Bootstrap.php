@@ -150,6 +150,7 @@ class Bootstrap extends PluginBootstrap {
 		}
 
 		elgg_register_plugin_hook_handler('fields', "group:topic", SetupTopicFields::class);
+		elgg_register_plugin_hook_handler('modules', 'group', SetupGroupModules::class);
 	}
 
 	/**
