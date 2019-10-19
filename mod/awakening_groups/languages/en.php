@@ -250,6 +250,7 @@ relative to the entity\'s filestore directory. This upgrade aligns will align to
 	'countries:invite:subject' => '%s you have been invited to join %s!',
 	'countries:joinrequest:remove:check' => 'Are you sure you want to remove this join request?',
 	'countries:invite:remove:check' => 'Are you sure you want to remove this invitation?',
+	'countries:tool:wall' => 'Activity',
 	'countries:invite:body' => 'Hi %s,
 
 %s invited you to join the \'%s\' country.
@@ -393,6 +394,12 @@ relative to the entity\'s filestore directory. This upgrade aligns will align co
 	'regions:useralreadyinvited' => 'User has already been invited',
 	'regions:invite:subject' => '%s you have been invited to join %s!',
 	'regions:joinrequest:remove:check' => 'Are you sure you want to remove this join request?',
+	'regions:tool:media' => 'Enable group media albums',
+	'regions:tool:admin_only_discussions' => 'Admin-only discussions',
+	'regions:tool:event_manager' => 'Group events',
+	'regions:tool:invites' => "Group invitations",
+	'regions:tool:wall' => 'Group Activity',
+	'regions:tool:pages' => 'Group Pages',
 	'regions:invite:remove:check' => 'Are you sure you want to remove this invitation?',
 	'regions:invite:body' => 'Hi %s,
 
