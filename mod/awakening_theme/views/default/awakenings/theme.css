@@ -7,6 +7,16 @@
 	line-height: 3rem;
 }
 
+@media screen and (max-width: 600px) {
+	.elgg-nav-logo h1 {
+		font-size: 1.5rem;
+	}
+}
+
+.elgg-nav-logo {
+	max-width: none;
+}
+
 .elgg-page-topbar .elgg-menu:not(.elgg-child-menu) > li > a {
 	line-height: normal;
 	border-radius: $(border-radius);
