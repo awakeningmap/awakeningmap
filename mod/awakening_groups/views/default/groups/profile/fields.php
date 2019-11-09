@@ -27,6 +27,19 @@ foreach ($fields as $field) {
 	$output .= $field->output($entity);
 }
 
+if (!$entity->isMember()) {
+	$count = $entity->getMembers(['count' => true]);
+	$members = 'members';
+	if ($count === 1) {
+		$members = 'member';
+	}
+
+	$output .= '<div class="post-field-output">';
+	$output .= '<div class="post-field-label">Membership</div>';
+	$output .= '<div class="post-field-value">' . $count . ' ' . $members . '</div>';
+	$output .= '</div>';
+}
+
 if (empty($output)) {
 	if ($entity->canEdit()) {
 		$edit = elgg_view('output/url', [

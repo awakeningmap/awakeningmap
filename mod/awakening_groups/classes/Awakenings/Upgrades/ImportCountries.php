@@ -14,7 +14,7 @@ class ImportCountries implements AsynchronousUpgrade {
 	 * @see \Elgg\Upgrade\Batch::getVersion()
 	 */
 	public function getVersion() {
-		return 2019052900;
+		return 2019110900;
 	}
 
 	/**
