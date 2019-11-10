@@ -1,6 +1,6 @@
 <?php
 
-namespace Awakenings\DefaultAlbums;
+namespace Awakenings\Media;
 
 use Elgg\HooksRegistrationService\Event;
 
