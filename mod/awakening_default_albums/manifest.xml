@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+
+    <name>Awakening Default Albums</name>
+    <id>awakening_default_albums</id>
+    <description>Awakening default albums for new users</description>
+    <version type="dist">1.0.0</version>
+
+    <category>groups</category>
+
+    <author>Matt Beckett (matt@mattbeckett.me)</author>
+    <website>http://mattbeckett.me</website>
+    <copyright>2019 (c) Matt Beckett</copyright>
+    <license>GPLV2</license>
+
+    <requires>
+        <type>elgg_release</type>
+        <version>3.0</version>
+    </requires>
+
+    <requires>
+        <type>plugin</type>
+        <name>hypeMedia</name>
+    </requires>
+</plugin_manifest>
