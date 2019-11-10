@@ -37,6 +37,16 @@ class Bootstrap extends PluginBootstrap {
 	 */
 	public function init() {
 		elgg_register_event_handler('create', 'user', CreateUserEvent::class);
+
+		elgg_register_plugin_hook_handler('register', 'menu:site', function($h, $t, $r, $p) {
+			foreach ($r as $k => $item) {
+				if ($item->getName() === 'file') {
+					unset($r[$k]);
+				}
+			}
+
+			return array_values($r);
+		});
 	}
 
 	/**
