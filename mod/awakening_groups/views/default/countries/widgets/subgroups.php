@@ -12,6 +12,12 @@ $list = elgg_list_entities([
 	'no_results' => elgg_echo('collection:group:region:no_results'),
 ]);
 
+$count = elgg_get_entities([
+	'types' => 'group',
+	'container_guids' => $entity->guid,
+	'count' => true
+]);
+
 $items = [];
 
 if ($entity->canWriteToContainer(0, 'group', 'region')) {
@@ -29,7 +35,11 @@ $menu = elgg_view_menu('country', [
 	'items' => $items,
 ]);
 
-echo elgg_view_module('info', elgg_echo('collection:group:region'), $list, [
+$groups_count = elgg_format_element('span', [
+	'class' => 'elgg-badge elgg-state-info'
+], $count);
+
+echo elgg_view_module('info', elgg_echo('collection:group:region') . $groups_count, $list, [
 	'menu' => $menu,
 	'class' => 'awakening-subgroups-module elgg-module-group',
 ]);
