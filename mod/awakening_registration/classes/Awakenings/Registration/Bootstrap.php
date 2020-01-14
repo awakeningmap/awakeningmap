@@ -44,6 +44,7 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_ajax_view('awakening/registration/step3');
 		elgg_register_ajax_view('awakening/registration/step4');
 		elgg_register_ajax_view('awakening/registration/step5');
+		elgg_register_ajax_view('awakening/registration/step6');
 
 		elgg_register_plugin_hook_handler('register', 'menu:page', [Menu::class, 'pageMenu']);
 	}

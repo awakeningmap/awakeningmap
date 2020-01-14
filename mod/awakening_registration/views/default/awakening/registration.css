@@ -1,3 +1,23 @@
 .awakening-registration .step button{
     margin-bottom: 4px;
 }
+
+.awakening-registration .step-6-form {
+    opacity: 1;
+}
+
+.awakening-registration .step-6-form.step-hidden {
+    display: none;
+}
+
+.reg-challenge-wrapper {
+    display: flex;
+}
+
+.reg-challenge-value {
+    display: flex;
+}
+
+.reg-challenge-value .value {
+    flex-grow: 1;
+}

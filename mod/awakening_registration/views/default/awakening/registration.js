@@ -36,11 +36,11 @@ define(['elgg', 'elgg/Ajax', 'jquery'], function(elgg, Ajax, $) {
         goToStep(5);
     });
 
-    $(document).on('submit', '.elgg-form-registration-step3', function(e) {
-        e.preventDefault();
+    $(document).on('click', '.step-4 .button-no', function() {
+        window.location = elgg.get_site_url();
+    });
 
-        var formData = $('.elgg-form-registration-step3').serializeArray();
-
-        console.log(formData);
+    $(document).on('click', '.step-2 .button-yes', function() {
+        goToStep(6);
     });
 });
