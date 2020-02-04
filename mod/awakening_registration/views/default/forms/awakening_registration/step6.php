@@ -17,8 +17,29 @@ echo elgg_view_field([
 ]);
 
 echo elgg_view_field([
+    '#type' => 'password',
+    '#label' => 'Password',
+    'name' => 'password',
+    'value' => ''
+]);
+
+echo elgg_view_field([
+    '#type' => 'password',
+    '#label' => 'Password Again',
+    'name' => 'password2',
+    'value' => ''
+]);
+
+echo elgg_view_field([
     '#type' => 'reg_challenges',
-    '#label' => 'What are some of your current awakening symptoms and challenges',
+    '#label' => 'What are some of your current awakening symptoms',
+    'name' => 'current_symptoms',
+    'value' => []
+]);
+
+echo elgg_view_field([
+    '#type' => 'reg_challenges',
+    '#label' => 'What are some of your current awakening challenges',
     'name' => 'current_challenge',
     'value' => []
 ]);

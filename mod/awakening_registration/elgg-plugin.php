@@ -14,6 +14,10 @@ return [
 		'awakening_registration/step5' => [
 			'controller' => \Awakenings\Registration\Step5Action::class,
 			'access' => 'public'
+		],
+		'awakening_registration/step6' => [
+			'controller' => \Awakenings\Registration\Step6Action::class,
+			'access' => 'public'
 		]
 	],
 	'entities' => [
