@@ -11,7 +11,7 @@ class Step6Action {
         $name = $request->getParam('name');
         $password = $request->getParam('password');
         $password2 = $request->getParam('password2');
-        $current_challenge = $request->getParam('current_challenge');
+        $current_challenge = $request->getParam('current_challenges');
         $current_symptoms = $request->getParam('current_symptoms');
         $awakening_share = $request->getParam('awakening_share');
         $terms_accepted = $request->getParam('terms_and_conditions');
@@ -87,6 +87,8 @@ class Step6Action {
             $user->awakening_challenges = $current_challenge;
             $user->awakening_symptoms = $current_symptoms;
             $user->awakening_share = $awakening_share;
+
+            $user->save();
 
         } catch (\Exception $e) {
             return elgg_error_response($e->getMessage(), '', 400);

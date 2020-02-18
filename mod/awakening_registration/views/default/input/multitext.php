@@ -1,5 +1,18 @@
 <?php
 
+$entity = elgg_extract('entity', $vars);
+$default = elgg_extract('value', $vars, []);
+
+if (!$entity && !$default) {
+    return;
+}
+
+$value = $entity ? $entity->{$vars['name']} : $default;
+
+$value = (array) $value;
+
+$value = array_filter($value);
+
 elgg_require_js('input/multitext');
 
 echo '<div class="multitext-wrapper" data-name="' . $vars['name'] . '">';
@@ -16,10 +29,8 @@ echo '</div>';
 
 echo '<div class="multitext-values">';
 
-if (isset($vars['value']) && $vars['value']) {
-    $val = (array) $vars['value'];
-
-    foreach ($val as $v) {
+if (count($value)) {
+    foreach ($value as $v) {
         echo '<div class="multitext-value">';
         echo elgg_view('input/hidden', [
             'name' => $vars['name'] . '[]',

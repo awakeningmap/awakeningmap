@@ -40,7 +40,7 @@ echo elgg_view_field([
 echo elgg_view_field([
     '#type' => 'multitext',
     '#label' => 'What are some of your current awakening challenges',
-    'name' => 'current_challenge',
+    'name' => 'current_challenges',
     'value' => []
 ]);
 
