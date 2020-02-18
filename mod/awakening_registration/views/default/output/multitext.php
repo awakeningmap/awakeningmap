@@ -11,6 +11,12 @@ $value = $entity ? $entity->{$vars['name']} : $default;
 
 $value = (array) $value;
 
-foreach ($value as $val) {
-    echo elgg_format_element('div', ['class' => 'multi-text-value-item'], $val);
+$value = array_filter($value);
+
+if (count($value)) {
+    echo '<ol class="multitext-value-output">';
+    foreach ($value as $val) {
+        echo '<li>' . $val . '</li>';
+    }
+    echo '</ol>';
 }

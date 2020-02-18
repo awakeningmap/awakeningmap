@@ -21,3 +21,8 @@
 .multitext-value .value {
     flex-grow: 1;
 }
+
+.multitext-value-output {
+    list-style: decimal;
+    padding-left: 16px;
+}
