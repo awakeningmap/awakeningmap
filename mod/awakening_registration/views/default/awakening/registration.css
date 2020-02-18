@@ -10,14 +10,14 @@
     display: none;
 }
 
-.reg-challenge-wrapper {
+.multitext-wrapper {
     display: flex;
 }
 
-.reg-challenge-value {
+.multitext-value {
     display: flex;
 }
 
-.reg-challenge-value .value {
+.multitext-value .value {
     flex-grow: 1;
 }

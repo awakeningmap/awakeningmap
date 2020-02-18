@@ -37,7 +37,10 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function init() {
-        elgg_extend_view('elgg.css', 'awakening/registration.css');
+		elgg_extend_view('elgg.css', 'awakening/registration.css');
+
+		// remove cover image input from users
+		$this->elgg()->hooks->registerHandler('uses:cover', 'user:user', [\Elgg\Values::class, 'getFalse']);
         
         elgg_register_ajax_view('awakening/registration/step1');
         elgg_register_ajax_view('awakening/registration/step2');
@@ -47,6 +50,8 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_ajax_view('awakening/registration/step6');
 
 		elgg_register_plugin_hook_handler('register', 'menu:page', [Menu::class, 'pageMenu']);
+
+		elgg_register_plugin_hook_handler('field_types', 'post', ConfigureFieldTypes::class);
 	}
 
 	/**
