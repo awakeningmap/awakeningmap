@@ -31,14 +31,14 @@ echo elgg_view_field([
 ]);
 
 echo elgg_view_field([
-    '#type' => 'reg_challenges',
+    '#type' => 'multitext',
     '#label' => 'What are some of your current awakening symptoms',
     'name' => 'current_symptoms',
     'value' => []
 ]);
 
 echo elgg_view_field([
-    '#type' => 'reg_challenges',
+    '#type' => 'multitext',
     '#label' => 'What are some of your current awakening challenges',
     'name' => 'current_challenge',
     'value' => []
