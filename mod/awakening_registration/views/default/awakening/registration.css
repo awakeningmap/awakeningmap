@@ -10,19 +10,39 @@
     display: none;
 }
 
-.multitext-wrapper {
+.multitext-wrapper,
+.multidatetext-wrapper {
     display: flex;
 }
 
-.multitext-value {
-    display: flex;
-}
-
-.multitext-value .value {
+.multidatetext-wrapper > div:nth-child(2) {
     flex-grow: 1;
+}
+
+.multitext-value,
+.multidatetext-value {
+    display: flex;
+}
+
+.multitext-value .value,
+.multidatetext-value .value {
+    flex-grow: 1;
+    padding-top: 8px;
+}
+
+.multidatetext-value .date {
+    font-weight: bold;
 }
 
 .multitext-value-output {
     list-style: decimal;
     padding-left: 16px;
+}
+
+.multidatetext-value-output .date {
+    font-weight: bold;
+}
+
+.multidatetext-value-output .text {
+    padding-left: 8px;
 }

@@ -29,6 +29,19 @@ class ConfigureFieldTypes {
 			}
 		];
 
+		$field_types[] = [
+			'type' => 'multidatetext',
+			'label' => elgg_echo('post:admin:type:multidatetext'),
+			'config' => [],
+			'adapter' => function ($params, $entity) {
+				if (elgg_is_active_plugin('hypeProfile') && $entity instanceof \ElggUser) {
+					return new ProfileField($params);
+				}
+
+				return new MetaField($params);
+			}
+		];
+
 		return $field_types;
 	}
 }

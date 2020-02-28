@@ -27,7 +27,7 @@ echo '</button>';
 
 echo '</div>';
 
-echo '<div class="multitext-values">';
+echo '<div class="multitext-values" data-name="' . $vars['name'] . '">';
 
 if (count($value)) {
     foreach ($value as $v) {
@@ -46,6 +46,13 @@ if (count($value)) {
 
         echo '</div>';
     }
+}
+else {
+    echo elgg_view('input/hidden', [
+        'name' => $vars['name'] . '[]',
+        'value' => '',
+        'class' => 'default'
+    ]);
 }
 
 echo '</div>';
