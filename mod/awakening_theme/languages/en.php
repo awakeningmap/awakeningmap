@@ -7,5 +7,9 @@ return [
     'notification:subscriptions:publish:object:media_batch' => "New Media is published",
     'notification:subscriptions:publish:object:now_event' => "New Now! Event is published",
     'collection:object:file' => 'Files',
-    'collection:user:user:no_results' => "No users to display"
+    'collection:user:user:no_results' => "No users to display",
+
+    // override help text on profile page
+    'profile:last_name_abbr:help' => '',
+
 ];

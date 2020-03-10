@@ -44,18 +44,18 @@ class Bootstrap extends PluginBootstrap {
 	public function init() {
 		GroupsService::instance()->unregisterSubtype('group');
 
-		GroupsService::instance()->registerSubtype('topic', [
-			'labels' => [
-				'en' => [
-					'item' => 'Topic',
-					'collection' => 'Topics',
-				],
-			],
-			'root' => true,
-			'identifier' => 'topics',
-			'class' => Topic::class,
-			'site_menu' => true,
-		]);
+		// GroupsService::instance()->registerSubtype('topic', [
+		// 	'labels' => [
+		// 		'en' => [
+		// 			'item' => 'Topic',
+		// 			'collection' => 'Topics',
+		// 		],
+		// 	],
+		// 	'root' => true,
+		// 	'identifier' => 'topics',
+		// 	'class' => Topic::class,
+		// 	'site_menu' => true,
+		// ]);
 
 		GroupsService::instance()->registerSubtype('country', [
 			'labels' => [
@@ -96,7 +96,7 @@ class Bootstrap extends PluginBootstrap {
 			'root' => true,
 			'identifier' => 'private_groups',
 			'class' => PrivateGroup::class,
-			'site_menu' => true,
+			'site_menu' => false,
 		]);
 
 		Roles::instance()->admin->onCreate('group', 'group', Role::DENY);

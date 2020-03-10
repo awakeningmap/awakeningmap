@@ -40,7 +40,7 @@ class Bootstrap extends PluginBootstrap {
 
 		elgg_register_plugin_hook_handler('register', 'menu:site', function($h, $t, $r, $p) {
 			foreach ($r as $k => $item) {
-				if ($item->getName() === 'file') {
+				if ($item->getName() === 'file' || $item->getName() === 'albums') {
 					unset($r[$k]);
 				}
 			}

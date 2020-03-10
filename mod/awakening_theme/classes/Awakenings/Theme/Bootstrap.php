@@ -6,6 +6,7 @@ use Elgg\PluginBootstrap;
 use hypeJunction\Capabilities\Role;
 use hypeJunction\Capabilities\Roles;
 use hypeJunction\Groups\GroupsService;
+use hypeJunction\Wall\Menus;
 
 class Bootstrap extends PluginBootstrap {
 
@@ -54,7 +55,8 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function ready() {
-
+		// remove the "add content" from wall form
+		elgg_unregister_plugin_hook_handler('register', 'menu:wall:quick_links', [Menus::class, 'setupQuickLinks']);
 	}
 
 	/**
