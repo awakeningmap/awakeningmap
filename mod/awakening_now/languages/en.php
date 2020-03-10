@@ -1,8 +1,8 @@
 <?php
 
 return [
-	'now' => 'Now!',
-	'now:create' => 'Now!',
+	'now' => 'Now',
+	'now:create' => 'Now',
 
 	'now:title' => 'Name of the activity',
 	'now:title:help' => 'Let others know what you are going, e.g. Walking in the park or Meditating at the river',
