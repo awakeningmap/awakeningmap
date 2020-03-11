@@ -15,6 +15,9 @@ return [
 	'awakening:story:no_results' => 'No stories were added yet',
 
 	/** pages rebrand */
+	'pages:comments_on' => 'Allow others to respond to this story?',
+	'pages:activity_entry' => 'Show this story in the activity feed?',
+	'pages:pages/parent' => "Parent Story",
     'item:object:page' => 'Awakening Story',
 	'collection:object:page' => 'Awakening Stories',
 	'collection:object:page:all' => "All Awakening Stories",

@@ -59,6 +59,8 @@ class Bootstrap extends PluginBootstrap {
 
 			return array_values($r);
 		});
+
+		// elgg_register_action('pages/edit', elgg_get_plugins_path() . '')
 	}
 
 	/**

@@ -25,6 +25,8 @@ class StoryForm {
            'guid' => null,
            'entity' => null,
            'parent_guid' => $parent_guid,
+           'comments_on' => 1,
+           'activity_entry' => 1
        ];
    
        if ($page instanceof ElggPage) {

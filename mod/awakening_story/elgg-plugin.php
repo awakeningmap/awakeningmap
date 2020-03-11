@@ -8,5 +8,10 @@ return [
 		// 	'path' => '/awakening/story/{username}',
 		// 	'resource' => 'awakening/story/owner',
 		// ],
-	]
+	],
+	'actions' => [
+		'pages/edit' => [
+			'controller' => \Awakenings\Story\SaveStory::class
+		],
+	],
 ];

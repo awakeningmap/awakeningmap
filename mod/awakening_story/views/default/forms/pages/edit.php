@@ -32,12 +32,14 @@ echo elgg_view_field([
     '#label' => elgg_echo('pages:description')
 ]);
 
-echo elgg_view_field([
-    'name' => 'awakening_date',
-    'value' => $vars['awakening_date'],
-    '#type' => 'awakening/date',
-    '#label' => ''
-]);
+if (!$parent_guid) {
+    echo elgg_view_field([
+        'name' => 'awakening_date',
+        'value' => $vars['awakening_date'],
+        '#type' => 'awakening/date',
+        '#label' => ''
+    ]);
+}
 
 echo elgg_view_field([
     'name' => 'tags',
@@ -77,6 +79,24 @@ if ($can_change_access) {
         'entity_subtype' => 'page',
         'purpose' => 'write',
         'entity_allows_comments' => false
+    ]);
+
+    echo elgg_view_field([
+        'name' => 'comments_on',
+        'value' => 1,
+        '#type' => 'checkbox',
+        '#label' => elgg_echo('pages:comments_on'),
+        'switch' => true,
+        'checked' => (bool) $vars['comments_on']
+    ]);
+
+    echo elgg_view_field([
+        'name' => 'activity_entry',
+        'value' => 1,
+        '#type' => 'checkbox',
+        '#label' => elgg_echo('pages:activity_entry'),
+        'switch' => true,
+        'checked' => (bool) $vars['activity_entry']
     ]);
 }
 
