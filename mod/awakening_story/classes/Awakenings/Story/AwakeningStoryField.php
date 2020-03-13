@@ -40,4 +40,29 @@ class AwakeningStoryField extends Field {
 			'awakening_date' => $entity->awakening_date,
 		];
 	}
+
+	public static function getStoryDateSeason($date) {
+		$seasons = [
+			'winter' => [12, 1, 2],
+			'spring' => [3, 4, 5],
+			'summer' => [6, 7, 8],
+			'fall' => [9, 10, 11],
+		];
+		
+		$get_season = function($month) use ($seasons) {
+			foreach ($seasons as $season => $months) {
+				if (in_array($month, $months)) {
+					return $season;
+				}
+			}
+		};
+
+		$month = (int) date('n', $date);
+
+		return $get_season($month);
+	}
+
+	public static function getStoryDateYear($date) {
+		return (int) date('Y', $date);
+	}
 }
