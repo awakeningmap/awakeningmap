@@ -39,7 +39,7 @@ class Bootstrap extends PluginBootstrap {
 	public function init() {
         elgg_register_plugin_hook_handler('register', 'menu:owner_block', [Menus::class, 'ownerBlockLinks'], 1000);
         elgg_register_plugin_hook_handler('register', 'menu:filter:events', [Menus::class, 'eventsFilter'], 1000);
-        elgg_register_plugin_hook_handler('register', 'menu:site', [Menus::class, 'siteMenu'], 1000);
+        // elgg_register_plugin_hook_handler('register', 'menu:site', [Menus::class, 'siteMenu'], 1000);
 
         elgg_unregister_route('collection:object:event:group');
 	}

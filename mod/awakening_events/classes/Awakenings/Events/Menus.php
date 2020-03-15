@@ -27,13 +27,13 @@ class Menus {
         return array_values($return);
     }
 
-    public static function siteMenu($hook, $type, $return, $params) {
-        foreach ($return as $key => $item) {
-            if ($item->getName() === 'event') {
-                unset($return[$key]);
-            }
-        }
+    // public static function siteMenu($hook, $type, $return, $params) {
+    //     foreach ($return as $key => $item) {
+    //         if ($item->getName() === 'event') {
+    //             // unset($return[$key]);
+    //         }
+    //     }
 
-        return array_values($return);
-    }
+    //     return array_values($return);
+    // }
 }
