@@ -24,12 +24,13 @@ class StoryForm {
            'container_guid' => elgg_get_page_owner_guid(),
            'guid' => null,
            'entity' => null,
+           'awakening_date' => time(),
            'parent_guid' => $parent_guid,
            'comments_on' => 1,
            'activity_entry' => 1
        ];
    
-       if ($page instanceof ElggPage) {
+       if ($page instanceof \ElggPage) {
            foreach (array_keys($values) as $field) {
                if (isset($page->$field)) {
                    $values[$field] = $page->$field;
@@ -49,7 +50,7 @@ class StoryForm {
        }
    
        // load the revision annotation if requested
-       if ($revision instanceof ElggAnnotation && $page instanceof ElggPage && $revision->entity_guid === $page->guid) {
+       if ($revision instanceof \ElggAnnotation && $page instanceof \ElggPage && $revision->entity_guid === $page->guid) {
            $values['description'] = $revision->value;
        }
    
