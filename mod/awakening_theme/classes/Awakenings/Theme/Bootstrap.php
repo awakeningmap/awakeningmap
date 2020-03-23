@@ -45,6 +45,8 @@ class Bootstrap extends PluginBootstrap {
 
 		elgg_register_plugin_hook_handler('view_vars', 'input/date', ConfigureDatepicker::class, 1000);
 		elgg_register_plugin_hook_handler('vars:compiler', 'css', SetThemeVars::class, 800);
+
+		elgg_register_plugin_hook_handler('register', 'menu:embed', [Menus::class, 'embedMenu'], 1000);
 	}
 
 	/**
