@@ -70,6 +70,9 @@ class Bootstrap extends PluginBootstrap {
 			'site_menu' => true,
 			'tools' => ['wall', 'activity'],
 			'preset_tools' => true,
+			'collections' => [
+				'all' => AwakeningGroupCollection::class
+			]
 		]);
 
 		GroupsService::instance()->registerSubtype('region', [
