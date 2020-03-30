@@ -156,6 +156,8 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_plugin_hook_handler('modules', 'group', SetupGroupModules::class);
 
 		elgg_register_plugin_hook_handler('register', 'menu:site', [Menus::class, 'siteMenu']);
+
+		elgg_register_plugin_hook_handler('register', 'menu:filter:groups/all', [Menus::class, 'groupsFilterMenu'], 1000);
 	}
 
 	/**

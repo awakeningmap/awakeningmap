@@ -12,6 +12,10 @@ return [
 			'path' => "/countries/profile/{guid}/{title?}",
 			'resource' => 'countries/profile',
 		],
+		'collection:group:country:map' => [
+			'path' => '/countries/map',
+			'resource' => 'maps/countries',
+		],
 
 		"view:group:region" => [
 			'path' => "/regions/profile/{guid}/{title?}",

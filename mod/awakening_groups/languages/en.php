@@ -1,6 +1,7 @@
 <?php
 
 return [
+	'maps:open:countries' => "Countries Map",
 
 	'topics:tool:member_map' => 'Enable member map',
 	'topics:location' => 'Location',
