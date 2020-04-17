@@ -16,6 +16,8 @@
 !/mod/awakening_media/
 !/mod/awakening_registration/
 !/mod/awakening_events/
+!/mod/elgg_tokeninput/
+!/mod/granular_access/
 
 /archive/
 /awakeningmap.net/
