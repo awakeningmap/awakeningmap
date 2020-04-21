@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1de394f6d320eece24c83389e1187c44",
+    "content-hash": "45a2180493c940bdc362a840c74847f6",
     "packages": [
         {
             "name": "beck24/elgg_disable_rewrite_test",
@@ -99,7 +99,7 @@
             "version": "v2.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fullcalendar/fullcalendar.git",
+                "url": "git@github.com:fullcalendar/fullcalendar.git",
                 "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
             },
             "dist": {
@@ -724,6 +724,43 @@
                 "profile"
             ],
             "time": "2019-04-17T12:20:41+00:00"
+        },
+        {
+            "name": "coldtrick/translation_editor",
+            "version": "v7.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/translation_editor.git",
+                "reference": "d3855229f1391937f5db57df2ed7f62bcc447423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/d3855229f1391937f5db57df2ed7f62bcc447423",
+                "reference": "d3855229f1391937f5db57df2ed7f62bcc447423",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Provide an easy way to edit translations",
+            "keywords": [
+                "elgg",
+                "i18n",
+                "plugin"
+            ],
+            "time": "2019-08-22T07:43:02+00:00"
         },
         {
             "name": "coldtrick/widget_manager",
