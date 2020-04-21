@@ -3,10 +3,6 @@
 $entity = elgg_extract('entity', $vars);
 $default = elgg_extract('value', $vars, []);
 
-if (!$entity && !$default) {
-    return;
-}
-
 $value = $entity ? $entity->{$vars['name']} : $default;
 
 $value = (array) $value;
