@@ -70,7 +70,10 @@
         "hypejunction/hypepostadmin": "^1.0",
         "hypejunction/hypeinbox": "^8.0",
         "ext-json": "*",
-        "coldtrick/ckeditor_extended": "^4.0"
+        "coldtrick/ckeditor_extended": "^4.0",
+        "jumbojett/vroom": "dev-master",
+        "beck24/elgg_disable_rewrite_test": "dev-master",
+        "coldtrick/translation_editor": "^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.4"
@@ -91,6 +94,14 @@
         "preferred-install": "dist"
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jumbojett/vroom.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/beck24/elgg_disable_rewrite_test.git"
+        },
         {
             "type": "composer",
             "url": "https://asset-packagist.org"

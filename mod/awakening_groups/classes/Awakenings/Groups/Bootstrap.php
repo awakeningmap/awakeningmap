@@ -44,18 +44,18 @@ class Bootstrap extends PluginBootstrap {
 	public function init() {
 		GroupsService::instance()->unregisterSubtype('group');
 
-		GroupsService::instance()->registerSubtype('topic', [
-			'labels' => [
-				'en' => [
-					'item' => 'Topic',
-					'collection' => 'Topics',
-				],
-			],
-			'root' => true,
-			'identifier' => 'topics',
-			'class' => Topic::class,
-			'site_menu' => true,
-		]);
+		// GroupsService::instance()->registerSubtype('topic', [
+		// 	'labels' => [
+		// 		'en' => [
+		// 			'item' => 'Topic',
+		// 			'collection' => 'Topics',
+		// 		],
+		// 	],
+		// 	'root' => true,
+		// 	'identifier' => 'topics',
+		// 	'class' => Topic::class,
+		// 	'site_menu' => true,
+		// ]);
 
 		GroupsService::instance()->registerSubtype('country', [
 			'labels' => [
@@ -70,6 +70,9 @@ class Bootstrap extends PluginBootstrap {
 			'site_menu' => true,
 			'tools' => ['wall', 'activity'],
 			'preset_tools' => true,
+			'collections' => [
+				'all' => AwakeningGroupCollection::class
+			]
 		]);
 
 		GroupsService::instance()->registerSubtype('region', [
@@ -96,7 +99,7 @@ class Bootstrap extends PluginBootstrap {
 			'root' => true,
 			'identifier' => 'private_groups',
 			'class' => PrivateGroup::class,
-			'site_menu' => true,
+			'site_menu' => false,
 		]);
 
 		Roles::instance()->admin->onCreate('group', 'group', Role::DENY);
@@ -151,6 +154,10 @@ class Bootstrap extends PluginBootstrap {
 
 		elgg_register_plugin_hook_handler('fields', "group:topic", SetupTopicFields::class);
 		elgg_register_plugin_hook_handler('modules', 'group', SetupGroupModules::class);
+
+		elgg_register_plugin_hook_handler('register', 'menu:site', [Menus::class, 'siteMenu']);
+
+		elgg_register_plugin_hook_handler('register', 'menu:filter:groups/all', [Menus::class, 'groupsFilterMenu'], 1000);
 	}
 
 	/**

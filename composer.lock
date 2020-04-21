@@ -4,8 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "31663b3da624f55e259cbf49636038a3",
+    "content-hash": "45a2180493c940bdc362a840c74847f6",
     "packages": [
+        {
+            "name": "beck24/elgg_disable_rewrite_test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beck24/elgg_disable_rewrite_test.git",
+                "reference": "e8c8b1893e65229aad05896cbb9b35cc327b00ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beck24/elgg_disable_rewrite_test/zipball/e8c8b1893e65229aad05896cbb9b35cc327b00ef",
+                "reference": "e8c8b1893e65229aad05896cbb9b35cc327b00ef",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": ">=1.0.8"
+            },
+            "type": "elgg-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "support": {
+                "source": "https://github.com/beck24/elgg_disable_rewrite_test/tree/master",
+                "issues": "https://github.com/beck24/elgg_disable_rewrite_test/issues"
+            },
+            "time": "2020-04-17T06:03:27+00:00"
+        },
         {
             "name": "bjeavons/zxcvbn-php",
             "version": "0.4.0",
@@ -72,7 +99,7 @@
             "version": "v2.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fullcalendar/fullcalendar.git",
+                "url": "git@github.com:fullcalendar/fullcalendar.git",
                 "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
             },
             "dist": {
@@ -95,12 +122,12 @@
             "version": "v2.0.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hammerjs/hammer.js.git",
+                "url": "git@github.com:EightMedia/hammer.js.git",
                 "reference": "49731688380a91be07653ee2491ab48ece7952b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hammerjs/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
+                "url": "https://api.github.com/repos/EightMedia/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
                 "reference": "49731688380a91be07653ee2491ab48ece7952b5",
                 "shasum": null
             },
@@ -130,7 +157,7 @@
             "version": "1.6.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jackmoore/colorbox.git",
+                "url": "git@github.com:jackmoore/colorbox.git",
                 "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
             },
             "dist": {
@@ -206,7 +233,7 @@
             "version": "v2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ehynds/jquery-ui-multiselect-widget.git",
+                "url": "git@github.com:ehynds/jquery-ui-multiselect-widget.git",
                 "reference": "c7fbab3530ff3a441ec22dd5b732e1b2c08a66be"
             },
             "dist": {
@@ -273,7 +300,7 @@
             "version": "2.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guillaumepotier/Parsley.js.git",
+                "url": "git@github.com:guillaumepotier/Parsley.js.git",
                 "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5"
             },
             "dist": {
@@ -314,12 +341,12 @@
             "version": "4.0.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/select2/select2.git",
+                "url": "git@github.com:ivaynberg/select2.git",
                 "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/select2/select2/zipball/c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
+                "url": "https://api.github.com/repos/ivaynberg/select2/zipball/c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
                 "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
                 "shasum": null
             },
@@ -355,7 +382,7 @@
             "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alexei/sprintf.js.git",
+                "url": "git@github.com:alexei/sprintf.js.git",
                 "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1"
             },
             "dist": {
@@ -374,7 +401,7 @@
             "version": "2.0.16",
             "source": {
                 "type": "git",
-                "url": "https://github.com/requirejs/text.git",
+                "url": "git@github.com:requirejs/text.git",
                 "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a"
             },
             "dist": {
@@ -699,6 +726,43 @@
             "time": "2019-04-17T12:20:41+00:00"
         },
         {
+            "name": "coldtrick/translation_editor",
+            "version": "v7.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColdTrick/translation_editor.git",
+                "reference": "d3855229f1391937f5db57df2ed7f62bcc447423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColdTrick/translation_editor/zipball/d3855229f1391937f5db57df2ed7f62bcc447423",
+                "reference": "d3855229f1391937f5db57df2ed7f62bcc447423",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "require-dev": {
+                "coldtrick/releases": "dev-master",
+                "coldtrick/sniffs": "dev-master"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "description": "Provide an easy way to edit translations",
+            "keywords": [
+                "elgg",
+                "i18n",
+                "plugin"
+            ],
+            "time": "2019-08-22T07:43:02+00:00"
+        },
+        {
             "name": "coldtrick/widget_manager",
             "version": "v9.0.4",
             "source": {
@@ -886,6 +950,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1917,6 +1982,7 @@
                 "elgg",
                 "plugin"
             ],
+            "abandoned": true,
             "time": "2016-09-22T20:08:12+00:00"
         },
         {
@@ -2105,6 +2171,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeAjax/tree/1.2.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeAjax/issues"
             },
+            "abandoned": true,
             "time": "2018-08-21T13:55:18+00:00"
         },
         {
@@ -2156,6 +2223,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeAttachments/tree/3.1.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeAttachments/issues"
             },
+            "abandoned": true,
             "time": "2019-06-25T13:54:22+00:00"
         },
         {
@@ -2207,6 +2275,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeAutocomplete/tree/1.1.3",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeAutocomplete/issues"
             },
+            "abandoned": true,
             "time": "2018-06-30T20:47:48+00:00"
         },
         {
@@ -2257,6 +2326,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeBlog/tree/master",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeBlog/issues"
             },
+            "abandoned": true,
             "time": "2019-06-20T14:15:56+00:00"
         },
         {
@@ -2308,6 +2378,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeBraintreePayments/tree/1.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeBraintreePayments/issues"
             },
+            "abandoned": true,
             "time": "2018-07-06T13:21:02+00:00"
         },
         {
@@ -2405,6 +2476,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeCapabilities/tree/1.2.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeCapabilities/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T18:34:49+00:00"
         },
         {
@@ -2456,6 +2528,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeCaptcha/tree/1.0.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeCaptcha/issues"
             },
+            "abandoned": true,
             "time": "2018-07-13T09:23:48+00:00"
         },
         {
@@ -2506,6 +2579,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeCli/tree/1.1.0",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeCli/issues"
             },
+            "abandoned": true,
             "time": "2018-11-12T10:19:56+00:00"
         },
         {
@@ -2554,6 +2628,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeCountries/tree/2.1.3",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeCountries/issues"
             },
+            "abandoned": true,
             "time": "2018-07-20T18:41:19+00:00"
         },
         {
@@ -2652,6 +2727,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeDownloads/tree/1.2.3",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeDownloads/issues"
             },
+            "abandoned": true,
             "time": "2019-08-14T14:44:11+00:00"
         },
         {
@@ -2701,6 +2777,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeDraft/tree/1.1.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeDraft/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T18:58:59+00:00"
         },
         {
@@ -2753,6 +2830,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeDropzone/tree/6.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeDropzone/issues"
             },
+            "abandoned": true,
             "time": "2018-07-09T14:17:45+00:00"
         },
         {
@@ -2805,6 +2883,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeEmbed/tree/3.1.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeEmbed/issues"
             },
+            "abandoned": true,
             "time": "2019-06-20T10:22:42+00:00"
         },
         {
@@ -2897,6 +2976,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeHero/tree/2.0.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeHero/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T19:14:07+00:00"
         },
         {
@@ -2949,6 +3029,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeIllustration/tree/2.0.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeIllustration/issues"
             },
+            "abandoned": true,
             "time": "2018-10-16T10:07:28+00:00"
         },
         {
@@ -3048,6 +3129,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeInteractions/tree/6.2.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeInteractions/issues"
             },
+            "abandoned": true,
             "time": "2018-06-30T19:02:30+00:00"
         },
         {
@@ -3099,6 +3181,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeInvite/tree/2.2.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeInvite/issues"
             },
+            "abandoned": true,
             "time": "2018-07-13T08:46:32+00:00"
         },
         {
@@ -3148,6 +3231,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeLanding/tree/1.0.0",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeLanding/issues"
             },
+            "abandoned": true,
             "time": "2019-06-20T09:13:56+00:00"
         },
         {
@@ -3200,6 +3284,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeLists/tree/5.1.3",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeLists/issues"
             },
+            "abandoned": true,
             "time": "2018-08-10T21:44:38+00:00"
         },
         {
@@ -3310,6 +3395,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeMedia/tree/1.3.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeMedia/issues"
             },
+            "abandoned": true,
             "time": "2018-07-27T13:41:59+00:00"
         },
         {
@@ -3360,6 +3446,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeMentions/tree/1.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeMentions/issues"
             },
+            "abandoned": true,
             "time": "2018-07-09T14:14:55+00:00"
         },
         {
@@ -3408,6 +3495,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeMenus/tree/1.1.3",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeMenus/issues"
             },
+            "abandoned": true,
             "time": "2019-06-20T10:05:35+00:00"
         },
         {
@@ -3459,6 +3547,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeModerator/tree/1.1.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeModerator/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T19:34:13+00:00"
         },
         {
@@ -3516,6 +3605,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeNotifications/tree/2.1.2",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeNotifications/issues"
             },
+            "abandoned": true,
             "time": "2018-07-25T11:44:41+00:00"
         },
         {
@@ -3567,6 +3657,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypePayments/tree/3.2.2",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypePayments/issues"
             },
+            "abandoned": true,
             "time": "2018-08-09T13:36:53+00:00"
         },
         {
@@ -3668,6 +3759,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypePaypalSubscriptions/tree/1.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypePaypalSubscriptions/issues"
             },
+            "abandoned": true,
             "time": "2018-07-09T09:37:34+00:00"
         },
         {
@@ -3718,6 +3810,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypePaywall/tree/1.2.4",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePaywall/issues"
             },
+            "abandoned": true,
             "time": "2019-08-14T14:45:06+00:00"
         },
         {
@@ -3768,6 +3861,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypePost/tree/1.9.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePost/issues"
             },
+            "abandoned": true,
             "time": "2019-06-25T13:26:14+00:00"
         },
         {
@@ -3819,6 +3913,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypePostAdmin/tree/1.0.4",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypePostAdmin/issues"
             },
+            "abandoned": true,
             "time": "2019-06-21T17:42:28+00:00"
         },
         {
@@ -3866,6 +3961,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeProfile/tree/1.4.15",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeProfile/issues"
             },
+            "abandoned": true,
             "time": "2019-06-21T15:22:26+00:00"
         },
         {
@@ -3917,6 +4013,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeScraper/tree/6.2.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeScraper/issues"
             },
+            "abandoned": true,
             "time": "2018-11-12T08:09:51+00:00"
         },
         {
@@ -3967,6 +4064,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeShortcode/tree/1.2.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeShortcode/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T20:01:04+00:00"
         },
         {
@@ -4016,6 +4114,7 @@
                 "source": "https://github.com/hypeJunction/hypeShutdown/tree/1.0.3",
                 "issues": "https://github.com/hypeJunction/hypeShutdown/issues"
             },
+            "abandoned": true,
             "time": "2018-04-20T08:01:10+00:00"
         },
         {
@@ -4065,6 +4164,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeSlider/tree/1.0.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeSlider/issues"
             },
+            "abandoned": true,
             "time": "2018-07-04T16:53:55+00:00"
         },
         {
@@ -4114,6 +4214,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeSlug/tree/master",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeSlug/issues"
             },
+            "abandoned": true,
             "time": "2019-07-08T17:15:25+00:00"
         },
         {
@@ -4162,6 +4263,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeStash/tree/1.0.2",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeStash/issues"
             },
+            "abandoned": true,
             "time": "2018-10-16T10:00:14+00:00"
         },
         {
@@ -4215,6 +4317,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeStaticPages/tree/1.0.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeStaticPages/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T20:10:13+00:00"
         },
         {
@@ -4266,6 +4369,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeStripePayments/tree/1.3.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeStripePayments/issues"
             },
+            "abandoned": true,
             "time": "2018-11-12T10:31:13+00:00"
         },
         {
@@ -4315,6 +4419,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeStripeSubscriptions/tree/1.1.3",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeStripeSubscriptions/issues"
             },
+            "abandoned": true,
             "time": "2018-08-15T15:26:08+00:00"
         },
         {
@@ -4363,6 +4468,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeSubscriptions/tree/1.2.3",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeSubscriptions/issues"
             },
+            "abandoned": true,
             "time": "2019-06-14T16:24:39+00:00"
         },
         {
@@ -4411,6 +4517,7 @@
                 "source": "https://github.com/hypeJunction/Elgg3-hypeTheme/tree/1.1.2",
                 "issues": "https://github.com/hypeJunction/Elgg3-hypeTheme/issues"
             },
+            "abandoned": true,
             "time": "2019-07-08T16:42:12+00:00"
         },
         {
@@ -4461,6 +4568,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeTime/tree/1.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeTime/issues"
             },
+            "abandoned": true,
             "time": "2018-11-12T08:04:39+00:00"
         },
         {
@@ -4506,6 +4614,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeTrees/tree/1.1.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeTrees/issues"
             },
+            "abandoned": true,
             "time": "2018-06-29T20:15:45+00:00"
         },
         {
@@ -4557,6 +4666,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeTwig/tree/1.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeTwig/issues"
             },
+            "abandoned": true,
             "time": "2018-07-07T12:13:16+00:00"
         },
         {
@@ -4606,6 +4716,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeVue/tree/1.1.0",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeVue/issues"
             },
+            "abandoned": true,
             "time": "2018-07-04T16:01:47+00:00"
         },
         {
@@ -4759,6 +4870,27 @@
                 "password"
             ],
             "time": "2014-11-20T16:49:30+00:00"
+        },
+        {
+            "name": "jumbojett/vroom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jumbojett/vroom.git",
+                "reference": "99d5432458b0660d13f13a2eb0df95c5e9941658"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jumbojett/vroom/zipball/99d5432458b0660d13f13a2eb0df95c5e9941658",
+                "reference": "99d5432458b0660d13f13a2eb0df95c5e9941658",
+                "shasum": ""
+            },
+            "type": "elgg-plugin",
+            "support": {
+                "source": "https://github.com/jumbojett/vroom/tree/master",
+                "issues": "https://github.com/jumbojett/vroom/issues"
+            },
+            "time": "2015-08-10T20:12:25+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5352,6 +5484,7 @@
                 "cron",
                 "schedule"
             ],
+            "abandoned": "dragonmantank/cron-expression",
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
@@ -8498,6 +8631,7 @@
                 "loader",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-loader",
             "time": "2019-09-04T19:38:14+00:00"
         },
         {
@@ -8560,6 +8694,7 @@
                 "mail",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-mail",
             "time": "2018-06-07T13:37:07+00:00"
         },
         {
@@ -8611,6 +8746,7 @@
                 "mime",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-mime",
             "time": "2018-05-14T19:02:50+00:00"
         },
         {
@@ -8663,6 +8799,7 @@
                 "servicemanager",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-servicemanager",
             "time": "2018-06-22T14:49:54+00:00"
         },
         {
@@ -8709,6 +8846,7 @@
                 "stdlib",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2018-08-28T21:34:05+00:00"
         },
         {
@@ -8782,6 +8920,7 @@
                 "validator",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-validator",
             "time": "2019-01-30T14:26:10+00:00"
         }
     ],
@@ -10195,7 +10334,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "jumbojett/vroom": 20,
+        "beck24/elgg_disable_rewrite_test": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

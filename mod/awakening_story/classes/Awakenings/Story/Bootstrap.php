@@ -40,15 +40,26 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function init() {
-		elgg_register_plugin_hook_handler('form', 'wall', WallForm::class);
+		// elgg_register_plugin_hook_handler('form', 'wall', WallForm::class);
 
-		elgg_register_event_handler('create', 'object', SaveStory::class);
+		// elgg_register_event_handler('create', 'object', SaveStory::class);
 
-		elgg_register_plugin_hook_handler('fields', 'object', AddFormField::class);
+		// elgg_register_plugin_hook_handler('fields', 'object', AddFormField::class);
 
-		elgg_register_plugin_hook_handler('register', 'menu:owner_block', OwnerBlockMenu::class);
+		// elgg_register_plugin_hook_handler('register', 'menu:owner_block', OwnerBlockMenu::class);
 
 		elgg_extend_view('elgg.css', 'awakening/story.css');
+
+		elgg_register_plugin_hook_handler('register', 'menu:site', function($h, $t, $r, $p) {
+			foreach ($r as $k => $item) {
+				if ($item->getName() === 'pages') {
+					unset($r[$k]);
+				}
+			}
+
+			return array_values($r);
+		});
+
 	}
 
 	/**
@@ -59,7 +70,7 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function ready() {
-
+		elgg()->group_tools->unregister('pages');
 	}
 
 	/**

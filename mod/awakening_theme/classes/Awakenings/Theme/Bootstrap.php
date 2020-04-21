@@ -6,6 +6,7 @@ use Elgg\PluginBootstrap;
 use hypeJunction\Capabilities\Role;
 use hypeJunction\Capabilities\Roles;
 use hypeJunction\Groups\GroupsService;
+use hypeJunction\Wall\Menus as WallMenus;
 
 class Bootstrap extends PluginBootstrap {
 
@@ -44,6 +45,8 @@ class Bootstrap extends PluginBootstrap {
 
 		elgg_register_plugin_hook_handler('view_vars', 'input/date', ConfigureDatepicker::class, 1000);
 		elgg_register_plugin_hook_handler('vars:compiler', 'css', SetThemeVars::class, 800);
+
+		elgg_register_plugin_hook_handler('register', 'menu:embed', [Menus::class, 'embedMenu'], 1000);
 	}
 
 	/**
@@ -54,7 +57,8 @@ class Bootstrap extends PluginBootstrap {
 	 * @return void
 	 */
 	public function ready() {
-
+		// remove the "add content" from wall form
+		elgg_unregister_plugin_hook_handler('register', 'menu:wall:quick_links', [WallMenus::class, 'setupQuickLinks']);
 	}
 
 	/**

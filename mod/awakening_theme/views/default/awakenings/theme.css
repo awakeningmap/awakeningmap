@@ -7,6 +7,16 @@
 	line-height: 3rem;
 }
 
+@media screen and (max-width: 600px) {
+	.elgg-nav-logo h1 {
+		font-size: 1.5rem;
+	}
+}
+
+.elgg-nav-logo {
+	max-width: none;
+}
+
 .elgg-page-topbar .elgg-menu:not(.elgg-child-menu) > li > a {
 	line-height: normal;
 	border-radius: $(border-radius);
@@ -94,4 +104,16 @@ li.elgg-menu-item-filter.elgg-menu-item-has-dropdown {
 
 .leaflet-popup-content {
 	min-width: 250px;
+}
+
+.landing-hero__bg {
+	background-image: none !important;
+}
+
+.elgg-page-landing .elgg-page-features {
+	display: none !important;
+}
+
+.elgg-page-landing .elgg-page-slides {
+	display: none !important;
 }
