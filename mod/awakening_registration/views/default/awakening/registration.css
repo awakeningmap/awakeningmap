@@ -46,3 +46,8 @@
 .multidatetext-value-output .text {
     padding-left: 8px;
 }
+
+.step.step-back {
+    display: inline-block;
+    margin-bottom: 15px;
+}

@@ -43,4 +43,28 @@ define(['elgg', 'elgg/Ajax', 'jquery'], function(elgg, Ajax, $) {
     $(document).on('click', '.step-2 .button-yes', function() {
         goToStep(6);
     });
+
+    $(document).on('click', '.step.step-back', function(e) {
+        e.preventDefault();
+
+        var currentStep = parseInt($(this).attr('data-step'));
+
+        console.log(currentStep);
+
+        switch (currentStep) {
+            case 2:
+            case 3:
+            case 4:
+                goToStep(1);
+            break;
+
+            case 5:
+                goToStep(4);
+            break;
+
+            case 6:
+                goToStep(2);
+            break;
+        }
+    });
 });
