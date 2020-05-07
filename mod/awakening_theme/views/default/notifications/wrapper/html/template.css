@@ -325,11 +325,13 @@ button {
 
 .logo img {
 	display: inline-block;
-	max-height: 35px;
+	max-height: 50px;
 	margin-right: 16px;
+	vertical-align: middle;
 }
 
 .logo {
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: bold;
+	color: white;
 }
