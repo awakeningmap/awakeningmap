@@ -331,7 +331,7 @@ button {
 }
 
 .logo {
-	font-size: 36px;
+	font-size: 36px !important;
 	font-weight: bold;
-	color: white;
+	color: white !important;
 }
