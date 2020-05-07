@@ -322,3 +322,14 @@ button {
 .elgg-button {
 	text-decoration: none;
 }
+
+.logo img {
+	display: inline-block;
+	max-height: 35px;
+	margin-right: 16px;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+}
