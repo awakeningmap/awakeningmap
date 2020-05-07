@@ -326,7 +326,7 @@ button {
 .logo img {
 	display: inline-block !important;
 	max-height: 50px !important;
-	width: 100% !important;
+	width: auto !important;
 	max-width: 300px !important;
 	margin-right: 16px !important;
 	vertical-align: middle !important;
