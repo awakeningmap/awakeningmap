@@ -21,5 +21,11 @@ return [
 			'path' => "/regions/profile/{guid}/{title?}",
 			'resource' => 'regions/profile',
 		],
+	],
+
+	'widgets' => [
+		'activity_group_list' => [
+				'context' => ['dashboard'],
+		],
 	]
 ];
