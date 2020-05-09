@@ -615,4 +615,9 @@ relative to the entity\'s filestore directory. This upgrade aligns will align pr
 
 	'awakening_groups:topic_categories' => 'Topic Categories',
 	'awakening_groups:topic_categories:help' => 'List categories of topics, one per line',
+
+	'widgets:activity_group_list:name' => "Recently Added Groups",
+	'widgets:activity_group_list:description' => "List of recently added groups and a link to the full directory",
+	'widget:activity_group_list:morelink' => 'See all groups',
+	'widget:activity_group_list:setting:limit' => "Number to show"
 ];
