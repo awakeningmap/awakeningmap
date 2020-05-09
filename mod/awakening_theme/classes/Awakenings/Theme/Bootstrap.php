@@ -43,10 +43,11 @@ class Bootstrap extends PluginBootstrap {
 	public function init() {
 		elgg_extend_view('elgg.css', 'awakenings/theme.css');
 
-		elgg_register_plugin_hook_handler('view_vars', 'input/date', ConfigureDatepicker::class, 1000);
-		elgg_register_plugin_hook_handler('vars:compiler', 'css', SetThemeVars::class, 800);
-
-		elgg_register_plugin_hook_handler('register', 'menu:embed', [Menus::class, 'embedMenu'], 1000);
+		$hooks = $this->elgg()->hooks;
+		$hooks->registerHandler('view_vars', 'input/date', ConfigureDatepicker::class, 1000);
+		$hooks->registerHandler('vars:compiler', 'css', SetThemeVars::class, 800);
+		$hooks->registerHandler('register', 'menu:embed', [Menus::class, 'embedMenu'], 1000);
+		$hooks->unregisterHandler('register', 'menu:site', 'ColdTrick\TranslationEditor\SiteMenu::register');
 	}
 
 	/**
