@@ -11,8 +11,8 @@ class Step6Action {
         $name = $request->getParam('name');
         $password = $request->getParam('password');
         $password2 = $request->getParam('password2');
-        $current_challenge = $request->getParam('current_challenges');
-        $current_symptoms = $request->getParam('current_symptoms');
+        $current_challenge = array_filter((array) $request->getParam('current_challenges'));
+        $current_symptoms = array_filter((array) $request->getParam('current_symptoms'));
         $awakening_share = $request->getParam('awakening_share');
         $terms_accepted = $request->getParam('terms_and_conditions');
 
