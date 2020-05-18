@@ -9,6 +9,13 @@ $content .= '<button class="elgg-button-action button-dunno">Speak with an enlig
 $content .= '<button class="elgg-button-action button-no">Go on with my life and return if I think I am awakening</button>';
 $content .= '</div>';
 
+echo elgg_view('output/url', [
+    'text' => '<< Back',
+    'href' => 'javascript:void(0)',
+    'class' => 'step step-back',
+    'data-step' => 4
+]);
+
 echo elgg_view_module('info', 'Please watch the following video', $content, [
     'class' => 'step step-4'
 ]);
