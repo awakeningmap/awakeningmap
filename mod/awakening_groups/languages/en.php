@@ -619,5 +619,8 @@ relative to the entity\'s filestore directory. This upgrade aligns will align pr
 	'widgets:activity_group_list:name' => "Recently Added Groups",
 	'widgets:activity_group_list:description' => "List of recently added groups and a link to the full directory",
 	'widget:activity_group_list:morelink' => 'See all groups',
-	'widget:activity_group_list:setting:limit' => "Number to show"
+	'widget:activity_group_list:setting:limit' => "Number to show",
+
+	'awakening_groups:upgrade:2020052000:title' => 'Group Ownership Upgrade',
+	'awakening_groups:upgrade:2020052000:description' => 'Sets the owner of groups to be the site entity'
 ];

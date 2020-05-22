@@ -5,6 +5,7 @@ return [
 
 	'upgrades' => [
 		\Awakenings\Upgrades\ImportCountries::class,
+		\Awakenings\Upgrades\SetGroupOwnership::class
 	],
 
 	'routes' => [

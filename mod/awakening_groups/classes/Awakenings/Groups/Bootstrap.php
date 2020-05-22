@@ -124,30 +124,27 @@ class Bootstrap extends PluginBootstrap {
 
 		// Roles::instance()->user->onCreate('group', 'topic', Role::ALLOW);
 
-		// Roles::instance()->user->onCreate('group', 'private', Role::DENY, function (Context $context) {
-		// 	$user = $context->getActor();
-		// 	if (!$user) {
-		// 		return Role::DENY;
-		// 	}
+		Roles::instance()->user->onCreate('group', 'private', Role::DENY, function (Context $context) {
+			$user = $context->getActor();
+			if (!$user->isAdmin()) {
+				return Role::DENY;
+			}
 
-		// 	return 0 === elgg_get_entities([
-		// 			'count' => true,
-		// 			'types' => 'group',
-		// 			'subtypes' => 'private',
-		// 			'owner_guids' => $user->guid,
-		// 		]);
-		// });
+			return Role::ALLOW;
+		});
 
 		elgg_register_event_handler('join', 'group', JoinHandler::class);
 		elgg_register_event_handler('leave', 'group', LeaveHandler::class);
 
 		elgg_extend_view('elgg.css', 'awakenings/groups.css');
 
-		$subtypes = ['country', 'region', 'private'];
+		$subtypes = ['country' => Country::class, 'region' => Region::class, 'private' => PrivateGroup::class];
 
-		foreach ($subtypes as $subtype) {
+		foreach ($subtypes as $subtype => $class) {
 			// Register fields for form field editor
 			elgg_register_plugin_hook_handler('fields', "group:$subtype", function () {});
+
+			elgg_register_plugin_hook_handler('post:after', "group:$subtype", [$class, 'afterCreate']);
 		}
 
 		// elgg_register_plugin_hook_handler('fields', "group:topic", SetupTopicFields::class);
