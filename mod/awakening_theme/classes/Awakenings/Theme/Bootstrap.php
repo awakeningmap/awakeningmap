@@ -60,6 +60,11 @@ class Bootstrap extends PluginBootstrap {
 	public function ready() {
 		// remove the "add content" from wall form
 		elgg_unregister_plugin_hook_handler('register', 'menu:wall:quick_links', [WallMenus::class, 'setupQuickLinks']);
+
+		elgg_register_route('collection:group:group:member', [
+			'path' => '/private_groups/member/{username}',
+			'resource' => 'groups/member',
+		]);
 	}
 
 	/**
