@@ -52,6 +52,8 @@ class Bootstrap extends PluginBootstrap {
 		elgg_register_plugin_hook_handler('register', 'menu:page', [Menu::class, 'pageMenu']);
 
 		elgg_register_plugin_hook_handler('field_types', 'post', ConfigureFieldTypes::class);
+
+		elgg_register_ajax_view('registration/tos');
 	}
 
 	/**

@@ -1,21 +1,27 @@
 <?php
 
-$content = '<iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+$video_url = elgg_echo('registration:step4:video_url');
+
+$content = '<iframe width="560" height="315" src="' . $video_url . '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 
 $content .= '<div style="padding-top: 30px">';
-$content .= '<p>How would you like to proceed?</p>';
-$content .= '<button class="elgg-button-action button-yes">Join awakeningmap.com and complete registration</button><br>';
-$content .= '<button class="elgg-button-action button-dunno">Speak with an enlightened individual</button><br>';
-$content .= '<button class="elgg-button-action button-no">Go on with my life and return if I think I am awakening</button>';
+$content .= '<p>' . elgg_echo('registration:step4:q1') . '</p>';
+$content .= '<button class="elgg-button-action button-yes">' . elgg_echo('registration:step4:q1:answer:yes') . '</button><br>';
+$content .= '<button class="elgg-button-action button-dunno">' . elgg_echo('registration:step4:q1:answer:maybe') . '</button><br>';
+$content .= '<button class="elgg-button-action button-no">' . elgg_echo('registration:step4:q1:answer:no') . '</button>';
 $content .= '</div>';
 
+echo elgg_view('output/longtext', [
+    'value' => elgg_echo('registration:step4:content')
+]);
+
 echo elgg_view('output/url', [
-    'text' => '<< Back',
+    'text' => '<< ' . elgg_echo('registration:back'),
     'href' => 'javascript:void(0)',
     'class' => 'step step-back',
     'data-step' => 4
 ]);
 
-echo elgg_view_module('info', 'Please watch the following video', $content, [
+echo elgg_view_module('info', elgg_echo('registration:step4:question'), $content, [
     'class' => 'step step-4'
 ]);

@@ -2,20 +2,23 @@
 
 echo elgg_view_field([
     '#type' => 'plaintext',
-    '#label' => 'Initial questions/comments',
+    '#label' => elgg_echo('registration:step5:questions:comment'),
+    '#help' => elgg_echo('registration:step5:questions:comment:help'),
     'name' => 'intent'
 ]);
 
 echo elgg_view_field([
     '#type' => 'email',
-    '#label' => 'Your email address',
+    '#label' => elgg_echo('registration:step5:questions:email'),
+    '#help' => elgg_echo('registration:step5:questions:email:help'),
     'name' => 'email',
     'value' => $vars['email']
 ]);
 
 echo elgg_view_field([
     '#type' => 'dropzone',
-    '#label' => 'Please upload a current face picture',
+    '#label' => elgg_echo('registration:step5:questoins:facepic'),
+    '#help' => elgg_echo('registration:step5:questions:facepic:help'),
     'name' => 'facepic',
     'action' => 'action/registration/image_upload',
     'multiple' => false,

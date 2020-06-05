@@ -2,20 +2,23 @@
 
 echo elgg_view_field([
     '#type' => 'plaintext',
-    '#label' => 'Please describe your intent',
+    '#label' => elgg_echo('registration:step3:intent'),
+    '#help' => elgg_echo('registration:step3:intent:help'),
     'name' => 'intent'
 ]);
 
 echo elgg_view_field([
     '#type' => 'email',
-    '#label' => 'Your email address',
+    '#label' => elgg_echo('registration:step3:email'),
+    '#help' => elgg_echo('registration:step3:email:help'),
     'name' => 'email',
     'value' => $vars['email']
 ]);
 
 echo elgg_view_field([
     '#type' => 'dropzone',
-    '#label' => 'Please upload a current face picture',
+    '#label' => elgg_echo('registration:step3:facepic'),
+    '#help' => elgg_echo('registration:step3:facepic:help'),
     'name' => 'facepic',
     'action' => 'action/registration/image_upload',
     'multiple' => false,
