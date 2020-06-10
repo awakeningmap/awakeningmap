@@ -13,15 +13,42 @@
         </div>
         <div class="elgg-col-1of2">
             <div class="elgg-body">
-                <label>
-                <input
-                    type="checkbox"
-                    value="1"
-                    :name="resolveInputName('disabled')"
-                    v-model="slide.disabled"
-                >
-                Disabled
-                </label>
+                <ul>
+                    <li>
+                        <label>
+                            <input
+                                type="checkbox"
+                                value="1"
+                                :name="resolveInputName('disabled')"
+                                v-model="slide.disabled"
+                            >
+                            Disable Slide
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input
+                                type="checkbox"
+                                value="1"
+                                :name="resolveInputName('disable_image')"
+                                v-model="slide.disable_image"
+                            >
+                            Disable Image
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input
+                                type="checkbox"
+                                value="1"
+                                :name="resolveInputName('disable_content')"
+                                v-model="slide.disable_content"
+                            >
+                            Disable Content
+                        </label>
+                    </li>
+                </ul>
+
                 <elgg-input-contenteditable
                     v-model="slide.title"
                     component="h3"

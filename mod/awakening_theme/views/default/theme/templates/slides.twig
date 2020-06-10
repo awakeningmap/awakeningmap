@@ -6,26 +6,31 @@
                      data-slick="{{ config.slick|json_encode|escape('html_attr') }}">
                     {% for slide in data.items %}
                         {% if not slide.disabled %}
-                        <div class="landing-slides__column">
-                            <div class="elgg-grid is-vcentered">
-                                <div class="elgg-col-1of2">
-                                    <div class="elgg-image">
-                                        <img src="{{ slide.img.url }}" alt="Slider illustration"
-                                             class="landing-slides__image"/>
-                                    </div>
-                                </div>
-                                <div class="elgg-col-1of2">
-                                    <div class="elgg-body">
-                                        <h3 class="landing-slides__title">
-                                            {{ slide.title }}
-                                        </h3>
-                                        <h4 class="landing-slides__description">
-                                            {{ slide.description }}
-                                        </h4>
-                                    </div>
+                            <div class="landing-slides__column">
+                                <div class="elgg-grid is-vcentered">
+                                    {% if not slide.disable_image %}
+                                        <div class="elgg-col-1of{% if slide.disable_content %}1{% else %}2{% endif %}">
+                                            <div class="elgg-image">
+                                                <img src="{{ slide.img.url }}" alt="Slider illustration"
+                                                    class="landing-slides__image"/>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+
+                                    {% if not slide.disable_content %}
+                                        <div class="elgg-col-1of{% if slide.disable_image %}1{% else %}2{% endif %}">
+                                            <div class="elgg-body" {% if slide.disable_image %}style="max-width: 100%"{% endif %}>
+                                                <h3 class="landing-slides__title">
+                                                    {{ slide.title }}
+                                                </h3>
+                                                <h4 class="landing-slides__description">
+                                                    {{ slide.description }}
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    {% endif %}
                                 </div>
                             </div>
-                        </div>
                         {% endif %}
                     {% endfor %}
                 </div>

@@ -18,18 +18,25 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 
 		foreach ($blocks as $i => $block) {
 			$type = elgg_extract('type', $block);
+			$block_config = false;
+
 			switch ($type) {
 				case 'hero' :
-					$config[] = $this->saveHero($block, elgg_extract($i, $uploads, []));
+					$block_config = $this->saveHero($block, elgg_extract($i, $uploads, []));
 					break;
 
 				case 'features' :
-					$config[] = $this->saveFeatures($block, elgg_extract($i, $uploads, []));
+					$block_config = $this->saveFeatures($block, elgg_extract($i, $uploads, []));
 					break;
 
 				case 'slides' :
-					$config[] = $this->saveSlides($block, elgg_extract($i, $uploads, []));
+					$block_config = $this->saveSlides($block, elgg_extract($i, $uploads, []));
 					break;
+			}
+
+			if ($block_config !== false) {
+				$block_config['disabled'] = $block['disabled'] ? 1 : 0;
+				$config[] = $block_config;
 			}
 		}
 
@@ -45,7 +52,9 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 			'title' => 'text',
 			'description' => 'text',
             'img' => 'file',
-            'disabled' => 'text'
+			'disabled' => 'text',
+			'disable_image' => 'text',
+			'disable_content' => 'text'
 		];
 
 		foreach ($props as $prop => $type) {

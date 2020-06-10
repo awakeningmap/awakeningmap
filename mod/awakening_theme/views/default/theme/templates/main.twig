@@ -1,0 +1,5 @@
+{% for block in blocks %}
+    {% if not block.disabled %}
+        {% include 'theme/templates/' ~ block.type ~ '' with block %}
+    {% endif %}
+{% endfor %}
