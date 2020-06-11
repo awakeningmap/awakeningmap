@@ -1,0 +1,40 @@
+<div class="elgg-page-section elgg-page-slides">
+    <div class="elgg-inner">
+        <div class="landing-slides">
+            <input type="hidden" :name="resolveInputName('type')" :value="block.type" />
+            <div class="landing-slides__content">
+                <div style="padding: 10px; margin-top: 35px;">
+                    <label>
+                        Slider Speed: {{ block.config.slick.autoplaySpeed / 1000 }}s
+                        <input type="range" min="100" max="60000" step="100" v-model="block.config.slick.autoplaySpeed" :name="'blocks[' + parentId + '][config][slick][autoplaySpeed]'">
+                    </label>
+                </div>
+                <draggable v-model="block.data.items"
+                           class="landing-slides__columns">
+                    <div v-for="(slide, index) in block.data.items"
+                         :key="index"
+                         class="landing-slides__column"
+                    >
+                        <transition
+                            appear
+                            appear-active-class="animated fadeIn"
+                            :duration="250"
+                            :key="index"
+                        >
+                            <landing-editor-slide
+                                :key="index"
+                                :slide="slide"
+                                :parentId="parentId"
+                                :elementId="index"
+                                @delete="deleteSlide(index)"
+                            ></landing-editor-slide>
+                        </transition>
+                    </div>
+                </draggable>
+            </div>
+        </div>
+        <div class="landing-editor__block-footer">
+            <a class="landing-editor__button" @click="addSlide">Add Slide</a>
+        </div>
+    </div>
+</div>

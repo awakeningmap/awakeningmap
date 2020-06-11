@@ -48,6 +48,8 @@ class Bootstrap extends PluginBootstrap {
 		$hooks->registerHandler('vars:compiler', 'css', SetThemeVars::class, 800);
 		$hooks->registerHandler('register', 'menu:embed', [Menus::class, 'embedMenu'], 1000);
 		$hooks->unregisterHandler('register', 'menu:site', 'ColdTrick\TranslationEditor\SiteMenu::register');
+		$hooks->unregisterHandler('blocks', 'landing', \hypeJunction\Landing\SetLandingData::class);
+		$hooks->registerHandler('blocks', 'landing', SetLandingData::class);
 
 		elgg_register_action('landing/editor/save', SaveLandingDataAction::class, 'admin');
 	}

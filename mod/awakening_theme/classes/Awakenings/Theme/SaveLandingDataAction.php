@@ -45,7 +45,39 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 		elgg_flush_caches();
 
         return elgg_ok_response($config, elgg_echo('admin:theme:landing:success'));
-    }
+	}
+	
+	public function saveFeature(array $input = [], array $files = []) {
+		$props = [
+			'title' => 'text',
+			'description' => 'text',
+			'img' => 'file',
+			'disabled' => 'text',
+			'disable_img' => 'text',
+			'disable_title' => 'text',
+			'disable_description' => 'text'
+		];
+
+		foreach ($props as $prop => $type) {
+			switch ($type) {
+				case 'text' :
+					$config[$prop] = elgg_extract($prop, $input);
+					break;
+
+				case 'file' :
+					$file = elgg_extract($prop, $files);
+					$view = $this->saveFile($file);
+					if ($view) {
+						$config[$prop] = $view;
+					} else {
+						$config[$prop] = elgg_extract($prop, $input);
+					}
+					break;
+			}
+		}
+
+		return $config;
+	}
     
     public function saveSlide(array $input = [], array $files = []) {
 		$props = [
@@ -73,6 +105,25 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 					}
 					break;
 			}
+		}
+
+		return $config;
+	}
+
+	public function saveSlides(array $input = [], array $files = []) {
+		$config = [
+			'type' => 'slides',
+		];
+
+		$items = elgg_extract('items', $input, []);
+
+		foreach ($items as $key => $item) {
+			$slide_files = isset($files['items'][$key]) ? $files['items'][$key] : [];
+			$config['data']['items'][] = $this->saveSlide($item, $slide_files);
+		}
+
+		if (isset($input['config']) && is_array($input['config'])) {
+			$config['config'] = elgg_extract('config', $input);
 		}
 
 		return $config;

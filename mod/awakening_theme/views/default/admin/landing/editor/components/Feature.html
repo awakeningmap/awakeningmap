@@ -1,0 +1,51 @@
+<div class="elgg-image-block landing-features__feature-block">
+    <div class="elgg-image">
+        <input type="hidden" :name="resolveInputName('img')" :value="feature.img.view" />
+        <elgg-input-image
+            v-model="feature.img.file"
+            :src="feature.img.url"
+            inputClass="landing-features__icon"
+            :name="resolveInputName('img')"
+        />
+    </div>
+    <div class="elgg-body">
+        <elgg-input-contenteditable
+            v-model="feature.title"
+            component="h3"
+            inputClass="landing-features__title"
+            :name="resolveInputName('title')"
+        />
+        <elgg-input-contenteditable
+            v-model="feature.description"
+            component="h4"
+            inputClass="landing-features__description"
+            :name="resolveInputName('description')"
+        />
+
+        <div>
+            <label>
+                <input type="checkbox" value="1" :name="resolveInputName('disabled')" v-model="feature.disabled">
+                Disable Feature
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" value="1" :name="resolveInputName('disable_img')" v-model="feature.disable_img">
+                Disable Image
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" value="1" :name="resolveInputName('disable_title')" v-model="feature.disable_title">
+                Disable Title
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" value="1" :name="resolveInputName('disable_description')" v-model="feature.disable_description">
+                Disable Description
+            </label>
+        </div>
+        <a class="landing-editor__button" @click="deleteFeature">{{ echo('delete') }}</a>
+    </div>
+</div>
