@@ -52,7 +52,7 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 			'title' => 'text',
 			'description' => 'text',
 			'img' => 'file',
-			'disabled' => 'text',
+			'disable_feature' => 'text',
 			'disable_img' => 'text',
 			'disable_title' => 'text',
 			'disable_description' => 'text'
