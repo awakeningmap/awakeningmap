@@ -106,14 +106,9 @@ li.elgg-menu-item-filter.elgg-menu-item-has-dropdown {
 	min-width: 250px;
 }
 
-.landing-hero__bg {
-	background-image: none !important;
+.elgg-page-hero .disable-boxes {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999;
 }
-
-/* .elgg-page-landing .elgg-page-features {
-	display: none !important;
-}
-
-.elgg-page-landing .elgg-page-slides {
-	display: none !important;
-} */

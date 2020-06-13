@@ -46,6 +46,42 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 
         return elgg_ok_response($config, elgg_echo('admin:theme:landing:success'));
 	}
+
+	public function saveHero(array $input = [], array $files = []) {
+		$config = [
+			'type' => 'hero',
+		];
+
+		$props = [
+			'heading' => 'text',
+			'tagline' => 'text',
+			'img' => 'file',
+			'bg' => 'file',
+			'disable_bg' => 'text',
+			'disable_content' => 'text',
+			'disable_logo' => 'text'
+		];
+
+		foreach ($props as $prop => $type) {
+			switch ($type) {
+				case 'text' :
+					$config['data'][$prop] = elgg_extract($prop, $input);
+					break;
+
+				case 'file' :
+					$file = elgg_extract($prop, $files);
+					$view = $this->saveFile($file);
+					if ($view) {
+						$config['data'][$prop] = $view;
+					} else {
+						$config['data'][$prop] = elgg_extract($prop, $input);
+					}
+					break;
+			}
+		}
+
+		return $config;
+	}
 	
 	public function saveFeature(array $input = [], array $files = []) {
 		$props = [
