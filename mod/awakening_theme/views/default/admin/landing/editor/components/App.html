@@ -1,4 +1,5 @@
 <form class="landing-editor" ref="form">
+    <button class="elgg-button elgg-button-action" type="button" @click="addHTMLBlock">Add HTML Block</button>
 
     <draggable v-model="blocks" :options="draggableOptions">
         <div class="landing-editor__block"

@@ -32,6 +32,10 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 				case 'slides' :
 					$block_config = $this->saveSlides($block, elgg_extract($i, $uploads, []));
 					break;
+
+				case 'htmlblock':
+					$block_config = $this->saveHtmlblock($block);
+					break;
 			}
 
 			if ($block_config !== false) {
@@ -45,6 +49,16 @@ class SaveLandingDataAction extends hypeLandingDataAction {
 		elgg_flush_caches();
 
         return elgg_ok_response($config, elgg_echo('admin:theme:landing:success'));
+	}
+
+	public function saveHtmlblock(array $input = []) {
+		$config = [
+			'type' => 'htmlblock'
+		];
+
+		$config['data'] = elgg_extract('data', $input);
+
+		return $config;
 	}
 
 	public function saveHero(array $input = [], array $files = []) {

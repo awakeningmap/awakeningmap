@@ -1,0 +1,16 @@
+<div class="elgg-page-section elgg-page-html-block">
+    <div class="elgg-inner">
+        <input type="hidden" :name="resolveInputName('type')" :value="block.type" />
+        
+        <div style="margin-top: 40px;">
+            <textarea
+                :name="resolveInputName('data')"
+                rows="10"
+                cols="50"
+                style="width: 100%"
+                v-model="block.data"
+            >
+            </textarea>
+        </div>
+    </div>
+</div>
