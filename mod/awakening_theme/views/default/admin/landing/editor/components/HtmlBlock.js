@@ -14,9 +14,9 @@ define(function (require) {
 		},
 		data: function() {
 			return {
-				
 			};
 		},
+
 		methods: {
             escapeHtml: function(html) {
                 var div = document.createElement('div');
@@ -24,7 +24,13 @@ define(function (require) {
                 div.appendChild(text);
                 
                 return div.innerHTML;
-            },
+			},
+			
+			deleteBlock: function() {
+				if (confirm('Are you sure?')) {
+					this.$emit('delete', this.parentId);
+				}
+			},
 
 			resolveInputName: function(prop) {
 				return 'blocks[' + this.parentId + '][' + prop + ']';

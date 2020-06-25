@@ -26,8 +26,8 @@
 
             <component :is="resolveComponentName(block)"
                        :block="block"
-                       :parentId="index">
-
+                       :parentId="index"
+                       @delete="deleteBlock(index)">
             </component>
         </div>
     </draggable>

@@ -43,6 +43,9 @@ define(function (require) {
 					type: 'htmlblock',
 					data: '<p>Edit Me!</p>'
 				});
+			},
+			deleteBlock: function(index){
+				this.blocks.splice(index, 1);
 			}
 		}
 	});
