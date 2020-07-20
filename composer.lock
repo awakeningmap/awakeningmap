@@ -1,11 +1,49 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc823befff50c40c32ba273663bfe36c",
+    "content-hash": "5b0fcdbeebacff8656822fe417d8eb1b",
     "packages": [
+        {
+            "name": "beck24/admin_pagenotes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beck24/admin_pagenotes.git",
+                "reference": "6c19a5bc10a161c44e7e276ccbaea75a6790c57f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beck24/admin_pagenotes/zipball/6c19a5bc10a161c44e7e276ccbaea75a6790c57f",
+                "reference": "6c19a5bc10a161c44e7e276ccbaea75a6790c57f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0.8"
+            },
+            "conflict": {
+                "elgg/elgg": "<3.0"
+            },
+            "type": "elgg-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Beckett",
+                    "email": "matt@mattbeckett.me"
+                }
+            ],
+            "description": "Elgg plugin for an admin to make page-specific notes",
+            "keywords": [
+                "elgg",
+                "plugin"
+            ],
+            "time": "2020-07-20T08:31:03+00:00"
+        },
         {
             "name": "beck24/elgg_disable_rewrite_test",
             "version": "dev-master",
@@ -89,8 +127,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
-                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
-                "shasum": null
+                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0"
             },
             "type": "bower-asset"
         },
@@ -99,14 +136,13 @@
             "version": "v2.9.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:fullcalendar/fullcalendar.git",
+                "url": "https://github.com/fullcalendar/fullcalendar.git",
                 "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/07a680b2349cfa7c7f2b05c979295447f04ef426",
-                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426",
-                "shasum": null
+                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.1",
@@ -128,8 +164,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/EightMedia/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
-                "shasum": null
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
             },
             "type": "bower-asset"
         },
@@ -138,14 +173,13 @@
             "version": "2.2.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/c0185ab7c75aab88762c5aae780b9d83b80eda72",
-                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72",
-                "shasum": null
+                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "type": "bower-asset",
             "license": [
@@ -163,8 +197,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jackmoore/colorbox/zipball/bac78120c6ca9e63370cc317ab6f400129cd6608",
-                "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608",
-                "shasum": null
+                "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
             },
             "require": {
                 "bower-asset/jquery": ">=1.3.2"
@@ -176,14 +209,13 @@
             "version": "3.51",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery-form/form.git",
+                "url": "https://github.com/jquery-form/form.git",
                 "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery-form/form/zipball/6bf24a5f6d8be65f4e5491863180c09356d9dadd",
-                "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd",
-                "shasum": null
+                "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
             },
             "require": {
                 "bower-asset/jquery": ">=1.5"
@@ -201,8 +233,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jzaefferer/jquery-treeview/zipball/ea4fd39fe7bf25db75cdb6edeb73e502d9804924",
-                "reference": "ea4fd39fe7bf25db75cdb6edeb73e502d9804924",
-                "shasum": null
+                "reference": "ea4fd39fe7bf25db75cdb6edeb73e502d9804924"
             },
             "type": "bower-asset",
             "license": [
@@ -214,14 +245,13 @@
             "version": "1.11.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:components/jqueryui.git",
+                "url": "https://github.com/components/jqueryui.git",
                 "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "shasum": null
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
             },
             "require": {
                 "bower-asset/jquery": ">=1.6"
@@ -239,8 +269,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/wong2/imgareaselect/zipball/446c7ff9efd10bfee2e673c19ca4d8759087dab4",
-                "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4",
-                "shasum": null
+                "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4"
             },
             "type": "bower-asset"
         },
@@ -249,14 +278,13 @@
             "version": "2.24.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:moment/moment.git",
+                "url": "https://github.com/moment/moment.git",
                 "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/moment/moment/zipball/96d0d6791ab495859d09a868803d31a55c917de1",
-                "reference": "96d0d6791ab495859d09a868803d31a55c917de1",
-                "shasum": null
+                "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
             },
             "type": "bower-asset",
             "license": [
@@ -274,8 +302,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/necolas/normalize.css/zipball/fc091cce1534909334c1911709a39c22d406977b",
-                "reference": "fc091cce1534909334c1911709a39c22d406977b",
-                "shasum": null
+                "reference": "fc091cce1534909334c1911709a39c22d406977b"
             },
             "type": "bower-asset"
         },
@@ -290,8 +317,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/guillaumepotier/Parsley.js/zipball/fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5",
-                "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5",
-                "shasum": null
+                "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5"
             },
             "require": {
                 "bower-asset/jquery": ">1.8"
@@ -312,8 +338,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jrburke/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
-                "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82",
-                "shasum": null
+                "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "type": "bower-asset",
             "license": [
@@ -331,8 +356,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ivaynberg/select2/zipball/c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
-                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
-                "shasum": null
+                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657"
             },
             "type": "bower-asset",
             "license": [
@@ -350,8 +374,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "shasum": null
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -372,8 +395,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/alexei/sprintf.js/zipball/747b806c2dab5b64d5c9958c42884946a187c3b1",
-                "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1",
-                "shasum": null
+                "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1"
             },
             "type": "bower-asset",
             "license": [
@@ -391,8 +413,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/requirejs/text/zipball/3f9d4c19b3a1a3c6f35650c5788cbea1db93197a",
-                "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a",
-                "shasum": null
+                "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a"
             },
             "type": "bower-asset",
             "license": [
@@ -410,8 +431,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/dropbox/zxcvbn/zipball/f0735425180b130d6c57efbc044a47c0c8f1fd65",
-                "reference": "f0735425180b130d6c57efbc044a47c0c8f1fd65",
-                "shasum": null
+                "reference": "f0735425180b130d6c57efbc044a47c0c8f1fd65"
             },
             "type": "bower-asset"
         },
@@ -1763,6 +1783,7 @@
                 "plugin",
                 "plugin settings"
             ],
+            "abandoned": true,
             "time": "2019-06-05T14:25:09+00:00"
         },
         {
@@ -1827,7 +1848,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/hypeActivity/zipball/bfd45bece1326dc1c20d44d2690afd4546ec6d6d",
                 "reference": "bfd45bece1326dc1c20d44d2690afd4546ec6d6d",
-                "shasum": "2de38b5ee1d9acd0991ef25e2a6d34079c43666a"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1876,7 +1897,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeAjax/zipball/4fcc33bfce4c0b4d47d5f9170d26722a7af94154",
                 "reference": "4fcc33bfce4c0b4d47d5f9170d26722a7af94154",
-                "shasum": "24dbc125634621de3e0163c17c173880771b21f1"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1927,7 +1948,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeAttachments/zipball/14e3d0787f2a25a8713d0592567a1a709f6961a6",
                 "reference": "14e3d0787f2a25a8713d0592567a1a709f6961a6",
-                "shasum": "d997d76dbfc4460e9334db99a007e15344e31c12"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1979,7 +2000,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeAutocomplete/zipball/1e6758f0e071d576f1214df990fd150ef51e3319",
                 "reference": "1e6758f0e071d576f1214df990fd150ef51e3319",
-                "shasum": "9c72fc476460d6fa28df2cc9041d23627ffe0121"
+                "shasum": ""
             },
             "require": {
                 "bower-asset/select2": "^4.0",
@@ -2031,7 +2052,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeCapabilities/zipball/f28e3af6e7e3bc44abcb40a90c916a13c479ec45",
                 "reference": "f28e3af6e7e3bc44abcb40a90c916a13c479ec45",
-                "shasum": "288984c207f842daccc64e2f14883194ee90e9a8"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2082,7 +2103,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeCountries/zipball/ffee06d9413711f2749f1d8f3c587b89470bc192",
                 "reference": "ffee06d9413711f2749f1d8f3c587b89470bc192",
-                "shasum": "90140eb0a4d075a3883ecc53e3eedd7ffd2c7896"
+                "shasum": ""
             },
             "require": {
                 "npm-asset/svg-country-flags": "^1.2"
@@ -2131,7 +2152,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeDiscussions/zipball/2b29e0ded6f11de6ac33712fe7c9b3512844c6a3",
                 "reference": "2b29e0ded6f11de6ac33712fe7c9b3512844c6a3",
-                "shasum": "dc5a1228d7909ccb8b653d40c07f7300ab5f5cbb"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2167,6 +2188,7 @@
                 "source": "https://github.com/hypejunctionpro/Elgg3-hypeDiscussions/tree/3.1.1",
                 "issues": "https://github.com/hypejunctionpro/Elgg3-hypeDiscussions/issues"
             },
+            "abandoned": true,
             "time": "2018-06-30T19:04:17+00:00"
         },
         {
@@ -2181,7 +2203,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeDropzone/zipball/e23ddaff16087820c0602dde257bbfaffd4c1a2d",
                 "reference": "e23ddaff16087820c0602dde257bbfaffd4c1a2d",
-                "shasum": "ff0d777f468a52a09f08b6cd19b53912edafbc06"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2234,7 +2256,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeEmbed/zipball/59a33f604a54aded9d601837459a0f312f1711e4",
                 "reference": "59a33f604a54aded9d601837459a0f312f1711e4",
-                "shasum": "37b59255b9d0e824e815f61c43704b51e50fe6bd"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2376,7 +2398,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInteractions/zipball/f175f8a40fe7636723011c56b5718b8e48b531da",
                 "reference": "f175f8a40fe7636723011c56b5718b8e48b531da",
-                "shasum": "4efa48d7393f89ff0d38eb940b3be8f749bdc84a"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2429,7 +2451,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeInvite/zipball/16caf9f5c65df645ee4d95533d6bf72fbb321440",
                 "reference": "16caf9f5c65df645ee4d95533d6bf72fbb321440",
-                "shasum": "09b5b50f3cd3788935f20f646da467922058646e"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2481,7 +2503,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeLanding/zipball/8f9db246a36cd6526eeb9b9716e156b32b9a3f66",
                 "reference": "8f9db246a36cd6526eeb9b9716e156b32b9a3f66",
-                "shasum": "654759e22cd56087327a1fc50b6d2d9898957f36"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2531,7 +2553,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeLists/zipball/621ad26979335b732a25bf199cbca41d99d10b22",
                 "reference": "621ad26979335b732a25bf199cbca41d99d10b22",
-                "shasum": "81658ae2383bd96ff2bd881a1e4fd902e72da2d5"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2584,7 +2606,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMapsOpen/zipball/eb0724edad9fb13ca1b1f73912f46cc86797b101",
                 "reference": "eb0724edad9fb13ca1b1f73912f46cc86797b101",
-                "shasum": "4b60d6b1acce07b3e3974659088ab0dda7118aa2"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2641,7 +2663,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMedia/zipball/a8922a708226a32b6f821ba6bdf25c43abac3b87",
                 "reference": "a8922a708226a32b6f821ba6bdf25c43abac3b87",
-                "shasum": "9b753cad73d2f05f6f0aab92147524bac868c472"
+                "shasum": ""
             },
             "require": {
                 "bower-asset/hammerjs": "^2.0",
@@ -2695,7 +2717,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMentions/zipball/8a3c772018cb5fdf78ce8260f77139c3ec2721a5",
                 "reference": "8a3c772018cb5fdf78ce8260f77139c3ec2721a5",
-                "shasum": "d87bce5872ac3728a44803ea3d6afc4ddf6389dd"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2746,7 +2768,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeMenus/zipball/c458121abe7df82c64d826bf2cf80179d6812165",
                 "reference": "c458121abe7df82c64d826bf2cf80179d6812165",
-                "shasum": "5b90273bcbd79fe8f408a89b4d158d8d9ac4a3a1"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -2795,7 +2817,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeNotifications/zipball/815cb5feca5edfc3abc95a73aedce1d5d2cd5c38",
                 "reference": "815cb5feca5edfc3abc95a73aedce1d5d2cd5c38",
-                "shasum": "910a0a0655c23ebbafc73835190f093945d7be98"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2853,7 +2875,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePost/zipball/9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29",
                 "reference": "9ed40bd1ebc622eb9af335b6cf99e4c4919dfd29",
-                "shasum": "0a3f82542a470bbcef19f0da18001cdfc470195f"
+                "shasum": ""
             },
             "require": {
                 "bower-asset/parsleyjs": "~2.8",
@@ -2904,7 +2926,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypePostAdmin/zipball/efd79c380215d5b5796810b6f480d915349bb846",
                 "reference": "efd79c380215d5b5796810b6f480d915349bb846",
-                "shasum": "5790fd0df8bd12ff1e5d4d5f6d216d50fa30b312"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -2956,7 +2978,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeProfile/zipball/a2b00d9aaaea543009f54fd36c674d230a5794d9",
                 "reference": "a2b00d9aaaea543009f54fd36c674d230a5794d9",
-                "shasum": "139983fb71a9b07ad7274e4b19cccfd13bd05ed3"
+                "shasum": ""
             },
             "require": {
                 "bjeavons/zxcvbn-php": "~0.3",
@@ -3004,7 +3026,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeScraper/zipball/4e00d46eff44d9201c74fd1a776cb621f540a139",
                 "reference": "4e00d46eff44d9201c74fd1a776cb621f540a139",
-                "shasum": "e611e09d2e1834b9b5387a94e225706523879120"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3056,7 +3078,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeShortcode/zipball/62c8ff970ec1c2ecfd37d00cf9ea297c619f2e4c",
                 "reference": "62c8ff970ec1c2ecfd37d00cf9ea297c619f2e4c",
-                "shasum": "d310dd8db7d0042d0d22e5fd553675c0cf1e8178"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3107,7 +3129,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeShutdown/zipball/7ecade5cec4031d94491c47afb26d475d9ac16d8",
                 "reference": "7ecade5cec4031d94491c47afb26d475d9ac16d8",
-                "shasum": "60b467160225274c4136eb17a493a25d64d154c9"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3157,7 +3179,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/hypeSlider/zipball/d55677fb58fa81e8397f5b85e2cdf4fc5630015d",
                 "reference": "d55677fb58fa81e8397f5b85e2cdf4fc5630015d",
-                "shasum": "7ca27b88e4e1f61184c884c32f71b9136128e2a1"
+                "shasum": ""
             },
             "require": {
                 "bower-asset/slick-carousel": "^1.8",
@@ -3207,7 +3229,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeSlug/zipball/fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28",
                 "reference": "fe2d45e5fbffa92b4ab079a4a62f0d435c1d0f28",
-                "shasum": "822d403cc5e7cc223af1e4fe20bd3b85411b47ca"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3257,7 +3279,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeStash/zipball/8a4667dbceb987b3d698997ea8162cd765dff57f",
                 "reference": "8a4667dbceb987b3d698997ea8162cd765dff57f",
-                "shasum": "f488fef819aa768df316c06e3b503e3377873562"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3306,7 +3328,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeStaticPages/zipball/5191392911d1d473e9634001d381d02d7a29c6dc",
                 "reference": "5191392911d1d473e9634001d381d02d7a29c6dc",
-                "shasum": "93144643e893a3627d8fcbff1292d7c66e488bc0"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3360,7 +3382,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTime/zipball/e2e3db9848b4211929552e56b4472e77b5719839",
                 "reference": "e2e3db9848b4211929552e56b4472e77b5719839",
-                "shasum": "7ea665f04500312ce1bfbb69d727a960dec511fe"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3411,7 +3433,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTrees/zipball/537773a367fa96c8314028c0712935eda3f965df",
                 "reference": "537773a367fa96c8314028c0712935eda3f965df",
-                "shasum": "194262e9612173b718a7ea1a160f9ec41db67326"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3457,7 +3479,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeTwig/zipball/6f8ed65d2feff6e6f7e959af2b3aa806a665b677",
                 "reference": "6f8ed65d2feff6e6f7e959af2b3aa806a665b677",
-                "shasum": "8ab2c90b46b9be7b34ece7b36fdfb675b0660b72"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -3509,7 +3531,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeVue/zipball/9606d69db510f571a22b4d447d5d51ba435fae7e",
                 "reference": "9606d69db510f571a22b4d447d5d51ba435fae7e",
-                "shasum": "50ad0668b2ce422adde4f7ef425d3f6868e0fa85"
+                "shasum": ""
             },
             "require": {
                 "bower-asset/moment": "^2.22",
@@ -3559,7 +3581,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/hypeJunction/Elgg3-hypeWall/zipball/023c15699f8719a532929c7521eb47bee60fa61e",
                 "reference": "023c15699f8719a532929c7521eb47bee60fa61e",
-                "shasum": "e24099fb33bcd6066f9e9a27f252e9e9b73e4be8"
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4171,9 +4193,7 @@
             "version": "1.5.4",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/at.js/-/at.js-1.5.4.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/at.js/-/at.js-1.5.4.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4185,9 +4205,7 @@
             "version": "5.5.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.5.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.5.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4199,9 +4217,7 @@
             "version": "3.0.15",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-3.0.15.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-3.0.15.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4213,9 +4229,7 @@
             "version": "0.3.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery.caret/-/jquery.caret-0.3.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/jquery.caret/-/jquery.caret-0.3.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4227,9 +4241,7 @@
             "version": "1.5.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.5.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.5.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4241,9 +4253,7 @@
             "version": "2.0.5",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet.awesome-markers/-/leaflet.awesome-markers-2.0.5.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/leaflet.awesome-markers/-/leaflet.awesome-markers-2.0.5.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4255,9 +4265,7 @@
             "version": "1.4.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet.markercluster/-/leaflet.markercluster-1.4.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/leaflet.markercluster/-/leaflet.markercluster-1.4.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4269,9 +4277,7 @@
             "version": "1.2.6",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.6.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.6.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4283,9 +4289,7 @@
             "version": "2.0.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -8868,7 +8872,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "jumbojett/vroom": 20,
-        "beck24/elgg_disable_rewrite_test": 20
+        "beck24/elgg_disable_rewrite_test": 20,
+        "beck24/admin_pagenotes": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -8878,5 +8883,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.0"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
