@@ -545,6 +545,10 @@ relative to the entity\'s filestore directory. This upgrade aligns will align re
 	'private_groups:useralreadyinvited' => 'User has already been invited',
 	'private_groups:invite:subject' => '%s you have been invited to join %s!',
 	'private_groups:joinrequest:remove:check' => 'Are you sure you want to remove this join request?',
+	'private_groups:tool:admin_only_discussions' => "Admin-only Discussions",
+	'private_groups:tool:media' => "Enable Group Media Albums",
+	'private_groups:tool:wall' => "Enable Activity",
+	'private_groups:tool:invites' => "Group Invitations",
 	'private_groups:invite:remove:check' => 'Are you sure you want to remove this invitation?',
 	'private_groups:invite:body' => 'Hi %s,
 
