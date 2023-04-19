@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "dc823befff50c40c32ba273663bfe36c",
@@ -89,8 +89,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
-                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0",
-                "shasum": null
+                "reference": "1c1b102b2ba19518d77e60e97cf1b4ebf133bba0"
             },
             "type": "bower-asset"
         },
@@ -105,8 +104,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/07a680b2349cfa7c7f2b05c979295447f04ef426",
-                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426",
-                "shasum": null
+                "reference": "07a680b2349cfa7c7f2b05c979295447f04ef426"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7.1",
@@ -128,8 +126,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/EightMedia/hammer.js/zipball/49731688380a91be07653ee2491ab48ece7952b5",
-                "reference": "49731688380a91be07653ee2491ab48ece7952b5",
-                "shasum": null
+                "reference": "49731688380a91be07653ee2491ab48ece7952b5"
             },
             "type": "bower-asset"
         },
@@ -144,8 +141,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/c0185ab7c75aab88762c5aae780b9d83b80eda72",
-                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72",
-                "shasum": null
+                "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72"
             },
             "type": "bower-asset",
             "license": [
@@ -163,8 +159,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jackmoore/colorbox/zipball/bac78120c6ca9e63370cc317ab6f400129cd6608",
-                "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608",
-                "shasum": null
+                "reference": "bac78120c6ca9e63370cc317ab6f400129cd6608"
             },
             "require": {
                 "bower-asset/jquery": ">=1.3.2"
@@ -182,8 +177,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery-form/form/zipball/6bf24a5f6d8be65f4e5491863180c09356d9dadd",
-                "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd",
-                "shasum": null
+                "reference": "6bf24a5f6d8be65f4e5491863180c09356d9dadd"
             },
             "require": {
                 "bower-asset/jquery": ">=1.5"
@@ -201,8 +195,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jzaefferer/jquery-treeview/zipball/ea4fd39fe7bf25db75cdb6edeb73e502d9804924",
-                "reference": "ea4fd39fe7bf25db75cdb6edeb73e502d9804924",
-                "shasum": null
+                "reference": "ea4fd39fe7bf25db75cdb6edeb73e502d9804924"
             },
             "type": "bower-asset",
             "license": [
@@ -220,8 +213,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "shasum": null
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
             },
             "require": {
                 "bower-asset/jquery": ">=1.6"
@@ -239,8 +231,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/wong2/imgareaselect/zipball/446c7ff9efd10bfee2e673c19ca4d8759087dab4",
-                "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4",
-                "shasum": null
+                "reference": "446c7ff9efd10bfee2e673c19ca4d8759087dab4"
             },
             "type": "bower-asset"
         },
@@ -255,8 +246,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/moment/moment/zipball/96d0d6791ab495859d09a868803d31a55c917de1",
-                "reference": "96d0d6791ab495859d09a868803d31a55c917de1",
-                "shasum": null
+                "reference": "96d0d6791ab495859d09a868803d31a55c917de1"
             },
             "type": "bower-asset",
             "license": [
@@ -274,8 +264,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/necolas/normalize.css/zipball/fc091cce1534909334c1911709a39c22d406977b",
-                "reference": "fc091cce1534909334c1911709a39c22d406977b",
-                "shasum": null
+                "reference": "fc091cce1534909334c1911709a39c22d406977b"
             },
             "type": "bower-asset"
         },
@@ -290,8 +279,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/guillaumepotier/Parsley.js/zipball/fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5",
-                "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5",
-                "shasum": null
+                "reference": "fffecbf9b3b8f37eb9436fa296f397e85e8f4ce5"
             },
             "require": {
                 "bower-asset/jquery": ">1.8"
@@ -312,8 +300,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/jrburke/requirejs-bower/zipball/3596b04fa67953d2fb06456ecb92cf833b462b82",
-                "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82",
-                "shasum": null
+                "reference": "3596b04fa67953d2fb06456ecb92cf833b462b82"
             },
             "type": "bower-asset",
             "license": [
@@ -331,8 +318,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ivaynberg/select2/zipball/c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
-                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657",
-                "shasum": null
+                "reference": "c4b730a0a014ea38641bfbcb245e4b7aa0ca5657"
             },
             "type": "bower-asset",
             "license": [
@@ -350,8 +336,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/kenwheeler/slick/zipball/0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee",
-                "shasum": null
+                "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
@@ -372,8 +357,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/alexei/sprintf.js/zipball/747b806c2dab5b64d5c9958c42884946a187c3b1",
-                "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1",
-                "shasum": null
+                "reference": "747b806c2dab5b64d5c9958c42884946a187c3b1"
             },
             "type": "bower-asset",
             "license": [
@@ -391,8 +375,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/requirejs/text/zipball/3f9d4c19b3a1a3c6f35650c5788cbea1db93197a",
-                "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a",
-                "shasum": null
+                "reference": "3f9d4c19b3a1a3c6f35650c5788cbea1db93197a"
             },
             "type": "bower-asset",
             "license": [
@@ -410,8 +393,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/dropbox/zxcvbn/zipball/f0735425180b130d6c57efbc044a47c0c8f1fd65",
-                "reference": "f0735425180b130d6c57efbc044a47c0c8f1fd65",
-                "shasum": null
+                "reference": "f0735425180b130d6c57efbc044a47c0c8f1fd65"
             },
             "type": "bower-asset"
         },
@@ -1617,16 +1599,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.6.1",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/e4490cabc77465aaee90b20cfc9a770f8c04be6b",
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b",
                 "shasum": ""
             },
             "require": {
@@ -1639,24 +1621,19 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
-                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.6-dev"
-                }
-            },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1664,12 +1641,33 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
                 },
                 {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
                     "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
                 }
             ],
@@ -1684,7 +1682,25 @@
                 "uri",
                 "url"
             ],
-            "time": "2019-07-01T23:21:34+00:00"
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.9.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-04-17T16:00:37+00:00"
         },
         {
             "name": "hypejunction/acl_builder_api",
@@ -4171,9 +4187,7 @@
             "version": "1.5.4",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/at.js/-/at.js-1.5.4.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/at.js/-/at.js-1.5.4.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4185,9 +4199,7 @@
             "version": "5.5.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.5.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.5.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4199,9 +4211,7 @@
             "version": "3.0.15",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-3.0.15.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-3.0.15.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4213,9 +4223,7 @@
             "version": "0.3.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/jquery.caret/-/jquery.caret-0.3.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/jquery.caret/-/jquery.caret-0.3.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4227,9 +4235,7 @@
             "version": "1.5.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.5.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.5.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4241,9 +4247,7 @@
             "version": "2.0.5",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet.awesome-markers/-/leaflet.awesome-markers-2.0.5.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/leaflet.awesome-markers/-/leaflet.awesome-markers-2.0.5.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4255,9 +4259,7 @@
             "version": "1.4.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/leaflet.markercluster/-/leaflet.markercluster-1.4.1.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/leaflet.markercluster/-/leaflet.markercluster-1.4.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4269,9 +4271,7 @@
             "version": "1.2.6",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.6.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/svg-country-flags/-/svg-country-flags-1.2.6.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -4283,9 +4283,7 @@
             "version": "2.0.0",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz",
-                "reference": null,
-                "shasum": null
+                "url": "https://registry.npmjs.org/weakmap-polyfill/-/weakmap-polyfill-2.0.0.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -5343,6 +5341,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -5430,6 +5431,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -8878,5 +8883,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.0"
-    }
+    },
+    "plugin-api-version": "2.3.0"
 }
